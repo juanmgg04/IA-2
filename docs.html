@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Inteligente de Rutas - Metro de Medellin</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-left: 4px solid #4f8ef7;
+      padding-left: 1.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #f0f4ff;
+    }
+
+    header p {
+      color: #94a3b8;
+      margin-top: 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #4f8ef7;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+    }
+
+    section {
+      background: #1a1d27;
+      border: 1px solid #2d3148;
+      border-radius: 10px;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Ejecucion */
+    .cmd-block {
+      background: #0d0f18;
+      border: 1px solid #2d3148;
+      border-radius: 6px;
+      padding: 0.9rem 1.2rem;
+      margin: 0.5rem 0 1rem;
+      font-family: 'Cascadia Code', 'Fira Code', monospace;
+      font-size: 0.88rem;
+      color: #a8d8a8;
+      overflow-x: auto;
+    }
+
+    .cmd-block span.comment {
+      color: #4a5580;
+    }
+
+    .cmd-label {
+      font-size: 0.8rem;
+      color: #64748b;
+      margin-bottom: 0.2rem;
+    }
+
+    /* Flujo */
+    .flow {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .flow-step {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .flow-connector {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 28px;
+    }
+
+    .flow-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #4f8ef7;
+      flex-shrink: 0;
+      margin-top: 5px;
+    }
+
+    .flow-line {
+      width: 2px;
+      flex: 1;
+      background: #2d3148;
+      min-height: 24px;
+      margin: 2px 0;
+    }
+
+    .flow-step:last-child .flow-line {
+      display: none;
+    }
+
+    .flow-content {
+      padding-bottom: 1.2rem;
+    }
+
+    .flow-content strong {
+      color: #f0f4ff;
+      font-size: 0.95rem;
+    }
+
+    .flow-content p {
+      color: #94a3b8;
+      font-size: 0.875rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Archivos */
+    .files-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+      .files-grid { grid-template-columns: 1fr; }
+    }
+
+    .file-card {
+      background: #0d0f18;
+      border: 1px solid #2d3148;
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+    }
+
+    .file-card .filename {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #4f8ef7;
+      margin-bottom: 0.3rem;
+    }
+
+    .file-card p {
+      font-size: 0.83rem;
+      color: #94a3b8;
+    }
+
+    /* Librerias */
+    .lib-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .lib-item {
+      display: flex;
+      align-items: baseline;
+      gap: 0.8rem;
+    }
+
+    .lib-name {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #e2b96f;
+      min-width: 120px;
+    }
+
+    .lib-desc {
+      font-size: 0.87rem;
+      color: #94a3b8;
+    }
+
+    /* Reglas */
+    .rules-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .rule-row {
+      display: flex;
+      gap: 0.8rem;
+      align-items: flex-start;
+      font-size: 0.87rem;
+    }
+
+    .rule-id {
+      background: #1e2a4a;
+      color: #4f8ef7;
+      font-family: monospace;
+      font-weight: 700;
+      padding: 0.1rem 0.5rem;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .rule-desc {
+      color: #94a3b8;
+    }
+
+    /* Badge */
+    .badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      background: #1a2d1a;
+      color: #6abf6a;
+      border: 1px solid #2d4a2d;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Sistema Inteligente de Rutas</h1>
+    <p>Transporte Masivo &mdash; Metro de Medellin &nbsp;&bull;&nbsp; Base de conocimiento + Motor de inferencia + Busqueda A*</p>
+  </header>
+
+  <!-- EJECUCION -->
+  <section>
+    <h2>Como ejecutar</h2>
+
+    <p class="cmd-label">Modo completo (demo + interactivo):</p>
+    <div class="cmd-block">python main.py</div>
+
+    <p class="cmd-label">Solo casos de prueba predefinidos:</p>
+    <div class="cmd-block">python main.py --demo</div>
+
+    <p class="cmd-label">Solo modo interactivo (ingresar origen y destino):</p>
+    <div class="cmd-block">python main.py --interactive</div>
+
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:0.5rem;">
+      Requiere <strong style="color:#e2b96f;">Python 3.10+</strong>. No necesita instalar dependencias externas; usa unicamente la biblioteca estandar.
+    </p>
+  </section>
+
+  <!-- USO INTERACTIVO -->
+  <section>
+    <h2>Uso en modo interactivo</h2>
+    <div class="cmd-block">
+Estacion de origen  : Poblado<br>
+Estacion de destino : Arvi<br>
+<span class="comment"><br>
+<span style="color:#6abf6a;"># El sistema calcula y muestra:</span><br>
+# - Ruta optima estacion por estacion<br>
+# - Linea de cada tramo y puntos de transbordo<br>
+# - Tiempo estimado en minutos<br>
+# - Numero de estaciones y transbordos<br></span>
+    </div>
+    <p style="font-size:0.875rem; color:#94a3b8;">
+      Escriba <code style="color:#e2b96f;">lista</code> para ver todas las estaciones disponibles.
+      Escriba <code style="color:#e2b96f;">salir</code> para terminar.
+    </p>
+  </section>
+
+  <!-- FLUJO DE ALTO NIVEL -->
+  <section>
+    <h2>Flujo de alto nivel</h2>
+    <div class="flow">
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>1. Base de conocimiento <code style="font-size:0.8rem; color:#94a3b8;">knowledge_base.py</code></strong>
+          <p>Define los hechos del mundo: estaciones con coordenadas cartesianas (x, y), conexiones unidireccionales con tiempo en minutos, y 4 reglas logicas (R1&ndash;R4).</p>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>2. Motor de inferencia <code style="font-size:0.8rem; color:#94a3b8;">inference_engine.py</code></strong>
+          <p>Aplica encadenamiento hacia adelante (forward chaining): ejecuta R1 para hacer el grafo bidireccional, R2 para detectar estaciones de transbordo y R3 para fijar la penalizacion por cambio de linea. Devuelve el grafo listo para la busqueda.</p>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>3. Busqueda A* <code style="font-size:0.8rem; color:#94a3b8;">search.py</code></strong>
+          <p>Recibe origen y destino. Usa una cola de prioridad (min-heap) con f(n) = g(n) + h(n), donde g es el tiempo acumulado real (incluye penalizacion R3) y h es la distancia euclidiana a destino (heuristica admisible). Devuelve el <code style="color:#e2b96f;">RouteResult</code> optimo.</p>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>4. Interfaz <code style="font-size:0.8rem; color:#94a3b8;">main.py</code></strong>
+          <p>Orquesta todo: inicializa el motor, imprime reglas y estaciones, ejecuta casos de prueba y/o arranca el modo interactivo segun los argumentos de linea de comandos.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- REGLAS LOGICAS -->
+  <section>
+    <h2>Reglas logicas</h2>
+    <div class="rules-list">
+      <div class="rule-row">
+        <span class="rule-id">R1</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Conexion bidireccional</strong> &mdash; Si existe conexion(A, B) entonces existe conexion(B, A). El tren circula en ambas direcciones.</span>
+      </div>
+      <div class="rule-row">
+        <span class="rule-id">R2</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Estacion de transferencia</strong> &mdash; Si una estacion pertenece a dos o mas lineas, es punto de transbordo.</span>
+      </div>
+      <div class="rule-row">
+        <span class="rule-id">R3</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Penalizacion por transbordo</strong> &mdash; Cambiar de linea agrega 3 minutos al costo acumulado.</span>
+      </div>
+      <div class="rule-row">
+        <span class="rule-id">R4</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Validacion de ruta</strong> &mdash; Toda estacion en el resultado debe existir en la base de conocimiento (validado en tiempo de busqueda).</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARCHIVOS -->
+  <section>
+    <h2>Estructura de archivos</h2>
+    <div class="files-grid">
+      <div class="file-card">
+        <div class="filename">knowledge_base.py</div>
+        <p>Hechos (estaciones, conexiones) y reglas logicas R1&ndash;R4.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">inference_engine.py</div>
+        <p>Motor de inferencia por encadenamiento hacia adelante. Construye el grafo de navegacion.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">search.py</div>
+        <p>Algoritmo A*. Encuentra la ruta de menor costo con heuristica euclidiana admisible.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">main.py</div>
+        <p>Punto de entrada. Modo demo y modo interactivo via argumentos CLI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBRERIAS -->
+  <section>
+    <h2>Librerias utilizadas</h2>
+    <div class="lib-list">
+      <div class="lib-item">
+        <span class="lib-name">heapq</span>
+        <span class="lib-desc">Cola de prioridad (min-heap) para la frontera de A*. <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">math</span>
+        <span class="lib-desc">Calculo de distancia euclidiana (<code>math.hypot</code>) para la heuristica h(n). <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">dataclasses</span>
+        <span class="lib-desc">Definicion de <code>Rule</code>, <code>RouteResult</code> y el nodo interno <code>_Node</code> de A*. <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">typing</span>
+        <span class="lib-desc">Anotaciones de tipos (<code>Optional</code>, <code>Callable</code>) para mayor claridad en las firmas. <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">sys</span>
+        <span class="lib-desc">Lectura de argumentos de linea de comandos (<code>sys.argv</code>). <span class="badge">stdlib</span></span>
+      </div>
+    </div>
+    <p style="font-size:0.82rem; color:#4a5580; margin-top:1rem;">Todas las librerias son de la biblioteca estandar de Python. No se requiere instalar nada adicional.</p>
+  </section>
+
+</div>
+</body>
+</html>

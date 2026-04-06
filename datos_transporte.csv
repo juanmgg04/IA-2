@@ -1,0 +1,3001 @@
+hora,dia_semana,es_fin_semana,es_hora_pico,linea,estacion,posicion_en_linea,es_transferencia,mes,es_festivo,clima,nivel_congestion
+5,5,1,0,K,Acevedo,0.0,1,5,0,0,bajo
+18,0,0,1,B,San Antonio,0.0,1,1,0,0,alto
+5,4,0,0,B,Floresta,0.667,0,4,0,1,bajo
+5,6,1,0,B,Suramericana,0.333,0,3,0,0,bajo
+11,6,1,0,A,Tricentenario,0.211,0,6,0,0,bajo
+6,5,1,0,B,Suramericana,0.333,0,8,1,0,medio
+22,2,0,0,B,San Antonio,0.0,1,11,0,2,alto
+12,6,1,0,A,Bello,0.053,0,5,0,2,medio
+13,3,0,0,A,Exposiciones,0.632,0,11,0,0,alto
+10,4,0,0,A,Madera,0.105,0,12,1,0,bajo
+22,1,0,0,B,Suramericana,0.333,0,11,0,1,medio
+17,2,0,1,A,San Antonio,0.526,1,2,0,2,alto
+15,1,0,0,B,Santa Lucia,0.833,0,11,0,0,medio
+12,5,1,0,A,Tricentenario,0.211,0,9,0,0,bajo
+17,2,0,1,B,Estadio,0.5,0,4,0,0,alto
+10,6,1,0,A,Tricentenario,0.211,0,11,0,1,medio
+19,4,0,1,B,Estadio,0.5,0,5,0,2,alto
+13,6,1,0,K,Arvi,1.0,0,11,0,0,bajo
+19,0,0,1,B,Cisneros,0.167,0,12,0,0,alto
+21,4,0,0,A,Parque Berrio,0.474,0,4,0,0,medio
+21,0,0,0,A,Envigado,0.895,0,10,0,0,medio
+6,1,0,0,A,Hospital,0.368,0,10,0,0,alto
+7,6,1,1,B,Trinidad,1.0,0,9,0,0,bajo
+21,6,1,0,A,Prado,0.421,0,10,0,2,bajo
+11,5,1,0,B,Trinidad,1.0,0,5,0,2,bajo
+8,1,0,1,B,Estadio,0.5,0,4,0,0,alto
+12,4,0,0,B,Floresta,0.667,0,4,1,0,bajo
+7,4,0,1,A,San Antonio,0.526,1,4,0,1,alto
+9,5,1,1,A,Envigado,0.895,0,10,0,0,alto
+8,5,1,1,A,Acevedo,0.158,1,7,0,0,alto
+6,5,1,0,B,Trinidad,1.0,0,11,0,0,bajo
+11,1,0,0,A,Hospital,0.368,0,9,0,0,alto
+19,1,0,1,A,Prado,0.421,0,2,0,1,alto
+5,0,0,0,K,Arvi,1.0,0,4,0,0,bajo
+17,0,0,1,B,Cisneros,0.167,0,3,0,0,alto
+18,5,1,1,B,Suramericana,0.333,0,12,0,1,alto
+9,1,0,1,K,Santo Domingo,0.75,0,5,0,2,alto
+6,0,0,0,K,Popular,0.5,0,10,0,0,medio
+6,4,0,0,B,Cisneros,0.167,0,2,0,0,medio
+8,4,0,1,A,Exposiciones,0.632,0,4,0,1,alto
+18,5,1,1,B,San Antonio,0.0,1,10,0,0,alto
+12,2,0,0,K,Popular,0.5,0,7,0,1,medio
+15,6,1,0,A,Poblado,0.737,0,2,0,0,alto
+11,4,0,0,A,Envigado,0.895,0,5,0,2,alto
+16,2,0,0,A,Hospital,0.368,0,3,0,1,alto
+5,5,1,0,K,Arvi,1.0,0,9,0,2,bajo
+13,0,0,0,A,Tricentenario,0.211,0,2,0,1,alto
+11,5,1,0,K,Popular,0.5,0,11,0,0,medio
+6,0,0,0,B,Suramericana,0.333,0,11,0,1,alto
+10,5,1,0,A,Prado,0.421,0,8,1,1,alto
+8,0,0,1,B,San Antonio,0.0,1,12,0,0,alto
+9,0,0,1,A,Industriales,0.684,0,5,0,2,alto
+11,5,1,0,A,Alpujarra,0.579,0,4,0,0,medio
+9,1,0,1,B,Floresta,0.667,0,3,0,1,alto
+10,5,1,0,B,San Antonio,0.0,1,6,0,2,alto
+10,6,1,0,A,Prado,0.421,0,12,0,0,bajo
+12,1,0,0,A,Aguacatala,0.789,0,8,0,0,alto
+17,2,0,1,A,Universidad,0.316,0,5,0,0,alto
+21,3,0,0,A,Alpujarra,0.579,0,11,0,0,alto
+13,0,0,0,A,Caribe,0.263,0,2,0,0,alto
+18,4,0,1,K,Popular,0.5,0,9,0,0,alto
+5,4,0,0,K,Santo Domingo,0.75,0,9,0,1,bajo
+16,3,0,0,K,Andalucia,0.25,0,2,0,2,medio
+21,2,0,0,A,Parque Berrio,0.474,0,11,0,0,medio
+22,1,0,0,K,Popular,0.5,0,4,0,1,bajo
+14,3,0,0,A,La Estrella,1.0,0,9,0,0,alto
+18,6,1,1,A,Universidad,0.316,0,10,0,1,medio
+20,6,1,0,A,Ayura,0.842,0,12,0,1,bajo
+15,0,0,0,A,Ayura,0.842,0,4,0,0,alto
+20,4,0,0,A,Hospital,0.368,0,2,0,0,alto
+11,5,1,0,K,Arvi,1.0,0,12,0,0,bajo
+18,1,0,1,A,Acevedo,0.158,1,3,0,2,alto
+6,4,0,0,B,Estadio,0.5,0,4,0,0,alto
+15,6,1,0,B,Floresta,0.667,0,8,0,1,bajo
+22,3,0,0,B,Estadio,0.5,0,3,1,2,bajo
+21,3,0,0,K,Popular,0.5,0,11,0,0,medio
+12,2,0,0,A,Parque Berrio,0.474,0,6,0,2,alto
+9,5,1,1,B,Santa Lucia,0.833,0,4,0,0,medio
+19,3,0,1,A,Envigado,0.895,0,1,0,1,alto
+17,3,0,1,K,Acevedo,0.0,1,1,0,0,alto
+18,4,0,1,B,Trinidad,1.0,0,12,0,0,medio
+18,3,0,1,A,Prado,0.421,0,1,0,0,alto
+10,6,1,0,K,Santo Domingo,0.75,0,8,0,2,bajo
+5,0,0,0,B,Floresta,0.667,0,11,0,0,bajo
+6,2,0,0,B,Cisneros,0.167,0,7,0,0,medio
+18,2,0,1,B,Suramericana,0.333,0,2,0,0,alto
+16,1,0,0,B,San Antonio,0.0,1,11,1,1,medio
+5,4,0,0,A,Universidad,0.316,0,3,0,0,bajo
+11,3,0,0,K,Acevedo,0.0,1,12,0,1,alto
+10,2,0,0,K,Acevedo,0.0,1,2,0,0,alto
+17,3,0,1,A,Itagui,0.947,0,12,0,0,alto
+8,6,1,1,A,Parque Berrio,0.474,0,10,0,0,medio
+16,0,0,0,B,Estadio,0.5,0,9,0,0,alto
+16,5,1,0,A,Industriales,0.684,0,8,0,0,medio
+13,4,0,0,A,Ayura,0.842,0,9,0,0,medio
+12,6,1,0,A,San Antonio,0.526,1,2,0,2,alto
+17,2,0,1,A,Poblado,0.737,0,1,0,2,alto
+13,4,0,0,A,San Antonio,0.526,1,12,0,1,alto
+7,1,0,1,B,Cisneros,0.167,0,12,0,0,alto
+19,6,1,1,K,Santo Domingo,0.75,0,1,0,0,bajo
+12,2,0,0,B,Santa Lucia,0.833,0,11,0,0,medio
+15,2,0,0,K,Arvi,1.0,0,12,0,0,bajo
+8,5,1,1,A,Hospital,0.368,0,4,0,0,medio
+11,5,1,0,A,Universidad,0.316,0,8,0,1,medio
+14,0,0,0,B,Floresta,0.667,0,4,0,0,medio
+13,0,0,0,B,Cisneros,0.167,0,1,0,0,medio
+8,6,1,1,A,Aguacatala,0.789,0,1,0,0,medio
+20,0,0,0,A,Prado,0.421,0,2,0,0,alto
+6,1,0,0,B,Santa Lucia,0.833,0,3,0,1,medio
+18,4,0,1,A,Envigado,0.895,0,10,0,1,alto
+19,3,0,1,B,Estadio,0.5,0,5,0,1,alto
+8,6,1,1,A,La Estrella,1.0,0,4,0,0,medio
+10,1,0,0,K,Acevedo,0.0,1,3,0,0,alto
+14,0,0,0,B,Estadio,0.5,0,4,0,1,alto
+7,5,1,1,K,Santo Domingo,0.75,0,4,0,1,medio
+8,4,0,1,A,Industriales,0.684,0,4,0,0,alto
+7,0,0,1,A,Tricentenario,0.211,0,3,0,0,alto
+8,3,0,1,A,Poblado,0.737,0,12,0,1,alto
+22,3,0,0,A,Ayura,0.842,0,8,0,1,alto
+5,0,0,0,B,Suramericana,0.333,0,4,0,1,bajo
+5,6,1,0,B,Floresta,0.667,0,11,0,0,bajo
+19,2,0,1,B,Floresta,0.667,0,3,0,0,alto
+20,2,0,0,B,San Antonio,0.0,1,7,0,0,alto
+20,2,0,0,B,Santa Lucia,0.833,0,11,0,1,alto
+19,0,0,1,B,San Antonio,0.0,1,6,0,0,alto
+5,5,1,0,B,Trinidad,1.0,0,9,0,0,bajo
+16,4,0,0,A,Ayura,0.842,0,8,0,0,alto
+19,5,1,1,A,Parque Berrio,0.474,0,8,0,0,alto
+12,5,1,0,K,Arvi,1.0,0,3,0,1,bajo
+8,5,1,1,A,Poblado,0.737,0,3,0,2,alto
+13,3,0,0,A,Ayura,0.842,0,8,0,0,medio
+9,6,1,1,B,Floresta,0.667,0,2,0,1,medio
+21,2,0,0,B,Suramericana,0.333,0,1,0,1,medio
+9,3,0,1,K,Santo Domingo,0.75,0,9,0,0,alto
+22,3,0,0,B,Trinidad,1.0,0,8,0,2,medio
+18,0,0,1,B,Cisneros,0.167,0,6,0,0,alto
+9,3,0,1,B,Estadio,0.5,0,1,0,0,alto
+21,3,0,0,B,San Antonio,0.0,1,1,0,0,medio
+7,3,0,1,K,Andalucia,0.25,0,5,0,1,alto
+17,2,0,1,A,Envigado,0.895,0,11,0,2,alto
+22,0,0,0,B,Trinidad,1.0,0,10,0,0,bajo
+18,0,0,1,A,Madera,0.105,0,11,0,2,alto
+14,0,0,0,B,Cisneros,0.167,0,1,0,1,medio
+21,3,0,0,A,Hospital,0.368,0,10,0,1,alto
+7,4,0,1,A,Caribe,0.263,0,7,1,1,medio
+13,3,0,0,A,Poblado,0.737,0,5,0,0,alto
+22,1,0,0,B,Suramericana,0.333,0,2,0,2,alto
+13,3,0,0,B,Santa Lucia,0.833,0,5,0,2,medio
+12,3,0,0,B,San Antonio,0.0,1,10,0,1,alto
+13,0,0,0,K,Santo Domingo,0.75,0,10,0,1,medio
+20,6,1,0,K,Acevedo,0.0,1,5,0,1,bajo
+13,5,1,0,K,Andalucia,0.25,0,12,1,1,bajo
+6,2,0,0,A,Acevedo,0.158,1,8,0,1,alto
+18,1,0,1,A,San Antonio,0.526,1,4,0,1,alto
+21,2,0,0,A,Ayura,0.842,0,3,0,2,alto
+8,3,0,1,A,San Antonio,0.526,1,2,0,1,alto
+22,2,0,0,A,Exposiciones,0.632,0,2,0,0,medio
+17,6,1,1,A,Prado,0.421,0,11,0,0,alto
+5,4,0,0,A,Aguacatala,0.789,0,9,0,2,medio
+14,5,1,0,B,Santa Lucia,0.833,0,7,0,0,bajo
+20,0,0,0,A,Parque Berrio,0.474,0,2,0,2,alto
+18,4,0,1,K,Arvi,1.0,0,12,0,0,alto
+8,6,1,1,B,Santa Lucia,0.833,0,8,0,0,medio
+19,3,0,1,A,Universidad,0.316,0,4,0,0,alto
+22,5,1,0,K,Popular,0.5,0,6,1,0,bajo
+11,5,1,0,B,San Antonio,0.0,1,11,0,2,medio
+12,1,0,0,A,San Antonio,0.526,1,10,0,0,alto
+15,6,1,0,A,Hospital,0.368,0,3,0,2,bajo
+9,1,0,1,A,Prado,0.421,0,9,0,1,alto
+16,6,1,0,A,Niquia,0.0,0,4,0,0,medio
+6,1,0,0,A,Prado,0.421,0,12,0,0,alto
+8,3,0,1,A,Ayura,0.842,0,9,0,2,alto
+14,3,0,0,A,Ayura,0.842,0,11,0,0,medio
+20,5,1,0,K,Acevedo,0.0,1,8,0,2,alto
+9,0,0,1,A,La Estrella,1.0,0,3,0,1,alto
+21,2,0,0,B,Floresta,0.667,0,8,0,1,medio
+22,5,1,0,A,Acevedo,0.158,1,4,0,0,medio
+18,5,1,1,B,Estadio,0.5,0,2,0,0,alto
+16,1,0,0,K,Popular,0.5,0,11,0,0,alto
+9,4,0,1,A,Alpujarra,0.579,0,1,0,2,alto
+8,3,0,1,B,Suramericana,0.333,0,6,0,1,alto
+14,4,0,0,K,Acevedo,0.0,1,5,0,0,medio
+9,5,1,1,B,Cisneros,0.167,0,8,0,1,medio
+12,6,1,0,A,Prado,0.421,0,7,0,1,medio
+22,0,0,0,B,Floresta,0.667,0,10,0,1,medio
+15,2,0,0,K,Popular,0.5,0,1,1,2,bajo
+17,0,0,1,B,Santa Lucia,0.833,0,3,1,1,alto
+18,3,0,1,A,Exposiciones,0.632,0,6,0,0,alto
+7,0,0,1,K,Popular,0.5,0,3,0,1,alto
+18,3,0,1,B,Santa Lucia,0.833,0,10,0,0,alto
+8,2,0,1,A,Ayura,0.842,0,7,0,0,alto
+6,1,0,0,K,Popular,0.5,0,7,1,0,bajo
+11,6,1,0,A,Parque Berrio,0.474,0,3,0,0,bajo
+10,1,0,0,K,Santo Domingo,0.75,0,7,0,1,medio
+16,0,0,0,B,Floresta,0.667,0,7,0,1,medio
+18,4,0,1,A,San Antonio,0.526,1,7,0,1,alto
+17,0,0,1,A,Acevedo,0.158,1,6,0,1,alto
+18,6,1,1,A,Madera,0.105,0,2,0,0,medio
+7,3,0,1,B,Floresta,0.667,0,5,0,0,alto
+8,4,0,1,B,Santa Lucia,0.833,0,9,0,2,alto
+9,1,0,1,A,Alpujarra,0.579,0,2,0,0,alto
+10,6,1,0,K,Acevedo,0.0,1,11,0,0,medio
+19,5,1,1,B,Trinidad,1.0,0,10,0,1,medio
+9,3,0,1,K,Popular,0.5,0,2,0,0,alto
+6,2,0,0,A,Prado,0.421,0,9,0,0,alto
+7,4,0,1,A,Madera,0.105,0,10,0,0,alto
+6,3,0,0,B,Floresta,0.667,0,10,0,0,medio
+8,6,1,1,A,Poblado,0.737,0,6,1,0,medio
+6,1,0,0,K,Andalucia,0.25,0,12,0,2,medio
+14,3,0,0,A,Alpujarra,0.579,0,7,0,0,medio
+15,0,0,0,B,San Antonio,0.0,1,6,0,1,medio
+9,2,0,1,K,Arvi,1.0,0,2,0,1,alto
+17,1,0,1,A,Parque Berrio,0.474,0,10,0,2,alto
+21,0,0,0,A,Tricentenario,0.211,0,11,0,0,alto
+16,2,0,0,A,Niquia,0.0,0,3,0,0,alto
+7,2,0,1,A,Tricentenario,0.211,0,2,0,1,alto
+6,5,1,0,K,Arvi,1.0,0,6,0,1,bajo
+10,5,1,0,A,La Estrella,1.0,0,8,0,0,medio
+19,4,0,1,K,Andalucia,0.25,0,5,0,1,alto
+11,2,0,0,A,Aguacatala,0.789,0,11,0,2,alto
+14,6,1,0,B,Trinidad,1.0,0,7,0,0,bajo
+13,0,0,0,B,Cisneros,0.167,0,11,0,2,medio
+21,6,1,0,B,San Antonio,0.0,1,2,0,0,bajo
+18,0,0,1,B,Cisneros,0.167,0,4,0,0,alto
+18,0,0,1,A,Niquia,0.0,0,7,0,0,alto
+15,0,0,0,A,Niquia,0.0,0,12,0,0,medio
+6,2,0,0,A,Tricentenario,0.211,0,8,0,1,alto
+7,0,0,1,B,San Antonio,0.0,1,5,0,1,alto
+21,3,0,0,B,Santa Lucia,0.833,0,2,0,0,medio
+19,0,0,1,B,Santa Lucia,0.833,0,2,0,2,alto
+5,5,1,0,B,Floresta,0.667,0,9,0,0,bajo
+12,4,0,0,B,Suramericana,0.333,0,7,0,1,medio
+16,0,0,0,A,Ayura,0.842,0,9,0,0,alto
+20,0,0,0,B,Trinidad,1.0,0,11,0,2,alto
+16,6,1,0,A,Niquia,0.0,0,2,0,0,bajo
+15,1,0,0,B,Santa Lucia,0.833,0,1,0,0,medio
+19,5,1,1,K,Andalucia,0.25,0,8,0,0,alto
+14,1,0,0,B,San Antonio,0.0,1,1,0,0,alto
+14,4,0,0,A,San Antonio,0.526,1,7,0,0,alto
+16,6,1,0,A,Parque Berrio,0.474,0,1,0,1,alto
+16,3,0,0,A,Acevedo,0.158,1,7,0,0,alto
+20,2,0,0,A,Aguacatala,0.789,0,9,0,1,alto
+7,3,0,1,K,Santo Domingo,0.75,0,10,0,0,alto
+14,3,0,0,A,Parque Berrio,0.474,0,10,0,0,alto
+16,3,0,0,K,Santo Domingo,0.75,0,1,0,2,medio
+7,5,1,1,A,Bello,0.053,0,11,0,0,alto
+5,1,0,0,K,Andalucia,0.25,0,10,0,1,bajo
+16,3,0,0,K,Popular,0.5,0,10,0,1,alto
+16,2,0,0,K,Santo Domingo,0.75,0,8,0,0,alto
+12,0,0,0,A,Prado,0.421,0,1,0,0,alto
+22,0,0,0,B,Estadio,0.5,0,5,0,0,bajo
+11,0,0,0,A,Aguacatala,0.789,0,3,0,0,alto
+7,6,1,1,A,Poblado,0.737,0,11,0,2,medio
+14,2,0,0,B,Floresta,0.667,0,3,0,1,medio
+16,4,0,0,K,Andalucia,0.25,0,4,0,2,alto
+16,4,0,0,B,San Antonio,0.0,1,10,0,0,alto
+7,0,0,1,B,Cisneros,0.167,0,5,0,2,alto
+7,1,0,1,B,Trinidad,1.0,0,6,0,0,medio
+21,2,0,0,B,Santa Lucia,0.833,0,3,0,1,medio
+21,6,1,0,A,Industriales,0.684,0,1,0,0,bajo
+10,1,0,0,A,Parque Berrio,0.474,0,6,1,0,medio
+13,1,0,0,A,Madera,0.105,0,11,0,0,medio
+22,0,0,0,K,Popular,0.5,0,9,0,0,medio
+15,6,1,0,K,Arvi,1.0,0,10,0,1,bajo
+6,5,1,0,A,Madera,0.105,0,10,0,1,medio
+20,5,1,0,K,Acevedo,0.0,1,9,0,1,medio
+12,6,1,0,A,Aguacatala,0.789,0,11,0,0,bajo
+20,3,0,0,B,Estadio,0.5,0,4,0,1,alto
+16,3,0,0,A,San Antonio,0.526,1,3,0,0,alto
+13,3,0,0,B,San Antonio,0.0,1,4,0,0,alto
+18,1,0,1,A,Exposiciones,0.632,0,3,0,0,alto
+21,3,0,0,A,Aguacatala,0.789,0,8,0,0,medio
+21,3,0,0,A,Exposiciones,0.632,0,4,0,1,alto
+20,2,0,0,B,Trinidad,1.0,0,9,0,1,alto
+13,5,1,0,B,Cisneros,0.167,0,6,0,0,bajo
+16,4,0,0,B,Cisneros,0.167,0,5,0,0,alto
+22,2,0,0,B,Trinidad,1.0,0,10,0,1,medio
+22,2,0,0,A,San Antonio,0.526,1,3,0,1,alto
+6,0,0,0,B,Floresta,0.667,0,1,0,1,alto
+21,1,0,0,A,La Estrella,1.0,0,6,0,0,bajo
+14,4,0,0,B,Floresta,0.667,0,6,0,1,bajo
+5,2,0,0,A,Aguacatala,0.789,0,6,0,0,bajo
+14,6,1,0,B,Floresta,0.667,0,12,0,1,bajo
+12,5,1,0,K,Arvi,1.0,0,1,0,0,bajo
+17,1,0,1,B,Santa Lucia,0.833,0,11,0,0,alto
+15,3,0,0,A,Poblado,0.737,0,3,0,1,alto
+20,6,1,0,B,Floresta,0.667,0,12,0,0,bajo
+21,3,0,0,A,Aguacatala,0.789,0,6,0,0,medio
+22,2,0,0,B,Suramericana,0.333,0,11,0,2,medio
+20,1,0,0,A,La Estrella,1.0,0,4,0,1,medio
+14,5,1,0,A,Parque Berrio,0.474,0,4,0,1,medio
+14,0,0,0,K,Popular,0.5,0,10,0,0,alto
+16,6,1,0,B,Trinidad,1.0,0,3,0,0,bajo
+13,5,1,0,B,Santa Lucia,0.833,0,8,1,0,bajo
+22,5,1,0,B,Suramericana,0.333,0,5,0,0,bajo
+12,5,1,0,A,Ayura,0.842,0,4,0,0,bajo
+8,5,1,1,A,Aguacatala,0.789,0,3,0,2,alto
+20,5,1,0,K,Santo Domingo,0.75,0,4,0,2,medio
+6,6,1,0,A,Parque Berrio,0.474,0,2,0,1,bajo
+18,6,1,1,A,Caribe,0.263,0,3,0,2,alto
+20,1,0,0,B,Trinidad,1.0,0,12,0,2,medio
+8,2,0,1,B,Floresta,0.667,0,5,0,2,alto
+20,1,0,0,B,Floresta,0.667,0,9,0,0,alto
+13,5,1,0,K,Santo Domingo,0.75,0,3,0,1,bajo
+11,1,0,0,A,Itagui,0.947,0,10,0,1,medio
+17,5,1,1,A,Madera,0.105,0,2,0,2,alto
+12,0,0,0,B,Suramericana,0.333,0,5,0,0,medio
+5,2,0,0,A,Itagui,0.947,0,11,0,1,bajo
+19,2,0,1,A,Acevedo,0.158,1,3,0,1,alto
+14,2,0,0,A,Acevedo,0.158,1,10,0,0,alto
+9,3,0,1,A,Aguacatala,0.789,0,12,0,0,alto
+11,6,1,0,B,Trinidad,1.0,0,4,0,1,bajo
+19,4,0,1,A,Ayura,0.842,0,12,0,0,alto
+11,4,0,0,B,Floresta,0.667,0,9,0,0,medio
+8,5,1,1,B,Estadio,0.5,0,4,0,1,alto
+9,4,0,1,A,Poblado,0.737,0,7,0,1,alto
+14,5,1,0,B,Estadio,0.5,0,1,0,0,medio
+18,2,0,1,A,Bello,0.053,0,12,0,0,alto
+20,0,0,0,A,Madera,0.105,0,5,0,0,alto
+16,3,0,0,K,Santo Domingo,0.75,0,8,0,2,alto
+7,5,1,1,B,Estadio,0.5,0,11,0,0,medio
+17,4,0,1,A,Envigado,0.895,0,3,1,2,medio
+14,3,0,0,A,Niquia,0.0,0,11,0,0,medio
+16,1,0,0,A,Poblado,0.737,0,5,0,2,alto
+6,6,1,0,K,Acevedo,0.0,1,11,0,1,alto
+7,0,0,1,A,Universidad,0.316,0,10,0,0,alto
+12,5,1,0,K,Acevedo,0.0,1,1,0,0,bajo
+21,2,0,0,A,Tricentenario,0.211,0,4,0,2,medio
+15,1,0,0,B,Suramericana,0.333,0,5,0,2,medio
+22,4,0,0,A,Bello,0.053,0,12,0,1,medio
+20,0,0,0,B,Floresta,0.667,0,6,0,1,alto
+9,2,0,1,B,Estadio,0.5,0,7,0,1,alto
+12,2,0,0,B,Cisneros,0.167,0,12,0,1,medio
+21,1,0,0,B,Floresta,0.667,0,7,0,0,bajo
+19,6,1,1,A,Madera,0.105,0,6,0,0,medio
+6,6,1,0,B,Santa Lucia,0.833,0,2,0,1,bajo
+22,1,0,0,B,Santa Lucia,0.833,0,8,1,2,bajo
+11,5,1,0,A,Universidad,0.316,0,2,0,2,alto
+11,3,0,0,B,Cisneros,0.167,0,4,1,0,bajo
+14,2,0,0,K,Popular,0.5,0,6,0,2,alto
+20,6,1,0,B,San Antonio,0.0,1,6,0,0,bajo
+5,2,0,0,A,Tricentenario,0.211,0,9,0,1,medio
+9,1,0,1,B,Suramericana,0.333,0,6,0,0,alto
+13,6,1,0,K,Popular,0.5,0,8,0,1,bajo
+10,5,1,0,B,Estadio,0.5,0,6,0,0,bajo
+6,4,0,0,B,Santa Lucia,0.833,0,1,0,1,alto
+5,3,0,0,K,Acevedo,0.0,1,3,0,1,bajo
+19,2,0,1,A,Ayura,0.842,0,1,0,1,alto
+20,0,0,0,B,Estadio,0.5,0,1,0,1,alto
+14,0,0,0,A,Envigado,0.895,0,9,0,1,alto
+10,0,0,0,B,Trinidad,1.0,0,2,0,0,alto
+17,0,0,1,A,Prado,0.421,0,6,0,0,alto
+14,5,1,0,A,Hospital,0.368,0,2,0,2,medio
+17,4,0,1,B,Estadio,0.5,0,8,0,1,alto
+7,3,0,1,K,Andalucia,0.25,0,7,0,1,medio
+6,1,0,0,A,Ayura,0.842,0,4,0,1,alto
+13,0,0,0,B,Estadio,0.5,0,2,0,2,alto
+15,0,0,0,A,Caribe,0.263,0,4,0,0,medio
+7,2,0,1,K,Santo Domingo,0.75,0,3,0,0,alto
+17,6,1,1,B,Suramericana,0.333,0,12,0,1,bajo
+21,5,1,0,K,Acevedo,0.0,1,6,1,0,bajo
+17,6,1,1,B,Trinidad,1.0,0,6,0,1,medio
+12,2,0,0,B,Estadio,0.5,0,9,0,0,medio
+14,6,1,0,A,La Estrella,1.0,0,4,0,0,bajo
+17,5,1,1,A,Tricentenario,0.211,0,11,0,1,alto
+19,2,0,1,A,Parque Berrio,0.474,0,5,0,0,alto
+19,4,0,1,A,Industriales,0.684,0,9,0,0,alto
+15,6,1,0,A,La Estrella,1.0,0,7,0,0,bajo
+7,5,1,1,B,Trinidad,1.0,0,9,0,1,medio
+14,2,0,0,A,Prado,0.421,0,8,0,0,alto
+18,2,0,1,B,Suramericana,0.333,0,8,0,0,alto
+11,3,0,0,K,Santo Domingo,0.75,0,2,0,0,medio
+17,6,1,1,B,Suramericana,0.333,0,6,0,0,medio
+14,2,0,0,B,Cisneros,0.167,0,10,0,0,bajo
+17,2,0,1,A,Caribe,0.263,0,5,0,1,alto
+17,2,0,1,A,San Antonio,0.526,1,7,0,0,alto
+22,1,0,0,B,Cisneros,0.167,0,11,0,1,medio
+19,6,1,1,K,Andalucia,0.25,0,5,0,1,medio
+20,1,0,0,B,Santa Lucia,0.833,0,11,0,0,medio
+19,4,0,1,B,San Antonio,0.0,1,8,0,0,alto
+18,4,0,1,B,Trinidad,1.0,0,1,0,2,alto
+7,0,0,1,B,Santa Lucia,0.833,0,4,0,1,alto
+6,4,0,0,A,La Estrella,1.0,0,11,0,1,alto
+5,0,0,0,B,San Antonio,0.0,1,5,0,0,bajo
+12,3,0,0,B,Floresta,0.667,0,6,0,0,medio
+5,3,0,0,A,Alpujarra,0.579,0,2,0,0,bajo
+9,2,0,1,A,Acevedo,0.158,1,5,0,0,alto
+19,5,1,1,B,San Antonio,0.0,1,12,0,0,alto
+8,0,0,1,A,Bello,0.053,0,6,0,0,alto
+21,1,0,0,K,Andalucia,0.25,0,9,0,0,bajo
+12,6,1,0,B,Estadio,0.5,0,7,0,0,bajo
+11,3,0,0,A,La Estrella,1.0,0,10,0,0,medio
+11,2,0,0,K,Andalucia,0.25,0,12,0,1,bajo
+16,2,0,0,B,Cisneros,0.167,0,4,0,0,medio
+21,5,1,0,K,Santo Domingo,0.75,0,6,0,0,bajo
+10,6,1,0,A,Poblado,0.737,0,11,0,1,medio
+7,5,1,1,B,Floresta,0.667,0,3,0,0,medio
+21,3,0,0,K,Andalucia,0.25,0,7,1,0,bajo
+10,3,0,0,B,Estadio,0.5,0,11,0,1,medio
+20,2,0,0,B,Cisneros,0.167,0,3,0,0,bajo
+6,6,1,0,B,Floresta,0.667,0,6,0,0,bajo
+20,3,0,0,B,Floresta,0.667,0,11,0,0,alto
+10,0,0,0,B,Estadio,0.5,0,10,0,1,alto
+14,1,0,0,A,Envigado,0.895,0,8,0,1,alto
+21,0,0,0,B,Floresta,0.667,0,10,0,0,bajo
+6,6,1,0,B,Trinidad,1.0,0,12,0,0,bajo
+12,2,0,0,B,San Antonio,0.0,1,1,0,0,alto
+11,6,1,0,A,Hospital,0.368,0,12,0,1,bajo
+18,1,0,1,K,Arvi,1.0,0,10,0,1,alto
+22,2,0,0,B,Suramericana,0.333,0,10,0,0,bajo
+14,4,0,0,K,Popular,0.5,0,5,0,0,alto
+6,2,0,0,A,Industriales,0.684,0,11,0,1,alto
+9,5,1,1,A,Hospital,0.368,0,6,0,0,alto
+13,5,1,0,A,Itagui,0.947,0,7,0,0,bajo
+17,4,0,1,K,Acevedo,0.0,1,12,0,1,alto
+5,6,1,0,B,Suramericana,0.333,0,12,0,1,bajo
+16,6,1,0,B,Santa Lucia,0.833,0,2,0,0,bajo
+13,2,0,0,A,Aguacatala,0.789,0,5,0,0,alto
+20,6,1,0,A,Itagui,0.947,0,6,0,1,medio
+8,6,1,1,B,San Antonio,0.0,1,3,0,0,alto
+9,5,1,1,B,Cisneros,0.167,0,5,0,2,alto
+7,2,0,1,A,Prado,0.421,0,11,0,0,alto
+14,5,1,0,B,Santa Lucia,0.833,0,12,1,0,bajo
+20,0,0,0,A,Universidad,0.316,0,3,0,0,alto
+5,0,0,0,K,Santo Domingo,0.75,0,12,0,1,bajo
+7,1,0,1,A,Aguacatala,0.789,0,7,0,1,alto
+15,2,0,0,A,Acevedo,0.158,1,5,0,0,alto
+7,4,0,1,K,Andalucia,0.25,0,10,0,1,medio
+16,5,1,0,A,Poblado,0.737,0,4,0,1,alto
+11,0,0,0,B,Trinidad,1.0,0,2,0,1,medio
+17,2,0,1,B,Santa Lucia,0.833,0,7,0,1,alto
+14,6,1,0,A,Envigado,0.895,0,12,0,1,bajo
+11,4,0,0,K,Popular,0.5,0,10,0,0,medio
+17,0,0,1,A,Aguacatala,0.789,0,4,0,1,alto
+5,2,0,0,A,Ayura,0.842,0,6,0,0,bajo
+10,6,1,0,B,Santa Lucia,0.833,0,8,0,0,bajo
+5,2,0,0,B,San Antonio,0.0,1,4,0,2,medio
+18,3,0,1,A,Ayura,0.842,0,12,0,0,alto
+9,2,0,1,B,Floresta,0.667,0,2,0,0,alto
+15,3,0,0,A,Envigado,0.895,0,10,0,1,medio
+14,5,1,0,K,Acevedo,0.0,1,7,0,2,medio
+19,4,0,1,B,San Antonio,0.0,1,10,0,0,alto
+8,0,0,1,K,Andalucia,0.25,0,12,0,1,alto
+13,1,0,0,B,Floresta,0.667,0,6,0,1,alto
+5,2,0,0,A,Acevedo,0.158,1,7,0,0,medio
+20,3,0,0,K,Acevedo,0.0,1,9,0,0,alto
+16,1,0,0,B,Cisneros,0.167,0,5,0,0,medio
+5,0,0,0,A,Ayura,0.842,0,1,0,0,bajo
+9,1,0,1,A,Exposiciones,0.632,0,1,0,1,alto
+12,3,0,0,A,San Antonio,0.526,1,12,0,0,alto
+16,0,0,0,A,Itagui,0.947,0,9,0,2,alto
+7,3,0,1,A,Exposiciones,0.632,0,5,0,1,alto
+22,3,0,0,A,Madera,0.105,0,1,0,0,medio
+19,2,0,1,B,Cisneros,0.167,0,10,0,2,alto
+12,1,0,0,A,Envigado,0.895,0,1,0,0,medio
+15,0,0,0,K,Acevedo,0.0,1,11,0,1,alto
+8,1,0,1,K,Popular,0.5,0,9,0,0,alto
+7,0,0,1,A,Prado,0.421,0,4,0,0,alto
+19,5,1,1,K,Popular,0.5,0,2,0,0,alto
+6,3,0,0,A,Itagui,0.947,0,11,0,0,alto
+17,5,1,1,A,San Antonio,0.526,1,12,0,0,alto
+8,1,0,1,A,Tricentenario,0.211,0,2,0,0,alto
+8,4,0,1,A,Industriales,0.684,0,6,0,0,alto
+10,6,1,0,A,Madera,0.105,0,11,0,1,medio
+6,1,0,0,K,Arvi,1.0,0,6,0,0,medio
+14,2,0,0,B,San Antonio,0.0,1,3,0,2,alto
+22,1,0,0,B,Floresta,0.667,0,2,0,0,medio
+9,1,0,1,A,Hospital,0.368,0,7,0,1,alto
+13,6,1,0,K,Acevedo,0.0,1,2,0,2,medio
+15,0,0,0,A,Madera,0.105,0,1,0,0,alto
+17,3,0,1,B,Estadio,0.5,0,1,0,1,alto
+13,3,0,0,A,Prado,0.421,0,3,0,1,alto
+14,3,0,0,B,Cisneros,0.167,0,7,0,0,medio
+21,1,0,0,B,Cisneros,0.167,0,11,0,0,medio
+16,3,0,0,A,Exposiciones,0.632,0,9,0,0,alto
+10,0,0,0,B,Suramericana,0.333,0,6,0,0,medio
+20,4,0,0,A,Bello,0.053,0,6,0,1,alto
+13,4,0,0,A,Hospital,0.368,0,12,0,1,alto
+17,2,0,1,A,Itagui,0.947,0,3,0,0,alto
+5,5,1,0,A,Itagui,0.947,0,12,0,2,bajo
+11,6,1,0,B,Cisneros,0.167,0,8,1,0,bajo
+12,0,0,0,A,La Estrella,1.0,0,9,0,0,medio
+9,2,0,1,B,Cisneros,0.167,0,12,0,2,alto
+9,6,1,1,A,Tricentenario,0.211,0,2,0,0,medio
+16,5,1,0,A,Madera,0.105,0,11,0,1,medio
+20,5,1,0,A,Industriales,0.684,0,6,0,1,medio
+16,1,0,0,B,Santa Lucia,0.833,0,11,0,1,medio
+10,5,1,0,A,Tricentenario,0.211,0,1,0,2,alto
+6,1,0,0,B,Trinidad,1.0,0,10,0,2,alto
+20,1,0,0,B,San Antonio,0.0,1,6,0,0,alto
+10,5,1,0,A,San Antonio,0.526,1,2,0,1,alto
+13,1,0,0,B,San Antonio,0.0,1,4,0,0,medio
+5,0,0,0,A,Acevedo,0.158,1,7,0,1,alto
+16,4,0,0,B,Estadio,0.5,0,7,0,1,alto
+12,1,0,0,B,Santa Lucia,0.833,0,8,0,1,medio
+7,2,0,1,A,Acevedo,0.158,1,3,0,0,alto
+7,2,0,1,A,Envigado,0.895,0,10,0,2,alto
+18,1,0,1,K,Andalucia,0.25,0,1,0,0,alto
+22,5,1,0,A,Industriales,0.684,0,12,0,0,bajo
+22,6,1,0,A,Exposiciones,0.632,0,8,0,0,bajo
+7,2,0,1,A,Industriales,0.684,0,11,0,1,alto
+7,3,0,1,A,Parque Berrio,0.474,0,2,0,1,alto
+13,0,0,0,B,Estadio,0.5,0,11,0,0,medio
+6,2,0,0,A,Poblado,0.737,0,8,0,0,alto
+6,1,0,0,A,Itagui,0.947,0,12,0,0,medio
+12,4,0,0,B,Trinidad,1.0,0,1,0,0,bajo
+22,5,1,0,B,Estadio,0.5,0,8,0,2,bajo
+21,4,0,0,K,Acevedo,0.0,1,9,0,1,medio
+8,6,1,1,B,Cisneros,0.167,0,8,0,2,medio
+6,3,0,0,A,Tricentenario,0.211,0,2,0,0,alto
+13,2,0,0,K,Andalucia,0.25,0,12,0,0,bajo
+21,3,0,0,A,Prado,0.421,0,1,0,1,alto
+18,0,0,1,B,Floresta,0.667,0,7,0,0,medio
+8,6,1,1,A,Acevedo,0.158,1,5,0,0,alto
+13,3,0,0,A,Industriales,0.684,0,11,0,1,alto
+17,0,0,1,B,Cisneros,0.167,0,7,0,1,alto
+13,2,0,0,A,Aguacatala,0.789,0,1,0,1,alto
+8,6,1,1,B,Trinidad,1.0,0,4,0,0,medio
+15,2,0,0,K,Santo Domingo,0.75,0,12,0,1,medio
+20,6,1,0,B,Santa Lucia,0.833,0,9,0,0,bajo
+10,0,0,0,A,Ayura,0.842,0,5,0,0,alto
+10,1,0,0,B,San Antonio,0.0,1,4,0,0,alto
+6,2,0,0,A,Poblado,0.737,0,12,0,0,alto
+5,1,0,0,K,Acevedo,0.0,1,6,0,1,bajo
+22,2,0,0,A,Aguacatala,0.789,0,6,0,1,medio
+5,3,0,0,A,Parque Berrio,0.474,0,1,1,2,bajo
+12,5,1,0,A,Hospital,0.368,0,4,0,1,bajo
+20,1,0,0,K,Acevedo,0.0,1,11,0,1,alto
+13,4,0,0,A,Hospital,0.368,0,5,0,2,alto
+16,3,0,0,B,Trinidad,1.0,0,5,0,0,medio
+17,4,0,1,K,Arvi,1.0,0,2,0,0,medio
+14,2,0,0,A,Envigado,0.895,0,11,0,0,medio
+15,6,1,0,A,Prado,0.421,0,5,0,1,medio
+21,6,1,0,A,Tricentenario,0.211,0,4,0,1,bajo
+15,5,1,0,B,Estadio,0.5,0,3,1,0,bajo
+17,5,1,1,B,Estadio,0.5,0,1,0,1,alto
+11,2,0,0,B,Trinidad,1.0,0,12,0,0,bajo
+21,2,0,0,K,Popular,0.5,0,3,0,1,medio
+14,0,0,0,B,Cisneros,0.167,0,8,0,1,medio
+7,1,0,1,A,San Antonio,0.526,1,6,0,1,alto
+15,2,0,0,A,Industriales,0.684,0,5,0,0,alto
+7,3,0,1,K,Arvi,1.0,0,4,1,0,bajo
+21,2,0,0,K,Santo Domingo,0.75,0,7,0,2,medio
+19,1,0,1,A,Industriales,0.684,0,6,0,1,alto
+15,5,1,0,A,Aguacatala,0.789,0,3,0,1,medio
+10,3,0,0,A,Itagui,0.947,0,2,0,1,alto
+17,3,0,1,K,Santo Domingo,0.75,0,8,0,0,medio
+21,1,0,0,A,San Antonio,0.526,1,1,0,0,alto
+12,5,1,0,K,Andalucia,0.25,0,6,0,0,bajo
+6,2,0,0,A,Madera,0.105,0,5,0,1,alto
+15,3,0,0,B,Floresta,0.667,0,11,0,0,alto
+17,0,0,1,A,Caribe,0.263,0,4,0,1,alto
+5,4,0,0,A,Universidad,0.316,0,9,0,0,bajo
+13,6,1,0,B,Santa Lucia,0.833,0,9,0,0,bajo
+5,0,0,0,A,Acevedo,0.158,1,12,0,0,bajo
+9,1,0,1,B,Santa Lucia,0.833,0,12,0,1,alto
+8,5,1,1,A,Industriales,0.684,0,9,0,1,alto
+8,2,0,1,A,Ayura,0.842,0,2,0,0,alto
+11,6,1,0,A,La Estrella,1.0,0,5,0,0,bajo
+6,4,0,0,A,Caribe,0.263,0,8,1,1,medio
+12,0,0,0,B,Suramericana,0.333,0,1,0,0,alto
+7,6,1,1,B,Cisneros,0.167,0,9,0,1,medio
+12,3,0,0,A,Prado,0.421,0,5,0,0,alto
+16,6,1,0,A,Parque Berrio,0.474,0,11,0,0,medio
+6,0,0,0,A,Acevedo,0.158,1,3,0,1,alto
+7,2,0,1,B,Suramericana,0.333,0,6,0,0,alto
+13,6,1,0,B,Estadio,0.5,0,7,0,2,bajo
+9,5,1,1,A,Acevedo,0.158,1,12,0,2,alto
+18,4,0,1,A,Acevedo,0.158,1,8,0,1,alto
+5,6,1,0,A,La Estrella,1.0,0,11,0,1,bajo
+20,0,0,0,A,Aguacatala,0.789,0,7,0,0,alto
+12,5,1,0,K,Arvi,1.0,0,6,0,0,bajo
+8,3,0,1,K,Arvi,1.0,0,11,0,0,medio
+22,4,0,0,B,Cisneros,0.167,0,1,1,1,bajo
+20,6,1,0,A,Ayura,0.842,0,8,0,0,medio
+6,4,0,0,A,Prado,0.421,0,4,1,1,medio
+12,0,0,0,B,Trinidad,1.0,0,8,0,1,bajo
+8,3,0,1,B,Suramericana,0.333,0,12,0,0,alto
+6,4,0,0,B,Estadio,0.5,0,9,0,1,alto
+21,4,0,0,K,Popular,0.5,0,4,0,1,bajo
+6,6,1,0,A,Alpujarra,0.579,0,4,0,0,bajo
+16,5,1,0,B,Santa Lucia,0.833,0,8,0,0,bajo
+5,2,0,0,K,Andalucia,0.25,0,6,0,1,bajo
+6,1,0,0,A,Acevedo,0.158,1,8,0,1,alto
+8,2,0,1,K,Santo Domingo,0.75,0,10,0,0,alto
+11,5,1,0,B,Trinidad,1.0,0,6,0,1,bajo
+8,6,1,1,A,Itagui,0.947,0,8,0,1,alto
+21,5,1,0,B,San Antonio,0.0,1,1,0,2,medio
+21,6,1,0,B,Estadio,0.5,0,3,0,1,bajo
+15,4,0,0,B,Santa Lucia,0.833,0,7,0,2,medio
+13,3,0,0,K,Andalucia,0.25,0,6,0,0,medio
+14,6,1,0,K,Arvi,1.0,0,12,0,2,bajo
+11,1,0,0,K,Arvi,1.0,0,4,0,1,bajo
+21,4,0,0,A,Caribe,0.263,0,12,0,0,bajo
+22,3,0,0,A,Alpujarra,0.579,0,10,0,2,alto
+18,6,1,1,B,Suramericana,0.333,0,1,0,0,bajo
+6,5,1,0,B,Cisneros,0.167,0,1,0,0,medio
+9,6,1,1,K,Popular,0.5,0,1,0,1,bajo
+6,2,0,0,A,Envigado,0.895,0,8,0,1,alto
+17,1,0,1,A,Envigado,0.895,0,9,0,1,alto
+6,3,0,0,K,Popular,0.5,0,7,0,2,alto
+5,5,1,0,B,San Antonio,0.0,1,5,0,1,bajo
+12,5,1,0,B,Trinidad,1.0,0,12,0,1,bajo
+11,2,0,0,B,Cisneros,0.167,0,8,0,2,medio
+10,5,1,0,A,Caribe,0.263,0,9,0,0,medio
+13,0,0,0,A,Caribe,0.263,0,6,0,1,alto
+9,2,0,1,A,Bello,0.053,0,10,0,1,alto
+22,2,0,0,A,Aguacatala,0.789,0,2,0,1,medio
+10,4,0,0,B,Cisneros,0.167,0,2,0,0,medio
+12,1,0,0,A,Alpujarra,0.579,0,11,0,0,alto
+21,3,0,0,A,Universidad,0.316,0,9,0,1,medio
+12,5,1,0,A,Poblado,0.737,0,10,0,0,bajo
+17,6,1,1,A,San Antonio,0.526,1,2,0,0,alto
+16,4,0,0,B,Trinidad,1.0,0,9,0,0,medio
+15,4,0,0,A,Universidad,0.316,0,2,0,0,alto
+11,5,1,0,A,Madera,0.105,0,11,0,0,bajo
+8,1,0,1,K,Santo Domingo,0.75,0,9,0,1,alto
+9,0,0,1,K,Acevedo,0.0,1,8,0,0,alto
+6,1,0,0,A,Madera,0.105,0,5,0,0,alto
+19,5,1,1,B,Estadio,0.5,0,7,0,0,bajo
+8,4,0,1,B,Santa Lucia,0.833,0,1,0,1,alto
+16,4,0,0,A,Madera,0.105,0,2,0,1,alto
+7,2,0,1,A,La Estrella,1.0,0,8,0,0,alto
+9,5,1,1,B,Cisneros,0.167,0,7,0,1,medio
+9,2,0,1,B,Suramericana,0.333,0,11,0,2,alto
+22,1,0,0,A,Envigado,0.895,0,2,0,0,bajo
+22,4,0,0,B,Estadio,0.5,0,2,0,0,medio
+21,1,0,0,A,Industriales,0.684,0,3,0,0,medio
+8,1,0,1,A,Universidad,0.316,0,11,0,1,alto
+22,0,0,0,B,Estadio,0.5,0,5,0,0,medio
+20,2,0,0,A,Universidad,0.316,0,6,0,1,alto
+15,3,0,0,A,Universidad,0.316,0,8,0,1,alto
+9,4,0,1,A,Itagui,0.947,0,10,0,1,alto
+12,5,1,0,A,Hospital,0.368,0,12,0,0,bajo
+15,3,0,0,A,Tricentenario,0.211,0,8,0,0,medio
+7,6,1,1,A,La Estrella,1.0,0,5,0,1,alto
+13,5,1,0,B,Cisneros,0.167,0,11,1,1,medio
+17,6,1,1,K,Acevedo,0.0,1,10,0,2,medio
+22,4,0,0,B,Suramericana,0.333,0,8,0,1,medio
+14,1,0,0,B,Santa Lucia,0.833,0,8,0,0,medio
+21,0,0,0,B,Suramericana,0.333,0,11,0,1,medio
+9,3,0,1,A,Ayura,0.842,0,3,0,1,alto
+9,5,1,1,B,Santa Lucia,0.833,0,12,0,2,alto
+13,2,0,0,A,Madera,0.105,0,4,0,1,alto
+16,3,0,0,B,Trinidad,1.0,0,8,0,2,alto
+13,6,1,0,A,Ayura,0.842,0,12,0,1,bajo
+17,5,1,1,B,Cisneros,0.167,0,7,0,1,medio
+12,4,0,0,A,Exposiciones,0.632,0,7,0,1,medio
+20,4,0,0,A,Aguacatala,0.789,0,1,0,2,alto
+13,1,0,0,B,Santa Lucia,0.833,0,3,0,0,medio
+8,5,1,1,B,Santa Lucia,0.833,0,4,0,1,medio
+11,4,0,0,B,Estadio,0.5,0,3,0,1,medio
+6,1,0,0,A,Hospital,0.368,0,10,0,0,alto
+6,1,0,0,B,Cisneros,0.167,0,5,0,0,medio
+5,5,1,0,B,Floresta,0.667,0,12,0,1,bajo
+20,1,0,0,B,Estadio,0.5,0,4,0,0,alto
+10,4,0,0,A,Itagui,0.947,0,11,1,0,bajo
+7,1,0,1,B,Floresta,0.667,0,7,0,0,alto
+21,6,1,0,A,Universidad,0.316,0,9,0,0,bajo
+6,6,1,0,B,Floresta,0.667,0,9,0,1,medio
+9,4,0,1,A,Aguacatala,0.789,0,9,0,0,alto
+18,2,0,1,B,Floresta,0.667,0,1,0,0,alto
+17,2,0,1,A,Aguacatala,0.789,0,10,0,1,alto
+9,2,0,1,A,Industriales,0.684,0,8,0,0,alto
+22,3,0,0,A,Parque Berrio,0.474,0,5,0,0,medio
+21,0,0,0,B,San Antonio,0.0,1,7,0,0,medio
+16,0,0,0,A,Industriales,0.684,0,3,0,1,alto
+16,4,0,0,B,Floresta,0.667,0,5,0,0,alto
+22,6,1,0,A,Industriales,0.684,0,9,0,0,bajo
+16,6,1,0,A,Itagui,0.947,0,12,0,1,bajo
+12,3,0,0,K,Acevedo,0.0,1,12,0,0,bajo
+6,1,0,0,B,Floresta,0.667,0,7,0,0,medio
+20,4,0,0,A,Tricentenario,0.211,0,7,0,0,alto
+17,4,0,1,A,Exposiciones,0.632,0,11,1,0,alto
+10,5,1,0,B,San Antonio,0.0,1,8,0,0,alto
+11,0,0,0,B,Suramericana,0.333,0,10,0,0,bajo
+10,5,1,0,A,La Estrella,1.0,0,1,0,0,medio
+16,5,1,0,A,Exposiciones,0.632,0,7,0,1,medio
+7,0,0,1,B,San Antonio,0.0,1,9,0,1,alto
+12,4,0,0,A,Prado,0.421,0,4,0,2,alto
+13,1,0,0,B,San Antonio,0.0,1,7,0,0,alto
+13,4,0,0,A,Ayura,0.842,0,10,0,1,alto
+20,6,1,0,B,Floresta,0.667,0,4,0,0,bajo
+5,3,0,0,B,Trinidad,1.0,0,2,0,0,bajo
+12,6,1,0,K,Andalucia,0.25,0,6,0,2,bajo
+14,0,0,0,A,Hospital,0.368,0,7,0,1,alto
+22,1,0,0,A,Madera,0.105,0,8,0,0,medio
+20,5,1,0,K,Andalucia,0.25,0,4,0,1,bajo
+12,1,0,0,A,Universidad,0.316,0,4,0,1,alto
+5,6,1,0,A,Aguacatala,0.789,0,9,0,1,bajo
+15,3,0,0,A,La Estrella,1.0,0,10,0,0,alto
+17,1,0,1,B,Suramericana,0.333,0,10,0,0,alto
+22,0,0,0,B,Estadio,0.5,0,9,0,0,medio
+19,2,0,1,A,Ayura,0.842,0,12,0,0,alto
+8,2,0,1,A,Exposiciones,0.632,0,6,0,2,alto
+15,2,0,0,A,Aguacatala,0.789,0,3,0,0,alto
+16,2,0,0,B,Santa Lucia,0.833,0,7,0,0,bajo
+8,5,1,1,K,Andalucia,0.25,0,5,0,0,medio
+17,1,0,1,B,Trinidad,1.0,0,3,0,2,alto
+20,1,0,0,A,Industriales,0.684,0,11,1,0,medio
+14,2,0,0,A,Aguacatala,0.789,0,9,0,1,medio
+13,3,0,0,A,Universidad,0.316,0,11,0,0,alto
+16,2,0,0,A,Prado,0.421,0,9,0,2,alto
+11,4,0,0,A,Alpujarra,0.579,0,10,0,1,alto
+16,2,0,0,A,Parque Berrio,0.474,0,11,1,0,medio
+14,3,0,0,B,Floresta,0.667,0,11,0,2,medio
+18,5,1,1,K,Popular,0.5,0,10,0,0,alto
+15,2,0,0,A,Hospital,0.368,0,11,0,1,alto
+17,2,0,1,B,Santa Lucia,0.833,0,8,0,2,alto
+10,1,0,0,B,Estadio,0.5,0,1,0,1,alto
+7,1,0,1,K,Popular,0.5,0,3,0,0,alto
+5,6,1,0,B,San Antonio,0.0,1,7,0,1,bajo
+13,4,0,0,A,Acevedo,0.158,1,3,0,1,alto
+19,5,1,1,A,Parque Berrio,0.474,0,3,0,0,alto
+6,5,1,0,A,Niquia,0.0,0,6,0,2,medio
+22,3,0,0,B,Suramericana,0.333,0,3,0,0,bajo
+19,5,1,1,B,Floresta,0.667,0,12,0,2,medio
+16,3,0,0,B,Suramericana,0.333,0,9,0,1,alto
+16,3,0,0,B,Suramericana,0.333,0,5,0,0,alto
+14,3,0,0,A,Alpujarra,0.579,0,9,0,1,alto
+20,2,0,0,B,Trinidad,1.0,0,1,0,0,medio
+16,1,0,0,A,Envigado,0.895,0,7,0,0,alto
+17,6,1,1,A,Caribe,0.263,0,7,0,0,medio
+13,2,0,0,B,Trinidad,1.0,0,11,0,0,medio
+11,6,1,0,A,Industriales,0.684,0,2,0,0,medio
+20,1,0,0,B,Suramericana,0.333,0,6,0,0,alto
+10,0,0,0,B,San Antonio,0.0,1,5,0,0,alto
+5,3,0,0,A,Tricentenario,0.211,0,4,0,0,bajo
+19,5,1,1,B,Suramericana,0.333,0,1,0,0,alto
+7,4,0,1,A,Exposiciones,0.632,0,8,0,0,alto
+5,0,0,0,A,Exposiciones,0.632,0,12,1,0,bajo
+19,5,1,1,A,Universidad,0.316,0,2,0,1,alto
+17,5,1,1,A,Aguacatala,0.789,0,5,0,0,alto
+8,2,0,1,B,Floresta,0.667,0,8,0,0,alto
+11,0,0,0,A,Bello,0.053,0,4,0,0,alto
+17,6,1,1,B,San Antonio,0.0,1,4,1,2,alto
+20,5,1,0,B,Trinidad,1.0,0,10,0,0,medio
+15,6,1,0,A,La Estrella,1.0,0,11,0,0,bajo
+22,6,1,0,K,Andalucia,0.25,0,2,0,0,bajo
+19,5,1,1,K,Popular,0.5,0,4,1,1,alto
+13,0,0,0,A,Tricentenario,0.211,0,8,0,0,medio
+10,4,0,0,A,Itagui,0.947,0,6,0,1,alto
+22,1,0,0,A,La Estrella,1.0,0,2,0,0,medio
+5,6,1,0,A,Poblado,0.737,0,11,1,0,bajo
+16,6,1,0,A,Niquia,0.0,0,10,0,0,medio
+21,5,1,0,B,Cisneros,0.167,0,8,0,1,bajo
+15,3,0,0,B,Suramericana,0.333,0,11,0,0,medio
+6,1,0,0,A,Caribe,0.263,0,2,0,0,alto
+17,5,1,1,A,Itagui,0.947,0,8,0,1,alto
+7,0,0,1,A,La Estrella,1.0,0,4,0,0,alto
+6,2,0,0,A,Poblado,0.737,0,9,0,2,alto
+13,4,0,0,K,Acevedo,0.0,1,1,0,0,alto
+11,4,0,0,A,Madera,0.105,0,2,0,1,medio
+12,4,0,0,B,Santa Lucia,0.833,0,11,0,1,medio
+8,6,1,1,B,Estadio,0.5,0,11,0,0,medio
+10,4,0,0,A,Caribe,0.263,0,7,0,0,alto
+19,2,0,1,A,Envigado,0.895,0,6,0,2,alto
+15,4,0,0,K,Santo Domingo,0.75,0,4,0,0,medio
+22,5,1,0,B,Trinidad,1.0,0,5,0,2,bajo
+14,4,0,0,K,Acevedo,0.0,1,1,0,0,alto
+14,1,0,0,A,Niquia,0.0,0,4,0,0,medio
+21,4,0,0,A,Envigado,0.895,0,10,0,0,bajo
+16,1,0,0,A,Poblado,0.737,0,3,0,0,alto
+17,4,0,1,A,Madera,0.105,0,4,0,0,alto
+10,3,0,0,A,Aguacatala,0.789,0,12,0,1,alto
+17,0,0,1,A,Bello,0.053,0,1,0,0,alto
+8,6,1,1,B,Estadio,0.5,0,4,0,1,medio
+6,2,0,0,K,Santo Domingo,0.75,0,9,0,0,medio
+15,4,0,0,B,Cisneros,0.167,0,12,1,0,bajo
+21,0,0,0,B,Trinidad,1.0,0,4,0,0,bajo
+9,2,0,1,B,Cisneros,0.167,0,2,0,1,alto
+21,3,0,0,A,Exposiciones,0.632,0,12,0,1,medio
+11,3,0,0,B,Floresta,0.667,0,7,0,1,bajo
+12,0,0,0,B,Cisneros,0.167,0,5,0,0,bajo
+7,0,0,1,K,Arvi,1.0,0,11,0,0,alto
+5,6,1,0,B,Santa Lucia,0.833,0,5,0,2,bajo
+19,4,0,1,B,Trinidad,1.0,0,3,0,0,alto
+7,0,0,1,A,Tricentenario,0.211,0,12,0,0,alto
+14,0,0,0,B,Cisneros,0.167,0,6,1,1,bajo
+22,1,0,0,A,Universidad,0.316,0,4,1,0,bajo
+20,4,0,0,A,Envigado,0.895,0,12,0,1,alto
+6,2,0,0,K,Arvi,1.0,0,3,0,0,medio
+13,0,0,0,K,Arvi,1.0,0,8,0,2,alto
+8,0,0,1,K,Popular,0.5,0,5,0,2,alto
+17,4,0,1,B,Cisneros,0.167,0,12,0,2,alto
+11,4,0,0,A,Caribe,0.263,0,8,1,2,medio
+12,4,0,0,A,Bello,0.053,0,5,0,0,medio
+16,5,1,0,K,Popular,0.5,0,5,0,2,medio
+6,5,1,0,B,Suramericana,0.333,0,5,0,2,medio
+12,1,0,0,B,Suramericana,0.333,0,6,0,1,medio
+21,5,1,0,A,Exposiciones,0.632,0,10,0,1,bajo
+14,4,0,0,A,Industriales,0.684,0,6,0,0,alto
+22,5,1,0,A,Tricentenario,0.211,0,4,0,0,bajo
+9,5,1,1,A,Industriales,0.684,0,10,0,0,medio
+8,1,0,1,B,Floresta,0.667,0,6,0,2,alto
+14,3,0,0,B,Estadio,0.5,0,12,0,2,medio
+9,6,1,1,K,Popular,0.5,0,4,0,0,alto
+12,4,0,0,B,Suramericana,0.333,0,4,0,1,alto
+20,1,0,0,A,Madera,0.105,0,9,0,1,alto
+20,1,0,0,B,Estadio,0.5,0,3,0,0,alto
+5,2,0,0,B,Trinidad,1.0,0,7,0,1,bajo
+19,6,1,1,A,Caribe,0.263,0,10,0,1,alto
+18,3,0,1,B,Cisneros,0.167,0,1,0,1,alto
+22,4,0,0,B,Santa Lucia,0.833,0,11,0,1,medio
+19,3,0,1,B,San Antonio,0.0,1,1,0,0,alto
+21,6,1,0,B,Estadio,0.5,0,11,0,0,bajo
+14,6,1,0,B,Estadio,0.5,0,5,0,0,bajo
+9,3,0,1,K,Arvi,1.0,0,11,0,0,alto
+10,6,1,0,B,San Antonio,0.0,1,10,0,0,medio
+19,4,0,1,A,Caribe,0.263,0,12,0,2,alto
+15,5,1,0,A,Prado,0.421,0,11,0,1,medio
+16,0,0,0,A,Poblado,0.737,0,9,0,0,alto
+10,3,0,0,B,Floresta,0.667,0,9,0,0,alto
+10,6,1,0,K,Andalucia,0.25,0,3,0,1,bajo
+14,2,0,0,A,Industriales,0.684,0,12,1,2,bajo
+5,4,0,0,A,Universidad,0.316,0,5,1,0,bajo
+5,4,0,0,B,Floresta,0.667,0,8,0,0,bajo
+5,1,0,0,B,San Antonio,0.0,1,9,0,1,bajo
+11,0,0,0,B,Trinidad,1.0,0,3,0,0,medio
+14,2,0,0,A,Itagui,0.947,0,2,0,0,alto
+14,4,0,0,A,Caribe,0.263,0,11,0,1,medio
+16,0,0,0,B,Santa Lucia,0.833,0,2,0,0,medio
+7,6,1,1,A,Exposiciones,0.632,0,7,0,1,medio
+15,4,0,0,K,Popular,0.5,0,7,0,0,medio
+6,0,0,0,A,La Estrella,1.0,0,10,0,2,alto
+14,3,0,0,K,Arvi,1.0,0,10,0,0,medio
+16,1,0,0,B,Floresta,0.667,0,10,0,0,alto
+12,5,1,0,A,La Estrella,1.0,0,5,0,0,bajo
+8,5,1,1,A,Poblado,0.737,0,4,0,1,alto
+11,0,0,0,A,Envigado,0.895,0,11,0,1,alto
+14,2,0,0,A,Madera,0.105,0,9,0,0,alto
+5,6,1,0,A,Exposiciones,0.632,0,3,0,0,bajo
+20,6,1,0,A,Aguacatala,0.789,0,1,0,0,medio
+19,6,1,1,B,Suramericana,0.333,0,7,0,0,medio
+15,4,0,0,B,Suramericana,0.333,0,9,0,0,medio
+9,2,0,1,A,Madera,0.105,0,1,0,2,alto
+10,4,0,0,K,Arvi,1.0,0,10,1,0,bajo
+6,2,0,0,A,San Antonio,0.526,1,7,0,0,alto
+19,6,1,1,A,Alpujarra,0.579,0,5,0,0,alto
+7,3,0,1,A,Universidad,0.316,0,9,0,1,alto
+11,2,0,0,B,Cisneros,0.167,0,8,0,2,medio
+9,1,0,1,A,Ayura,0.842,0,12,0,0,alto
+8,0,0,1,K,Arvi,1.0,0,5,0,1,alto
+8,4,0,1,B,San Antonio,0.0,1,11,0,0,alto
+14,5,1,0,B,Trinidad,1.0,0,4,0,0,bajo
+8,2,0,1,B,Santa Lucia,0.833,0,3,0,0,alto
+22,4,0,0,A,La Estrella,1.0,0,2,0,0,medio
+12,1,0,0,K,Popular,0.5,0,2,0,1,medio
+19,0,0,1,A,Envigado,0.895,0,3,0,0,alto
+18,3,0,1,A,Madera,0.105,0,3,0,1,alto
+19,4,0,1,B,Santa Lucia,0.833,0,6,0,0,alto
+19,4,0,1,B,San Antonio,0.0,1,3,0,1,alto
+8,3,0,1,K,Santo Domingo,0.75,0,5,0,1,alto
+13,2,0,0,A,Tricentenario,0.211,0,7,0,1,medio
+15,3,0,0,K,Popular,0.5,0,8,0,0,alto
+16,4,0,0,A,Parque Berrio,0.474,0,10,0,0,alto
+8,2,0,1,B,Trinidad,1.0,0,9,0,0,alto
+12,4,0,0,B,Estadio,0.5,0,4,1,0,bajo
+7,2,0,1,B,Estadio,0.5,0,4,0,1,alto
+15,4,0,0,B,Trinidad,1.0,0,12,1,0,bajo
+20,0,0,0,K,Acevedo,0.0,1,10,0,0,medio
+17,0,0,1,A,Parque Berrio,0.474,0,10,0,1,alto
+17,2,0,1,B,Trinidad,1.0,0,8,0,1,alto
+5,6,1,0,B,Trinidad,1.0,0,3,0,0,bajo
+17,4,0,1,B,Suramericana,0.333,0,10,0,0,alto
+14,3,0,0,B,Trinidad,1.0,0,12,0,2,bajo
+21,3,0,0,B,San Antonio,0.0,1,3,0,0,medio
+22,6,1,0,A,Niquia,0.0,0,6,0,2,bajo
+18,5,1,1,A,Hospital,0.368,0,10,1,1,alto
+11,5,1,0,B,Floresta,0.667,0,3,0,0,bajo
+16,6,1,0,B,Estadio,0.5,0,7,0,0,bajo
+5,1,0,0,A,Madera,0.105,0,12,0,1,bajo
+9,5,1,1,A,Madera,0.105,0,7,0,0,medio
+10,3,0,0,B,Floresta,0.667,0,9,0,1,medio
+16,1,0,0,B,Estadio,0.5,0,3,0,1,medio
+13,3,0,0,A,Ayura,0.842,0,9,0,0,medio
+20,5,1,0,A,Itagui,0.947,0,6,0,1,medio
+13,3,0,0,K,Arvi,1.0,0,9,0,0,medio
+12,3,0,0,B,San Antonio,0.0,1,11,0,1,alto
+14,4,0,0,B,Trinidad,1.0,0,1,0,0,bajo
+19,4,0,1,A,Aguacatala,0.789,0,8,0,1,alto
+10,0,0,0,A,Parque Berrio,0.474,0,12,0,1,alto
+13,0,0,0,K,Arvi,1.0,0,11,0,1,bajo
+5,2,0,0,A,La Estrella,1.0,0,8,0,0,bajo
+13,1,0,0,A,Prado,0.421,0,10,0,0,alto
+9,5,1,1,B,Cisneros,0.167,0,8,0,1,alto
+20,1,0,0,A,Hospital,0.368,0,9,0,0,alto
+9,6,1,1,B,Trinidad,1.0,0,8,0,2,medio
+19,5,1,1,B,Cisneros,0.167,0,11,0,0,medio
+8,0,0,1,K,Popular,0.5,0,3,0,0,alto
+22,1,0,0,A,Aguacatala,0.789,0,7,0,1,medio
+14,6,1,0,B,San Antonio,0.0,1,8,0,1,medio
+6,0,0,0,B,Santa Lucia,0.833,0,9,0,0,alto
+15,2,0,0,K,Popular,0.5,0,5,0,0,medio
+17,3,0,1,K,Arvi,1.0,0,11,0,0,medio
+10,2,0,0,B,Suramericana,0.333,0,9,0,1,medio
+18,0,0,1,A,Niquia,0.0,0,9,0,1,alto
+6,0,0,0,A,Universidad,0.316,0,10,0,0,alto
+11,4,0,0,B,Santa Lucia,0.833,0,11,0,1,alto
+10,0,0,0,A,Exposiciones,0.632,0,12,0,0,alto
+7,5,1,1,B,Santa Lucia,0.833,0,8,0,1,medio
+10,6,1,0,A,Prado,0.421,0,2,0,1,bajo
+15,0,0,0,B,Estadio,0.5,0,5,0,0,medio
+17,1,0,1,A,La Estrella,1.0,0,11,0,0,alto
+18,1,0,1,B,Trinidad,1.0,0,10,0,0,alto
+7,4,0,1,A,Madera,0.105,0,12,0,1,alto
+9,5,1,1,A,Aguacatala,0.789,0,11,0,2,alto
+17,4,0,1,K,Popular,0.5,0,1,0,1,alto
+18,3,0,1,B,Estadio,0.5,0,12,1,1,medio
+20,0,0,0,B,Santa Lucia,0.833,0,10,0,2,alto
+14,3,0,0,A,San Antonio,0.526,1,1,0,2,alto
+19,6,1,1,A,Madera,0.105,0,5,0,0,medio
+17,5,1,1,B,San Antonio,0.0,1,4,0,1,alto
+7,5,1,1,A,Aguacatala,0.789,0,8,0,0,medio
+5,5,1,0,A,Universidad,0.316,0,10,0,0,bajo
+22,6,1,0,A,Aguacatala,0.789,0,8,0,0,bajo
+6,3,0,0,A,San Antonio,0.526,1,2,0,1,alto
+9,5,1,1,K,Arvi,1.0,0,10,0,2,medio
+20,5,1,0,A,Tricentenario,0.211,0,1,0,2,medio
+5,1,0,0,K,Andalucia,0.25,0,11,0,2,bajo
+10,6,1,0,A,Poblado,0.737,0,10,0,1,medio
+7,6,1,1,B,Cisneros,0.167,0,4,0,0,medio
+15,0,0,0,K,Santo Domingo,0.75,0,11,0,0,bajo
+10,2,0,0,A,Bello,0.053,0,2,0,0,alto
+16,4,0,0,B,Cisneros,0.167,0,3,0,0,medio
+17,6,1,1,K,Arvi,1.0,0,3,0,2,medio
+5,1,0,0,A,Niquia,0.0,0,2,0,1,bajo
+9,1,0,1,B,Santa Lucia,0.833,0,3,0,0,alto
+12,1,0,0,B,Estadio,0.5,0,10,0,0,alto
+16,3,0,0,A,Parque Berrio,0.474,0,1,0,0,alto
+8,4,0,1,A,Ayura,0.842,0,6,0,1,alto
+13,0,0,0,K,Andalucia,0.25,0,4,0,1,medio
+20,1,0,0,K,Santo Domingo,0.75,0,3,0,2,alto
+13,2,0,0,A,Industriales,0.684,0,10,0,2,alto
+8,5,1,1,B,San Antonio,0.0,1,1,0,0,alto
+12,5,1,0,A,Madera,0.105,0,8,0,1,bajo
+15,1,0,0,B,Cisneros,0.167,0,2,0,0,medio
+12,0,0,0,A,Exposiciones,0.632,0,8,0,0,alto
+11,4,0,0,B,Cisneros,0.167,0,8,0,0,alto
+13,1,0,0,K,Popular,0.5,0,6,0,0,medio
+13,1,0,0,B,San Antonio,0.0,1,2,0,0,medio
+10,6,1,0,A,Parque Berrio,0.474,0,11,0,2,alto
+12,0,0,0,B,Floresta,0.667,0,7,0,0,medio
+19,2,0,1,B,Trinidad,1.0,0,1,0,0,alto
+15,3,0,0,A,Hospital,0.368,0,10,0,2,alto
+18,0,0,1,B,San Antonio,0.0,1,1,0,1,alto
+18,4,0,1,B,San Antonio,0.0,1,7,0,1,alto
+7,4,0,1,B,Cisneros,0.167,0,1,0,1,alto
+16,2,0,0,A,Tricentenario,0.211,0,4,0,2,alto
+5,3,0,0,A,Poblado,0.737,0,8,0,0,bajo
+10,6,1,0,K,Santo Domingo,0.75,0,6,0,0,bajo
+15,4,0,0,A,Exposiciones,0.632,0,1,0,0,medio
+22,4,0,0,A,La Estrella,1.0,0,4,0,1,medio
+16,0,0,0,A,Ayura,0.842,0,2,0,0,alto
+16,2,0,0,B,San Antonio,0.0,1,3,0,1,alto
+15,1,0,0,A,Tricentenario,0.211,0,9,0,1,alto
+11,6,1,0,K,Arvi,1.0,0,12,1,0,bajo
+13,0,0,0,K,Santo Domingo,0.75,0,2,0,0,medio
+21,6,1,0,B,Floresta,0.667,0,2,0,1,bajo
+16,6,1,0,A,Poblado,0.737,0,11,0,1,bajo
+19,0,0,1,A,Universidad,0.316,0,2,0,2,alto
+13,0,0,0,A,Caribe,0.263,0,12,0,0,alto
+5,2,0,0,A,Ayura,0.842,0,7,0,0,bajo
+5,2,0,0,B,Santa Lucia,0.833,0,4,0,0,bajo
+15,3,0,0,A,Ayura,0.842,0,10,0,1,alto
+22,3,0,0,K,Arvi,1.0,0,8,0,1,bajo
+13,1,0,0,A,Caribe,0.263,0,8,0,2,alto
+19,1,0,1,A,Parque Berrio,0.474,0,10,0,1,alto
+10,6,1,0,A,Caribe,0.263,0,12,0,2,medio
+15,4,0,0,A,Bello,0.053,0,3,0,0,medio
+22,5,1,0,A,Universidad,0.316,0,1,0,0,bajo
+22,2,0,0,B,Cisneros,0.167,0,2,0,0,medio
+9,3,0,1,B,Trinidad,1.0,0,6,0,0,alto
+20,2,0,0,A,Parque Berrio,0.474,0,10,0,0,medio
+19,2,0,1,B,Santa Lucia,0.833,0,12,0,1,alto
+14,0,0,0,B,San Antonio,0.0,1,7,1,1,bajo
+7,2,0,1,B,Suramericana,0.333,0,1,0,1,alto
+5,0,0,0,A,Universidad,0.316,0,9,0,0,bajo
+21,3,0,0,K,Acevedo,0.0,1,4,0,0,bajo
+17,1,0,1,K,Popular,0.5,0,12,0,0,medio
+5,2,0,0,B,Suramericana,0.333,0,6,0,0,bajo
+18,6,1,1,A,Poblado,0.737,0,8,0,0,alto
+18,1,0,1,K,Santo Domingo,0.75,0,10,0,0,alto
+7,4,0,1,B,Suramericana,0.333,0,7,0,0,alto
+18,1,0,1,K,Popular,0.5,0,9,0,1,alto
+14,4,0,0,A,Exposiciones,0.632,0,8,0,1,alto
+14,3,0,0,A,Itagui,0.947,0,9,0,0,medio
+20,0,0,0,A,Parque Berrio,0.474,0,11,0,2,alto
+20,5,1,0,B,Cisneros,0.167,0,11,0,0,medio
+16,4,0,0,A,La Estrella,1.0,0,8,0,0,medio
+8,2,0,1,A,Aguacatala,0.789,0,9,0,1,alto
+15,3,0,0,A,Tricentenario,0.211,0,12,0,0,medio
+16,3,0,0,A,Prado,0.421,0,11,0,0,alto
+11,6,1,0,A,Ayura,0.842,0,11,0,1,medio
+10,4,0,0,B,Trinidad,1.0,0,6,0,0,medio
+8,4,0,1,A,Alpujarra,0.579,0,10,0,1,alto
+21,2,0,0,A,Tricentenario,0.211,0,6,0,0,bajo
+9,4,0,1,A,Universidad,0.316,0,4,0,0,alto
+21,6,1,0,B,Floresta,0.667,0,9,0,1,bajo
+8,6,1,1,B,San Antonio,0.0,1,3,0,0,medio
+9,6,1,1,A,Alpujarra,0.579,0,8,0,0,alto
+8,1,0,1,A,Niquia,0.0,0,3,0,1,alto
+14,1,0,0,K,Andalucia,0.25,0,4,0,2,medio
+5,6,1,0,A,Madera,0.105,0,8,0,0,bajo
+6,6,1,0,A,Acevedo,0.158,1,11,1,1,medio
+14,5,1,0,A,Madera,0.105,0,1,0,0,medio
+11,4,0,0,A,La Estrella,1.0,0,4,0,1,alto
+16,2,0,0,K,Popular,0.5,0,3,0,0,alto
+12,4,0,0,K,Arvi,1.0,0,10,0,0,medio
+14,1,0,0,A,Universidad,0.316,0,9,0,2,alto
+21,6,1,0,A,Universidad,0.316,0,12,0,0,bajo
+16,3,0,0,A,Caribe,0.263,0,7,0,0,alto
+15,0,0,0,B,San Antonio,0.0,1,8,0,0,medio
+6,0,0,0,A,Envigado,0.895,0,6,0,0,alto
+14,5,1,0,A,Poblado,0.737,0,8,0,1,medio
+20,5,1,0,A,Madera,0.105,0,6,0,0,medio
+8,3,0,1,K,Santo Domingo,0.75,0,8,0,1,alto
+8,5,1,1,B,Santa Lucia,0.833,0,3,0,0,medio
+11,4,0,0,A,San Antonio,0.526,1,7,0,0,alto
+13,6,1,0,K,Arvi,1.0,0,11,0,0,bajo
+17,3,0,1,K,Arvi,1.0,0,9,0,0,alto
+12,5,1,0,B,Estadio,0.5,0,3,0,0,medio
+20,5,1,0,A,Madera,0.105,0,1,1,0,medio
+8,6,1,1,B,Floresta,0.667,0,2,0,1,medio
+19,1,0,1,B,Trinidad,1.0,0,5,0,0,alto
+5,6,1,0,B,Floresta,0.667,0,1,0,2,bajo
+19,2,0,1,A,Exposiciones,0.632,0,7,0,0,alto
+20,3,0,0,A,Caribe,0.263,0,3,0,1,alto
+8,4,0,1,B,Trinidad,1.0,0,11,0,1,alto
+10,4,0,0,B,Floresta,0.667,0,1,0,0,medio
+16,6,1,0,B,Estadio,0.5,0,5,0,0,bajo
+5,6,1,0,A,Alpujarra,0.579,0,11,0,0,bajo
+16,3,0,0,B,Suramericana,0.333,0,6,1,1,bajo
+7,6,1,1,B,San Antonio,0.0,1,5,0,0,alto
+15,0,0,0,A,Envigado,0.895,0,8,0,2,medio
+20,4,0,0,A,Niquia,0.0,0,1,0,0,medio
+8,6,1,1,B,Suramericana,0.333,0,8,0,1,medio
+10,4,0,0,K,Popular,0.5,0,5,0,2,alto
+7,6,1,1,A,Aguacatala,0.789,0,9,0,0,alto
+12,4,0,0,B,Trinidad,1.0,0,12,0,1,medio
+15,2,0,0,B,San Antonio,0.0,1,2,0,1,alto
+21,6,1,0,A,Parque Berrio,0.474,0,5,0,1,bajo
+18,3,0,1,A,Universidad,0.316,0,5,0,0,alto
+10,4,0,0,A,Ayura,0.842,0,8,1,1,bajo
+13,5,1,0,K,Santo Domingo,0.75,0,9,0,1,bajo
+6,4,0,0,B,Santa Lucia,0.833,0,4,0,0,medio
+14,6,1,0,A,Tricentenario,0.211,0,7,0,0,bajo
+13,6,1,0,A,Industriales,0.684,0,5,0,0,bajo
+12,3,0,0,K,Arvi,1.0,0,4,0,0,medio
+20,4,0,0,A,Poblado,0.737,0,7,0,1,alto
+10,2,0,0,A,Universidad,0.316,0,3,0,0,alto
+20,6,1,0,A,Bello,0.053,0,1,0,2,bajo
+14,6,1,0,A,San Antonio,0.526,1,2,0,2,medio
+9,1,0,1,B,Trinidad,1.0,0,2,0,1,medio
+21,2,0,0,A,Ayura,0.842,0,8,0,0,alto
+17,6,1,1,A,Itagui,0.947,0,12,0,0,medio
+9,0,0,1,B,Cisneros,0.167,0,3,0,2,alto
+20,4,0,0,B,San Antonio,0.0,1,6,1,2,medio
+18,3,0,1,A,Envigado,0.895,0,11,0,2,alto
+16,6,1,0,A,Aguacatala,0.789,0,5,1,1,bajo
+6,5,1,0,B,San Antonio,0.0,1,11,0,0,medio
+8,4,0,1,K,Popular,0.5,0,4,0,0,alto
+13,2,0,0,A,Exposiciones,0.632,0,2,0,1,alto
+15,6,1,0,A,Poblado,0.737,0,11,0,1,medio
+20,3,0,0,A,Madera,0.105,0,12,0,2,alto
+13,4,0,0,A,Caribe,0.263,0,2,0,0,alto
+15,3,0,0,K,Arvi,1.0,0,12,0,1,bajo
+9,0,0,1,B,Trinidad,1.0,0,7,0,1,alto
+7,0,0,1,A,Itagui,0.947,0,3,0,0,alto
+18,6,1,1,A,La Estrella,1.0,0,6,0,0,medio
+13,1,0,0,K,Andalucia,0.25,0,11,0,1,medio
+10,3,0,0,B,Suramericana,0.333,0,7,0,2,medio
+5,4,0,0,A,Niquia,0.0,0,11,0,1,medio
+10,0,0,0,A,Prado,0.421,0,7,1,0,bajo
+7,2,0,1,A,Tricentenario,0.211,0,3,0,0,alto
+20,0,0,0,B,Trinidad,1.0,0,4,0,0,medio
+20,3,0,0,A,Parque Berrio,0.474,0,3,0,2,alto
+18,1,0,1,A,Universidad,0.316,0,7,0,0,alto
+12,4,0,0,A,Prado,0.421,0,8,0,0,alto
+9,6,1,1,A,Aguacatala,0.789,0,6,1,0,bajo
+18,5,1,1,A,Exposiciones,0.632,0,10,0,0,alto
+16,4,0,0,A,Aguacatala,0.789,0,11,0,1,alto
+5,2,0,0,K,Acevedo,0.0,1,9,0,0,medio
+6,4,0,0,A,Envigado,0.895,0,3,0,0,alto
+19,1,0,1,B,Suramericana,0.333,0,2,0,1,alto
+9,3,0,1,A,Bello,0.053,0,5,0,0,alto
+13,4,0,0,B,Suramericana,0.333,0,5,0,0,alto
+9,4,0,1,B,Trinidad,1.0,0,11,0,1,alto
+9,0,0,1,A,Universidad,0.316,0,4,0,0,alto
+20,0,0,0,B,San Antonio,0.0,1,8,0,2,alto
+19,3,0,1,B,Estadio,0.5,0,2,0,1,alto
+10,6,1,0,A,Parque Berrio,0.474,0,3,1,0,medio
+11,4,0,0,A,Itagui,0.947,0,1,0,1,alto
+8,2,0,1,A,Aguacatala,0.789,0,1,0,1,alto
+17,2,0,1,K,Acevedo,0.0,1,10,0,1,alto
+19,5,1,1,K,Santo Domingo,0.75,0,5,0,1,medio
+19,2,0,1,A,Bello,0.053,0,12,0,2,alto
+15,6,1,0,A,Parque Berrio,0.474,0,1,0,0,bajo
+7,3,0,1,B,Estadio,0.5,0,5,0,0,alto
+10,3,0,0,A,Universidad,0.316,0,7,0,1,alto
+8,2,0,1,K,Andalucia,0.25,0,8,0,0,alto
+9,2,0,1,K,Arvi,1.0,0,11,0,1,alto
+20,3,0,0,B,Cisneros,0.167,0,7,0,0,medio
+16,4,0,0,B,Trinidad,1.0,0,3,0,1,medio
+21,2,0,0,A,Bello,0.053,0,8,0,0,medio
+21,0,0,0,B,Floresta,0.667,0,5,0,0,medio
+9,1,0,1,B,Suramericana,0.333,0,11,0,1,alto
+7,0,0,1,A,Envigado,0.895,0,9,0,0,alto
+19,5,1,1,B,San Antonio,0.0,1,12,0,1,medio
+8,5,1,1,B,San Antonio,0.0,1,11,0,0,alto
+6,0,0,0,A,Exposiciones,0.632,0,7,0,0,medio
+13,2,0,0,K,Santo Domingo,0.75,0,3,0,0,medio
+13,6,1,0,K,Arvi,1.0,0,11,0,0,bajo
+20,3,0,0,A,Caribe,0.263,0,12,0,2,alto
+20,2,0,0,K,Arvi,1.0,0,10,0,2,medio
+14,0,0,0,K,Santo Domingo,0.75,0,3,0,0,medio
+11,6,1,0,A,Niquia,0.0,0,1,0,0,bajo
+11,0,0,0,K,Arvi,1.0,0,5,0,0,medio
+5,0,0,0,B,Estadio,0.5,0,3,0,1,bajo
+12,1,0,0,A,Poblado,0.737,0,5,0,1,alto
+15,0,0,0,B,San Antonio,0.0,1,2,0,1,alto
+22,2,0,0,B,Santa Lucia,0.833,0,1,0,0,medio
+20,1,0,0,B,Floresta,0.667,0,12,0,0,medio
+18,3,0,1,A,Prado,0.421,0,2,0,1,alto
+19,5,1,1,K,Popular,0.5,0,7,0,0,medio
+21,1,0,0,B,Cisneros,0.167,0,10,0,0,bajo
+19,1,0,1,B,Trinidad,1.0,0,5,0,1,alto
+20,6,1,0,K,Popular,0.5,0,3,0,0,bajo
+20,1,0,0,K,Acevedo,0.0,1,3,0,0,medio
+12,1,0,0,B,Suramericana,0.333,0,9,0,2,alto
+16,5,1,0,A,Prado,0.421,0,3,0,1,alto
+18,0,0,1,A,San Antonio,0.526,1,10,0,0,alto
+13,2,0,0,A,Aguacatala,0.789,0,6,0,0,medio
+8,5,1,1,A,Ayura,0.842,0,1,0,1,alto
+8,6,1,1,A,Acevedo,0.158,1,9,0,0,alto
+10,5,1,0,A,Alpujarra,0.579,0,5,0,0,alto
+8,1,0,1,B,Estadio,0.5,0,11,0,0,alto
+5,1,0,0,B,Estadio,0.5,0,8,0,0,medio
+13,2,0,0,A,Madera,0.105,0,12,1,0,bajo
+12,1,0,0,B,Estadio,0.5,0,7,0,2,medio
+21,6,1,0,B,Trinidad,1.0,0,11,0,2,bajo
+7,0,0,1,K,Arvi,1.0,0,6,0,0,alto
+6,3,0,0,A,Industriales,0.684,0,1,0,2,alto
+14,3,0,0,K,Arvi,1.0,0,7,0,1,medio
+16,0,0,0,A,San Antonio,0.526,1,5,0,1,alto
+22,4,0,0,K,Andalucia,0.25,0,10,0,0,medio
+11,2,0,0,A,Exposiciones,0.632,0,2,0,0,medio
+22,2,0,0,A,Ayura,0.842,0,4,0,0,medio
+15,6,1,0,A,Ayura,0.842,0,11,0,0,bajo
+14,5,1,0,A,Hospital,0.368,0,7,0,0,bajo
+13,5,1,0,A,Alpujarra,0.579,0,9,0,0,medio
+5,3,0,0,B,Suramericana,0.333,0,6,0,1,bajo
+22,6,1,0,B,Floresta,0.667,0,10,0,0,bajo
+9,5,1,1,K,Arvi,1.0,0,7,0,1,medio
+21,4,0,0,A,San Antonio,0.526,1,4,0,1,alto
+18,0,0,1,B,Trinidad,1.0,0,2,0,0,alto
+11,3,0,0,A,Aguacatala,0.789,0,2,0,1,medio
+13,4,0,0,B,Trinidad,1.0,0,8,0,0,medio
+20,5,1,0,B,Santa Lucia,0.833,0,7,0,0,bajo
+21,6,1,0,B,Cisneros,0.167,0,9,0,1,bajo
+6,5,1,0,B,Estadio,0.5,0,3,0,0,alto
+8,2,0,1,B,San Antonio,0.0,1,10,0,0,alto
+16,2,0,0,A,Acevedo,0.158,1,6,0,0,alto
+6,2,0,0,B,Estadio,0.5,0,5,0,0,alto
+5,0,0,0,K,Santo Domingo,0.75,0,9,0,0,bajo
+19,2,0,1,A,Itagui,0.947,0,7,0,1,alto
+9,4,0,1,B,Cisneros,0.167,0,11,0,1,alto
+7,6,1,1,K,Popular,0.5,0,10,0,1,medio
+17,2,0,1,B,Cisneros,0.167,0,9,0,2,alto
+10,5,1,0,K,Acevedo,0.0,1,1,0,1,medio
+22,5,1,0,K,Popular,0.5,0,2,0,1,bajo
+6,4,0,0,B,Trinidad,1.0,0,9,0,1,alto
+8,5,1,1,B,San Antonio,0.0,1,9,0,2,alto
+19,0,0,1,K,Arvi,1.0,0,9,0,0,alto
+20,6,1,0,B,San Antonio,0.0,1,1,0,0,bajo
+13,0,0,0,A,Exposiciones,0.632,0,2,0,0,alto
+10,2,0,0,A,Tricentenario,0.211,0,2,0,0,alto
+10,0,0,0,B,Suramericana,0.333,0,12,0,0,alto
+9,3,0,1,A,San Antonio,0.526,1,6,0,0,alto
+12,3,0,0,A,Hospital,0.368,0,9,0,0,alto
+6,2,0,0,A,Prado,0.421,0,8,1,0,bajo
+13,4,0,0,A,Niquia,0.0,0,10,0,0,medio
+9,2,0,1,B,Santa Lucia,0.833,0,10,0,0,alto
+22,1,0,0,A,Alpujarra,0.579,0,4,1,2,bajo
+6,0,0,0,B,Estadio,0.5,0,8,0,1,alto
+13,4,0,0,A,Aguacatala,0.789,0,5,0,1,alto
+21,2,0,0,A,Universidad,0.316,0,1,1,1,bajo
+8,6,1,1,B,Santa Lucia,0.833,0,3,1,1,medio
+11,4,0,0,A,Industriales,0.684,0,9,0,0,alto
+13,1,0,0,A,Poblado,0.737,0,11,0,0,medio
+15,0,0,0,B,Floresta,0.667,0,12,0,1,alto
+18,4,0,1,A,Caribe,0.263,0,12,0,0,alto
+7,6,1,1,B,Floresta,0.667,0,11,0,0,alto
+8,2,0,1,K,Santo Domingo,0.75,0,7,0,1,alto
+5,0,0,0,B,Cisneros,0.167,0,8,0,2,bajo
+16,1,0,0,A,Prado,0.421,0,2,0,1,alto
+12,3,0,0,A,Hospital,0.368,0,6,1,0,bajo
+11,6,1,0,A,Niquia,0.0,0,11,0,0,bajo
+21,3,0,0,A,Itagui,0.947,0,3,0,0,medio
+10,0,0,0,B,Floresta,0.667,0,10,0,1,medio
+12,4,0,0,A,Prado,0.421,0,12,0,0,alto
+13,5,1,0,K,Arvi,1.0,0,9,0,0,bajo
+6,6,1,0,B,Santa Lucia,0.833,0,6,0,1,bajo
+20,2,0,0,B,Estadio,0.5,0,9,0,0,alto
+6,2,0,0,K,Andalucia,0.25,0,7,0,0,medio
+5,5,1,0,A,Itagui,0.947,0,4,0,0,bajo
+11,1,0,0,A,Hospital,0.368,0,6,0,0,medio
+5,4,0,0,B,Trinidad,1.0,0,11,0,1,bajo
+20,1,0,0,A,Acevedo,0.158,1,6,0,0,alto
+19,6,1,1,A,La Estrella,1.0,0,2,0,0,alto
+6,0,0,0,A,Madera,0.105,0,7,0,2,alto
+6,2,0,0,A,Poblado,0.737,0,10,0,0,medio
+22,0,0,0,A,Bello,0.053,0,5,0,0,alto
+5,3,0,0,A,La Estrella,1.0,0,7,0,1,bajo
+8,2,0,1,B,Floresta,0.667,0,11,0,1,alto
+8,0,0,1,A,Acevedo,0.158,1,10,0,0,alto
+9,5,1,1,A,Itagui,0.947,0,9,0,0,medio
+9,6,1,1,A,Hospital,0.368,0,1,0,0,alto
+21,5,1,0,B,Estadio,0.5,0,6,0,1,bajo
+15,2,0,0,B,Suramericana,0.333,0,6,0,0,medio
+6,1,0,0,K,Andalucia,0.25,0,9,0,1,alto
+11,6,1,0,A,Universidad,0.316,0,2,0,0,bajo
+19,4,0,1,B,Santa Lucia,0.833,0,12,0,2,alto
+15,1,0,0,A,Industriales,0.684,0,2,0,2,alto
+12,0,0,0,A,Aguacatala,0.789,0,11,0,1,medio
+15,6,1,0,B,Santa Lucia,0.833,0,12,0,0,bajo
+16,0,0,0,A,Niquia,0.0,0,2,0,0,alto
+16,0,0,0,A,Itagui,0.947,0,1,0,0,alto
+13,5,1,0,A,Hospital,0.368,0,3,0,1,medio
+8,0,0,1,A,Prado,0.421,0,11,0,0,alto
+11,2,0,0,A,San Antonio,0.526,1,8,0,0,alto
+18,5,1,1,B,Trinidad,1.0,0,2,0,0,medio
+11,4,0,0,A,Universidad,0.316,0,7,0,0,bajo
+11,6,1,0,A,Bello,0.053,0,9,0,1,bajo
+6,5,1,0,A,Hospital,0.368,0,5,0,0,medio
+7,6,1,1,B,Cisneros,0.167,0,8,0,1,medio
+21,3,0,0,A,Caribe,0.263,0,11,0,0,medio
+21,5,1,0,A,Alpujarra,0.579,0,8,0,2,medio
+17,5,1,1,B,Suramericana,0.333,0,10,0,0,alto
+11,2,0,0,A,Exposiciones,0.632,0,7,0,1,alto
+22,0,0,0,A,Prado,0.421,0,3,0,0,medio
+19,4,0,1,B,San Antonio,0.0,1,10,0,0,alto
+18,2,0,1,B,Estadio,0.5,0,8,0,0,alto
+16,0,0,0,A,Madera,0.105,0,5,0,0,alto
+7,6,1,1,B,Santa Lucia,0.833,0,5,0,0,medio
+11,5,1,0,A,San Antonio,0.526,1,6,0,0,alto
+11,5,1,0,K,Popular,0.5,0,10,0,2,medio
+14,2,0,0,A,Niquia,0.0,0,6,0,2,medio
+5,3,0,0,B,Trinidad,1.0,0,11,1,2,bajo
+11,3,0,0,A,Hospital,0.368,0,4,1,1,bajo
+19,5,1,1,B,Trinidad,1.0,0,8,0,1,medio
+11,3,0,0,K,Santo Domingo,0.75,0,8,0,1,medio
+9,2,0,1,A,Tricentenario,0.211,0,12,0,0,alto
+18,5,1,1,A,Industriales,0.684,0,7,0,1,medio
+15,4,0,0,B,Suramericana,0.333,0,1,0,1,alto
+17,3,0,1,A,Itagui,0.947,0,4,0,0,alto
+20,0,0,0,B,Cisneros,0.167,0,6,0,2,medio
+22,1,0,0,A,Acevedo,0.158,1,1,0,1,alto
+10,1,0,0,B,San Antonio,0.0,1,2,0,0,alto
+6,2,0,0,A,Poblado,0.737,0,9,0,0,alto
+10,0,0,0,B,Estadio,0.5,0,3,0,0,alto
+11,2,0,0,A,Tricentenario,0.211,0,7,0,1,medio
+14,4,0,0,B,Cisneros,0.167,0,4,1,1,bajo
+7,6,1,1,A,Poblado,0.737,0,7,1,1,medio
+20,3,0,0,B,Suramericana,0.333,0,8,0,0,alto
+14,3,0,0,B,Suramericana,0.333,0,10,0,1,alto
+12,1,0,0,A,Industriales,0.684,0,10,0,0,medio
+8,3,0,1,K,Arvi,1.0,0,12,0,0,alto
+22,2,0,0,A,Prado,0.421,0,11,1,1,bajo
+22,0,0,0,B,Estadio,0.5,0,6,0,1,bajo
+15,3,0,0,B,Trinidad,1.0,0,8,0,0,bajo
+17,2,0,1,A,Poblado,0.737,0,12,0,2,alto
+5,2,0,0,B,San Antonio,0.0,1,2,0,2,bajo
+7,0,0,1,B,Estadio,0.5,0,9,0,0,alto
+20,6,1,0,B,Cisneros,0.167,0,5,0,0,bajo
+8,4,0,1,A,Parque Berrio,0.474,0,12,0,0,alto
+13,1,0,0,K,Acevedo,0.0,1,8,0,0,medio
+19,5,1,1,B,Cisneros,0.167,0,1,0,1,medio
+8,3,0,1,B,Santa Lucia,0.833,0,12,0,0,alto
+11,1,0,0,B,Trinidad,1.0,0,6,0,0,bajo
+5,0,0,0,A,Industriales,0.684,0,6,0,0,bajo
+10,0,0,0,A,Caribe,0.263,0,7,0,0,medio
+22,5,1,0,A,San Antonio,0.526,1,4,0,0,bajo
+11,0,0,0,A,Hospital,0.368,0,6,0,0,medio
+15,0,0,0,B,Santa Lucia,0.833,0,7,0,0,medio
+16,0,0,0,K,Arvi,1.0,0,2,0,0,medio
+8,5,1,1,B,Estadio,0.5,0,9,0,2,alto
+15,5,1,0,A,La Estrella,1.0,0,12,0,1,bajo
+15,1,0,0,K,Andalucia,0.25,0,11,0,2,medio
+15,0,0,0,B,San Antonio,0.0,1,10,0,0,alto
+12,4,0,0,B,Santa Lucia,0.833,0,10,0,2,alto
+12,5,1,0,A,Parque Berrio,0.474,0,7,0,0,medio
+9,2,0,1,A,Bello,0.053,0,8,0,0,alto
+19,5,1,1,A,La Estrella,1.0,0,6,0,0,alto
+21,6,1,0,K,Acevedo,0.0,1,7,0,1,bajo
+15,1,0,0,K,Popular,0.5,0,4,1,0,bajo
+12,4,0,0,K,Andalucia,0.25,0,7,0,0,bajo
+11,0,0,0,B,San Antonio,0.0,1,11,0,2,alto
+10,4,0,0,A,Madera,0.105,0,9,0,1,alto
+19,2,0,1,B,Santa Lucia,0.833,0,3,1,0,medio
+12,2,0,0,B,Cisneros,0.167,0,5,0,0,medio
+16,3,0,0,B,San Antonio,0.0,1,7,0,0,alto
+18,6,1,1,B,Floresta,0.667,0,3,0,2,medio
+7,6,1,1,B,Trinidad,1.0,0,5,0,0,medio
+10,2,0,0,B,Santa Lucia,0.833,0,7,0,0,medio
+15,1,0,0,B,San Antonio,0.0,1,12,0,0,alto
+5,6,1,0,A,Niquia,0.0,0,9,0,1,bajo
+16,3,0,0,B,Santa Lucia,0.833,0,8,0,1,alto
+18,0,0,1,B,San Antonio,0.0,1,2,0,2,alto
+21,5,1,0,A,Alpujarra,0.579,0,8,0,1,medio
+17,3,0,1,K,Acevedo,0.0,1,12,1,0,alto
+9,2,0,1,K,Acevedo,0.0,1,10,0,2,alto
+12,4,0,0,A,Prado,0.421,0,10,0,1,alto
+17,5,1,1,K,Santo Domingo,0.75,0,10,0,0,medio
+10,6,1,0,A,Industriales,0.684,0,7,0,1,bajo
+14,5,1,0,B,Floresta,0.667,0,7,0,2,bajo
+8,5,1,1,K,Acevedo,0.0,1,10,0,1,alto
+14,0,0,0,A,Exposiciones,0.632,0,3,0,0,medio
+18,4,0,1,A,Madera,0.105,0,7,0,0,alto
+11,3,0,0,A,Tricentenario,0.211,0,3,0,2,alto
+11,1,0,0,B,Floresta,0.667,0,4,0,1,alto
+8,6,1,1,B,Estadio,0.5,0,11,0,0,medio
+8,2,0,1,A,Exposiciones,0.632,0,2,0,0,alto
+6,2,0,0,A,Niquia,0.0,0,1,0,1,alto
+11,4,0,0,A,Acevedo,0.158,1,1,0,1,alto
+15,4,0,0,B,Estadio,0.5,0,7,0,0,medio
+12,2,0,0,A,San Antonio,0.526,1,11,0,0,alto
+5,3,0,0,A,Acevedo,0.158,1,12,0,1,medio
+8,6,1,1,A,Niquia,0.0,0,9,0,2,alto
+20,4,0,0,B,Floresta,0.667,0,7,0,0,medio
+5,5,1,0,K,Popular,0.5,0,6,0,0,bajo
+20,3,0,0,B,Cisneros,0.167,0,12,0,1,medio
+20,5,1,0,A,Industriales,0.684,0,12,0,1,medio
+21,0,0,0,A,Ayura,0.842,0,3,0,1,medio
+19,1,0,1,A,Envigado,0.895,0,8,0,0,alto
+8,3,0,1,A,Madera,0.105,0,12,0,0,alto
+13,1,0,0,A,Exposiciones,0.632,0,12,0,1,alto
+22,5,1,0,K,Andalucia,0.25,0,12,0,0,bajo
+12,4,0,0,K,Popular,0.5,0,10,0,1,medio
+22,6,1,0,K,Santo Domingo,0.75,0,7,0,0,bajo
+14,0,0,0,A,Acevedo,0.158,1,2,0,0,alto
+16,1,0,0,A,Itagui,0.947,0,6,0,1,alto
+6,4,0,0,A,Parque Berrio,0.474,0,9,0,1,alto
+21,5,1,0,A,Tricentenario,0.211,0,10,0,0,bajo
+22,6,1,0,B,San Antonio,0.0,1,8,0,0,medio
+19,1,0,1,B,Santa Lucia,0.833,0,10,0,0,alto
+15,2,0,0,K,Acevedo,0.0,1,9,0,0,alto
+11,3,0,0,B,Santa Lucia,0.833,0,5,0,2,medio
+9,6,1,1,A,San Antonio,0.526,1,12,0,1,alto
+10,6,1,0,K,Acevedo,0.0,1,8,0,0,bajo
+5,4,0,0,K,Andalucia,0.25,0,7,0,0,bajo
+7,4,0,1,B,Estadio,0.5,0,12,0,0,alto
+17,0,0,1,A,Envigado,0.895,0,3,0,1,alto
+19,5,1,1,K,Popular,0.5,0,3,0,0,medio
+14,1,0,0,K,Santo Domingo,0.75,0,4,0,1,medio
+8,5,1,1,A,Itagui,0.947,0,3,0,2,alto
+10,0,0,0,B,Santa Lucia,0.833,0,2,0,2,alto
+15,4,0,0,B,Santa Lucia,0.833,0,7,0,1,medio
+6,0,0,0,B,Cisneros,0.167,0,4,0,0,medio
+7,6,1,1,K,Santo Domingo,0.75,0,8,0,1,bajo
+19,2,0,1,B,Suramericana,0.333,0,1,0,0,alto
+5,4,0,0,B,Cisneros,0.167,0,10,0,0,bajo
+10,3,0,0,K,Acevedo,0.0,1,8,0,1,alto
+22,1,0,0,A,Madera,0.105,0,7,0,1,medio
+22,6,1,0,B,Floresta,0.667,0,9,0,0,bajo
+11,5,1,0,K,Acevedo,0.0,1,2,0,2,medio
+5,4,0,0,K,Andalucia,0.25,0,8,0,0,bajo
+7,4,0,1,K,Andalucia,0.25,0,5,0,1,alto
+21,2,0,0,A,Acevedo,0.158,1,6,0,0,alto
+6,4,0,0,A,Parque Berrio,0.474,0,5,0,0,alto
+20,5,1,0,A,Itagui,0.947,0,6,0,2,alto
+8,5,1,1,B,Cisneros,0.167,0,1,0,0,medio
+11,1,0,0,A,Parque Berrio,0.474,0,10,0,0,alto
+7,4,0,1,B,Estadio,0.5,0,5,0,0,alto
+19,0,0,1,A,Exposiciones,0.632,0,5,0,0,alto
+11,5,1,0,A,Prado,0.421,0,6,0,1,bajo
+10,3,0,0,B,Floresta,0.667,0,3,0,2,alto
+7,2,0,1,B,Cisneros,0.167,0,2,0,0,alto
+7,2,0,1,B,Estadio,0.5,0,11,1,0,medio
+5,0,0,0,A,Prado,0.421,0,7,0,0,bajo
+10,4,0,0,A,Acevedo,0.158,1,12,0,1,alto
+14,4,0,0,A,Itagui,0.947,0,5,0,0,medio
+15,6,1,0,A,Caribe,0.263,0,7,0,0,bajo
+17,3,0,1,B,Floresta,0.667,0,10,0,0,medio
+9,5,1,1,K,Arvi,1.0,0,3,0,0,medio
+12,5,1,0,K,Popular,0.5,0,10,0,1,bajo
+16,6,1,0,A,Poblado,0.737,0,8,0,0,medio
+14,5,1,0,K,Andalucia,0.25,0,2,0,0,bajo
+7,0,0,1,A,Madera,0.105,0,12,1,2,medio
+22,3,0,0,K,Popular,0.5,0,1,0,1,medio
+20,3,0,0,K,Andalucia,0.25,0,9,0,2,alto
+11,6,1,0,B,San Antonio,0.0,1,12,0,1,bajo
+16,1,0,0,K,Arvi,1.0,0,12,0,2,alto
+6,4,0,0,B,Santa Lucia,0.833,0,8,0,1,medio
+10,0,0,0,B,Cisneros,0.167,0,6,0,0,medio
+10,2,0,0,B,Estadio,0.5,0,2,0,2,alto
+8,2,0,1,A,Envigado,0.895,0,5,0,0,alto
+11,2,0,0,B,Estadio,0.5,0,11,1,1,medio
+20,0,0,0,A,Poblado,0.737,0,6,0,1,alto
+10,3,0,0,A,Alpujarra,0.579,0,6,0,0,alto
+7,4,0,1,B,Cisneros,0.167,0,9,0,0,alto
+12,3,0,0,K,Popular,0.5,0,7,0,0,medio
+22,6,1,0,B,Cisneros,0.167,0,5,0,2,bajo
+18,0,0,1,A,Alpujarra,0.579,0,6,0,1,alto
+14,0,0,0,A,Universidad,0.316,0,3,0,0,alto
+20,5,1,0,K,Andalucia,0.25,0,5,0,0,bajo
+9,2,0,1,B,Estadio,0.5,0,7,0,1,alto
+8,6,1,1,A,Acevedo,0.158,1,1,0,0,medio
+12,0,0,0,B,San Antonio,0.0,1,11,0,0,alto
+14,2,0,0,B,Estadio,0.5,0,8,0,1,medio
+9,5,1,1,A,La Estrella,1.0,0,9,0,0,alto
+18,1,0,1,K,Andalucia,0.25,0,8,0,1,medio
+10,1,0,0,A,Ayura,0.842,0,10,0,1,alto
+11,1,0,0,A,Prado,0.421,0,7,0,1,alto
+17,3,0,1,A,Bello,0.053,0,9,0,1,alto
+6,4,0,0,B,Estadio,0.5,0,7,0,0,alto
+16,2,0,0,A,Prado,0.421,0,6,1,0,bajo
+6,5,1,0,A,Niquia,0.0,0,12,0,0,medio
+8,3,0,1,B,Suramericana,0.333,0,3,0,2,alto
+22,6,1,0,A,Niquia,0.0,0,3,0,0,bajo
+21,4,0,0,A,Itagui,0.947,0,6,0,1,medio
+8,0,0,1,A,Tricentenario,0.211,0,10,0,1,alto
+8,0,0,1,A,Poblado,0.737,0,9,0,0,alto
+9,0,0,1,A,Envigado,0.895,0,3,0,0,medio
+22,2,0,0,K,Popular,0.5,0,6,0,1,medio
+21,4,0,0,B,Estadio,0.5,0,1,1,1,bajo
+14,0,0,0,K,Andalucia,0.25,0,10,0,1,medio
+22,6,1,0,B,Estadio,0.5,0,9,0,0,bajo
+22,6,1,0,B,Estadio,0.5,0,7,0,1,bajo
+5,6,1,0,B,Cisneros,0.167,0,9,0,0,bajo
+13,2,0,0,K,Arvi,1.0,0,4,0,1,bajo
+12,2,0,0,A,Envigado,0.895,0,1,0,0,medio
+13,6,1,0,A,Tricentenario,0.211,0,1,0,2,medio
+16,5,1,0,A,Niquia,0.0,0,10,0,0,medio
+13,5,1,0,K,Arvi,1.0,0,3,0,2,bajo
+16,1,0,0,K,Acevedo,0.0,1,12,0,0,alto
+8,5,1,1,A,Envigado,0.895,0,12,0,0,medio
+22,1,0,0,K,Arvi,1.0,0,8,0,0,bajo
+17,1,0,1,A,Itagui,0.947,0,8,0,1,alto
+20,1,0,0,B,San Antonio,0.0,1,8,0,1,alto
+20,5,1,0,A,Universidad,0.316,0,3,0,0,medio
+11,0,0,0,B,Santa Lucia,0.833,0,3,0,0,alto
+17,0,0,1,B,Santa Lucia,0.833,0,12,0,0,alto
+17,0,0,1,A,Exposiciones,0.632,0,2,0,0,alto
+9,1,0,1,K,Acevedo,0.0,1,2,0,0,alto
+22,5,1,0,A,Acevedo,0.158,1,6,0,1,medio
+20,6,1,0,A,Tricentenario,0.211,0,10,0,1,medio
+22,5,1,0,A,Bello,0.053,0,5,0,0,bajo
+8,4,0,1,A,Bello,0.053,0,5,0,0,alto
+12,3,0,0,A,Niquia,0.0,0,7,0,0,medio
+17,5,1,1,A,Hospital,0.368,0,12,0,2,medio
+14,2,0,0,A,Acevedo,0.158,1,2,0,0,alto
+6,4,0,0,A,Madera,0.105,0,3,0,0,alto
+14,4,0,0,B,Cisneros,0.167,0,5,0,2,alto
+16,2,0,0,A,Aguacatala,0.789,0,12,0,0,alto
+15,1,0,0,A,Tricentenario,0.211,0,7,0,1,medio
+7,0,0,1,B,Trinidad,1.0,0,10,0,2,alto
+17,2,0,1,A,Caribe,0.263,0,6,0,0,alto
+15,1,0,0,K,Santo Domingo,0.75,0,11,0,0,bajo
+22,6,1,0,B,Floresta,0.667,0,4,0,0,bajo
+21,4,0,0,K,Santo Domingo,0.75,0,12,0,1,bajo
+5,2,0,0,A,Universidad,0.316,0,9,0,2,bajo
+16,2,0,0,A,Bello,0.053,0,3,0,0,alto
+11,6,1,0,B,Cisneros,0.167,0,4,0,1,bajo
+17,5,1,1,A,Tricentenario,0.211,0,1,0,2,alto
+7,3,0,1,K,Arvi,1.0,0,10,0,0,alto
+9,0,0,1,A,Alpujarra,0.579,0,4,0,0,alto
+9,5,1,1,A,Aguacatala,0.789,0,9,0,2,alto
+15,3,0,0,B,Estadio,0.5,0,11,0,0,alto
+10,4,0,0,K,Acevedo,0.0,1,3,0,0,alto
+19,4,0,1,B,Santa Lucia,0.833,0,12,0,0,alto
+10,2,0,0,A,Industriales,0.684,0,2,0,0,alto
+17,4,0,1,A,Universidad,0.316,0,1,0,0,alto
+7,6,1,1,B,Trinidad,1.0,0,12,0,0,bajo
+17,1,0,1,K,Santo Domingo,0.75,0,1,0,0,alto
+16,4,0,0,A,Madera,0.105,0,6,0,0,alto
+8,0,0,1,A,Envigado,0.895,0,4,0,0,alto
+12,2,0,0,A,Bello,0.053,0,2,0,1,medio
+20,0,0,0,B,Trinidad,1.0,0,1,0,0,medio
+21,1,0,0,A,Exposiciones,0.632,0,6,0,0,alto
+8,2,0,1,A,Tricentenario,0.211,0,7,0,0,alto
+17,3,0,1,A,Itagui,0.947,0,10,0,2,alto
+9,5,1,1,A,Caribe,0.263,0,8,0,2,alto
+10,4,0,0,A,Tricentenario,0.211,0,9,0,1,alto
+15,3,0,0,B,Trinidad,1.0,0,3,0,0,bajo
+12,1,0,0,A,Exposiciones,0.632,0,10,0,0,medio
+20,0,0,0,A,Itagui,0.947,0,1,0,1,alto
+8,3,0,1,A,Aguacatala,0.789,0,6,0,2,alto
+13,4,0,0,A,Madera,0.105,0,6,0,0,medio
+13,6,1,0,A,Aguacatala,0.789,0,8,0,2,medio
+20,0,0,0,A,Itagui,0.947,0,6,0,0,medio
+19,2,0,1,K,Andalucia,0.25,0,9,0,1,alto
+7,5,1,1,A,Alpujarra,0.579,0,7,0,0,alto
+6,5,1,0,A,La Estrella,1.0,0,4,0,1,bajo
+8,2,0,1,A,Tricentenario,0.211,0,7,0,1,alto
+7,2,0,1,B,Santa Lucia,0.833,0,8,0,1,alto
+7,1,0,1,B,San Antonio,0.0,1,12,0,2,alto
+15,0,0,0,A,Exposiciones,0.632,0,6,0,2,medio
+20,0,0,0,B,Cisneros,0.167,0,5,0,0,alto
+15,4,0,0,K,Andalucia,0.25,0,1,0,1,medio
+18,3,0,1,A,Alpujarra,0.579,0,4,0,0,alto
+13,5,1,0,B,Suramericana,0.333,0,3,0,0,bajo
+7,2,0,1,A,Exposiciones,0.632,0,12,0,2,alto
+6,0,0,0,A,Caribe,0.263,0,7,0,2,alto
+11,2,0,0,A,Caribe,0.263,0,7,0,0,medio
+16,5,1,0,K,Santo Domingo,0.75,0,10,1,1,bajo
+11,0,0,0,B,Trinidad,1.0,0,12,0,1,medio
+5,1,0,0,K,Popular,0.5,0,8,0,0,bajo
+18,2,0,1,A,Acevedo,0.158,1,9,0,0,alto
+8,0,0,1,A,Poblado,0.737,0,4,0,2,alto
+22,6,1,0,B,Santa Lucia,0.833,0,3,0,0,bajo
+5,2,0,0,K,Arvi,1.0,0,6,0,0,bajo
+8,5,1,1,A,Ayura,0.842,0,8,0,2,alto
+21,6,1,0,B,Estadio,0.5,0,6,0,2,bajo
+16,1,0,0,B,Estadio,0.5,0,9,0,0,alto
+14,5,1,0,K,Santo Domingo,0.75,0,10,0,0,bajo
+7,5,1,1,A,Acevedo,0.158,1,1,0,2,alto
+8,5,1,1,B,Floresta,0.667,0,8,0,1,alto
+18,1,0,1,A,Parque Berrio,0.474,0,4,0,0,alto
+16,6,1,0,B,San Antonio,0.0,1,8,0,2,medio
+5,2,0,0,K,Santo Domingo,0.75,0,4,1,0,bajo
+12,0,0,0,B,Santa Lucia,0.833,0,7,0,0,bajo
+21,6,1,0,A,Alpujarra,0.579,0,12,0,0,bajo
+22,3,0,0,B,Cisneros,0.167,0,4,0,1,medio
+18,1,0,1,A,Itagui,0.947,0,11,0,2,alto
+18,1,0,1,B,Cisneros,0.167,0,2,0,1,alto
+17,6,1,1,B,San Antonio,0.0,1,11,0,1,alto
+5,3,0,0,A,Madera,0.105,0,1,0,1,bajo
+22,0,0,0,A,Niquia,0.0,0,10,1,0,bajo
+10,1,0,0,K,Popular,0.5,0,11,0,0,bajo
+12,5,1,0,B,Trinidad,1.0,0,7,0,0,bajo
+8,0,0,1,A,Niquia,0.0,0,8,0,0,alto
+13,1,0,0,A,Parque Berrio,0.474,0,2,0,0,medio
+20,6,1,0,B,San Antonio,0.0,1,1,0,0,alto
+11,5,1,0,K,Acevedo,0.0,1,7,0,2,bajo
+14,0,0,0,A,Caribe,0.263,0,3,0,1,medio
+6,0,0,0,B,Trinidad,1.0,0,6,0,0,medio
+13,0,0,0,A,Ayura,0.842,0,4,0,0,medio
+21,6,1,0,A,Ayura,0.842,0,3,0,2,bajo
+12,0,0,0,A,Tricentenario,0.211,0,12,0,2,alto
+20,1,0,0,A,Prado,0.421,0,2,0,1,alto
+21,3,0,0,B,Estadio,0.5,0,4,0,0,medio
+17,0,0,1,K,Popular,0.5,0,10,0,1,alto
+18,3,0,1,K,Santo Domingo,0.75,0,7,1,1,medio
+8,4,0,1,A,La Estrella,1.0,0,7,0,0,alto
+10,0,0,0,A,Poblado,0.737,0,9,0,1,alto
+21,2,0,0,A,La Estrella,1.0,0,7,0,0,medio
+12,0,0,0,A,Alpujarra,0.579,0,4,0,0,medio
+8,0,0,1,A,San Antonio,0.526,1,6,1,0,alto
+22,0,0,0,A,Hospital,0.368,0,7,0,1,medio
+8,4,0,1,B,Cisneros,0.167,0,5,0,1,alto
+18,5,1,1,A,Itagui,0.947,0,7,0,1,medio
+6,6,1,0,A,Universidad,0.316,0,8,0,0,medio
+15,4,0,0,B,Cisneros,0.167,0,7,0,1,medio
+5,3,0,0,A,Niquia,0.0,0,5,0,1,bajo
+15,5,1,0,B,San Antonio,0.0,1,1,0,0,medio
+14,2,0,0,B,Santa Lucia,0.833,0,6,0,0,medio
+6,3,0,0,B,Floresta,0.667,0,5,0,2,alto
+8,6,1,1,B,Trinidad,1.0,0,6,0,0,bajo
+15,6,1,0,A,Acevedo,0.158,1,12,0,0,medio
+11,5,1,0,A,Madera,0.105,0,6,0,2,alto
+6,0,0,0,A,Prado,0.421,0,1,0,0,alto
+17,2,0,1,A,La Estrella,1.0,0,12,0,2,alto
+18,5,1,1,A,Tricentenario,0.211,0,8,0,0,alto
+20,5,1,0,B,Cisneros,0.167,0,8,0,0,medio
+7,2,0,1,A,Parque Berrio,0.474,0,9,0,2,alto
+7,0,0,1,K,Andalucia,0.25,0,8,0,0,alto
+20,0,0,0,B,Cisneros,0.167,0,6,0,1,medio
+15,6,1,0,B,Floresta,0.667,0,5,0,0,bajo
+16,3,0,0,A,Hospital,0.368,0,8,0,1,alto
+11,0,0,0,A,Exposiciones,0.632,0,5,0,0,medio
+9,3,0,1,K,Acevedo,0.0,1,2,0,0,alto
+10,2,0,0,A,Poblado,0.737,0,1,0,1,alto
+16,3,0,0,B,San Antonio,0.0,1,4,0,0,alto
+15,0,0,0,B,Floresta,0.667,0,8,0,0,alto
+14,1,0,0,B,Cisneros,0.167,0,7,0,1,medio
+20,4,0,0,B,Floresta,0.667,0,7,0,1,medio
+6,0,0,0,A,Acevedo,0.158,1,10,0,0,alto
+13,1,0,0,B,San Antonio,0.0,1,10,0,1,alto
+20,1,0,0,K,Popular,0.5,0,3,0,0,alto
+14,5,1,0,K,Popular,0.5,0,1,0,0,medio
+12,1,0,0,K,Popular,0.5,0,6,0,0,bajo
+19,1,0,1,A,San Antonio,0.526,1,1,0,0,alto
+10,5,1,0,A,Madera,0.105,0,1,0,0,medio
+5,3,0,0,B,Floresta,0.667,0,4,0,0,bajo
+21,4,0,0,A,Hospital,0.368,0,3,0,0,medio
+14,6,1,0,A,Acevedo,0.158,1,12,0,0,medio
+13,2,0,0,A,Aguacatala,0.789,0,8,0,1,bajo
+21,6,1,0,A,San Antonio,0.526,1,11,0,2,alto
+5,1,0,0,A,Ayura,0.842,0,7,0,0,bajo
+20,0,0,0,A,Alpujarra,0.579,0,4,0,1,alto
+11,3,0,0,K,Acevedo,0.0,1,11,0,2,alto
+19,4,0,1,K,Arvi,1.0,0,3,0,2,alto
+13,2,0,0,B,Estadio,0.5,0,4,0,1,alto
+8,3,0,1,K,Popular,0.5,0,8,0,2,alto
+9,3,0,1,A,Aguacatala,0.789,0,11,0,0,alto
+22,5,1,0,A,La Estrella,1.0,0,3,0,0,bajo
+11,2,0,0,B,San Antonio,0.0,1,10,0,0,alto
+18,2,0,1,A,Niquia,0.0,0,11,0,0,alto
+22,1,0,0,A,Ayura,0.842,0,2,0,0,medio
+18,4,0,1,K,Andalucia,0.25,0,2,0,0,alto
+18,3,0,1,K,Santo Domingo,0.75,0,2,0,2,alto
+10,4,0,0,B,Suramericana,0.333,0,7,0,2,alto
+9,3,0,1,A,Prado,0.421,0,9,0,0,alto
+19,4,0,1,A,Parque Berrio,0.474,0,3,0,1,alto
+15,4,0,0,B,Estadio,0.5,0,11,0,0,medio
+19,3,0,1,A,Industriales,0.684,0,7,0,0,alto
+9,4,0,1,B,San Antonio,0.0,1,5,0,0,alto
+9,4,0,1,B,Suramericana,0.333,0,9,0,2,alto
+5,3,0,0,A,Exposiciones,0.632,0,9,0,1,medio
+13,6,1,0,A,Bello,0.053,0,11,0,0,bajo
+15,6,1,0,B,Santa Lucia,0.833,0,1,0,1,bajo
+6,5,1,0,K,Arvi,1.0,0,4,1,0,bajo
+14,5,1,0,A,Tricentenario,0.211,0,5,0,2,bajo
+11,0,0,0,A,Aguacatala,0.789,0,2,0,0,alto
+8,3,0,1,A,Universidad,0.316,0,1,0,0,alto
+8,2,0,1,B,San Antonio,0.0,1,7,0,2,alto
+19,6,1,1,B,Suramericana,0.333,0,11,0,0,bajo
+10,1,0,0,A,Niquia,0.0,0,12,0,0,medio
+20,2,0,0,A,Aguacatala,0.789,0,5,0,0,alto
+16,5,1,0,B,Estadio,0.5,0,5,0,0,medio
+5,2,0,0,B,Cisneros,0.167,0,8,0,1,bajo
+14,0,0,0,A,Itagui,0.947,0,11,0,2,alto
+19,5,1,1,A,Tricentenario,0.211,0,8,0,0,alto
+21,6,1,0,A,Alpujarra,0.579,0,9,0,0,bajo
+9,2,0,1,A,Caribe,0.263,0,11,0,1,alto
+9,2,0,1,B,Santa Lucia,0.833,0,11,0,2,alto
+20,4,0,0,B,Estadio,0.5,0,11,0,1,alto
+21,2,0,0,B,Trinidad,1.0,0,3,0,0,medio
+17,0,0,1,B,Trinidad,1.0,0,1,1,2,medio
+8,5,1,1,A,Hospital,0.368,0,2,0,2,alto
+8,1,0,1,K,Andalucia,0.25,0,12,0,1,alto
+6,4,0,0,B,San Antonio,0.0,1,5,0,0,alto
+5,1,0,0,A,La Estrella,1.0,0,6,0,1,bajo
+22,1,0,0,B,Cisneros,0.167,0,4,0,0,bajo
+18,6,1,1,K,Andalucia,0.25,0,9,0,1,medio
+5,5,1,0,A,Itagui,0.947,0,11,0,0,bajo
+22,6,1,0,A,Industriales,0.684,0,2,0,0,bajo
+20,1,0,0,K,Arvi,1.0,0,4,0,1,medio
+9,6,1,1,B,Trinidad,1.0,0,2,0,0,medio
+7,4,0,1,B,Trinidad,1.0,0,2,0,1,alto
+22,2,0,0,A,Bello,0.053,0,1,0,1,medio
+17,5,1,1,A,Prado,0.421,0,6,0,2,alto
+12,6,1,0,B,Floresta,0.667,0,9,0,0,bajo
+6,4,0,0,B,Floresta,0.667,0,12,0,1,alto
+6,2,0,0,K,Acevedo,0.0,1,7,0,0,medio
+11,4,0,0,A,Tricentenario,0.211,0,12,0,2,medio
+7,6,1,1,A,Aguacatala,0.789,0,10,0,1,medio
+7,3,0,1,A,Alpujarra,0.579,0,10,0,1,alto
+6,0,0,0,A,Prado,0.421,0,1,0,0,alto
+18,3,0,1,K,Popular,0.5,0,5,0,1,alto
+11,4,0,0,A,Niquia,0.0,0,10,0,0,medio
+22,3,0,0,K,Acevedo,0.0,1,1,0,1,medio
+9,0,0,1,B,Floresta,0.667,0,8,0,2,alto
+11,2,0,0,A,Alpujarra,0.579,0,7,0,0,alto
+22,4,0,0,B,Santa Lucia,0.833,0,1,0,0,medio
+6,0,0,0,K,Andalucia,0.25,0,1,0,0,medio
+12,2,0,0,B,Santa Lucia,0.833,0,3,0,0,medio
+7,0,0,1,K,Acevedo,0.0,1,5,0,0,alto
+14,2,0,0,A,Poblado,0.737,0,9,0,2,medio
+13,2,0,0,A,Ayura,0.842,0,12,0,0,alto
+20,2,0,0,K,Arvi,1.0,0,2,0,2,alto
+14,5,1,0,B,Cisneros,0.167,0,9,0,0,bajo
+19,5,1,1,A,Hospital,0.368,0,8,0,0,medio
+13,4,0,0,A,Prado,0.421,0,7,0,1,alto
+20,0,0,0,B,Estadio,0.5,0,7,0,0,alto
+17,1,0,1,A,Universidad,0.316,0,11,0,0,alto
+15,6,1,0,A,Niquia,0.0,0,5,0,1,bajo
+15,5,1,0,A,Niquia,0.0,0,10,0,2,medio
+22,3,0,0,A,Acevedo,0.158,1,12,0,0,medio
+18,4,0,1,B,Estadio,0.5,0,12,0,1,alto
+12,1,0,0,B,Santa Lucia,0.833,0,1,0,1,alto
+12,6,1,0,A,Madera,0.105,0,9,0,0,bajo
+13,6,1,0,A,Prado,0.421,0,11,0,1,medio
+14,4,0,0,A,Acevedo,0.158,1,11,0,1,alto
+5,3,0,0,A,Poblado,0.737,0,1,0,0,bajo
+18,0,0,1,B,Cisneros,0.167,0,10,0,0,alto
+10,2,0,0,A,Poblado,0.737,0,5,0,2,alto
+10,1,0,0,A,Hospital,0.368,0,10,0,0,alto
+19,4,0,1,K,Arvi,1.0,0,6,1,1,bajo
+13,2,0,0,A,Bello,0.053,0,1,0,1,alto
+12,2,0,0,A,La Estrella,1.0,0,2,0,0,medio
+7,1,0,1,A,Ayura,0.842,0,4,0,1,alto
+14,1,0,0,A,Industriales,0.684,0,1,0,1,medio
+18,5,1,1,A,San Antonio,0.526,1,6,0,2,alto
+14,1,0,0,A,Bello,0.053,0,10,0,0,alto
+21,5,1,0,A,San Antonio,0.526,1,12,0,1,medio
+6,5,1,0,B,Trinidad,1.0,0,12,0,0,bajo
+7,1,0,1,K,Acevedo,0.0,1,10,0,2,alto
+8,6,1,1,B,Santa Lucia,0.833,0,9,0,0,bajo
+21,4,0,0,B,Santa Lucia,0.833,0,8,0,0,medio
+12,6,1,0,A,San Antonio,0.526,1,6,0,0,medio
+12,3,0,0,K,Acevedo,0.0,1,12,0,0,medio
+12,3,0,0,A,Aguacatala,0.789,0,7,0,1,alto
+12,6,1,0,A,Envigado,0.895,0,7,0,1,bajo
+15,0,0,0,A,San Antonio,0.526,1,2,0,0,alto
+20,5,1,0,A,Itagui,0.947,0,4,0,2,alto
+20,5,1,0,A,Envigado,0.895,0,2,0,2,medio
+10,0,0,0,B,San Antonio,0.0,1,3,0,2,alto
+17,5,1,1,A,Tricentenario,0.211,0,9,0,1,alto
+15,4,0,0,A,San Antonio,0.526,1,10,0,0,alto
+18,5,1,1,A,Poblado,0.737,0,8,0,1,alto
+9,5,1,1,A,Aguacatala,0.789,0,3,1,1,alto
+5,4,0,0,A,Tricentenario,0.211,0,10,0,1,bajo
+15,3,0,0,B,Estadio,0.5,0,3,0,1,medio
+20,2,0,0,A,Parque Berrio,0.474,0,1,0,0,alto
+21,6,1,0,B,Floresta,0.667,0,7,0,0,bajo
+11,3,0,0,A,Bello,0.053,0,9,0,1,alto
+8,2,0,1,B,Suramericana,0.333,0,5,0,0,alto
+13,4,0,0,A,Parque Berrio,0.474,0,2,0,1,alto
+11,4,0,0,A,Acevedo,0.158,1,9,0,0,alto
+11,0,0,0,B,Floresta,0.667,0,8,0,1,medio
+14,4,0,0,A,Universidad,0.316,0,7,0,0,alto
+19,3,0,1,A,Acevedo,0.158,1,8,0,0,alto
+8,2,0,1,A,Prado,0.421,0,2,0,1,alto
+13,3,0,0,B,Suramericana,0.333,0,11,0,0,medio
+6,3,0,0,A,San Antonio,0.526,1,2,0,1,alto
+5,1,0,0,K,Acevedo,0.0,1,3,0,0,medio
+13,3,0,0,A,Universidad,0.316,0,3,0,1,alto
+21,6,1,0,A,Madera,0.105,0,12,0,0,bajo
+20,4,0,0,B,San Antonio,0.0,1,10,0,1,alto
+12,5,1,0,B,Estadio,0.5,0,6,0,0,bajo
+12,2,0,0,A,Parque Berrio,0.474,0,11,0,0,alto
+14,0,0,0,B,Estadio,0.5,0,4,0,2,medio
+19,2,0,1,A,Industriales,0.684,0,4,0,0,alto
+16,5,1,0,K,Acevedo,0.0,1,7,0,0,alto
+20,4,0,0,B,Trinidad,1.0,0,7,0,0,medio
+22,6,1,0,B,San Antonio,0.0,1,6,0,1,bajo
+19,3,0,1,B,Estadio,0.5,0,7,0,2,alto
+14,3,0,0,A,Bello,0.053,0,7,0,1,alto
+11,6,1,0,A,Envigado,0.895,0,11,0,2,bajo
+5,5,1,0,B,Floresta,0.667,0,1,0,0,bajo
+16,6,1,0,K,Popular,0.5,0,9,0,1,bajo
+22,3,0,0,A,Caribe,0.263,0,12,1,0,bajo
+15,3,0,0,A,Alpujarra,0.579,0,4,1,1,medio
+8,4,0,1,A,Ayura,0.842,0,7,0,0,alto
+14,0,0,0,A,Parque Berrio,0.474,0,4,0,1,alto
+17,1,0,1,A,Exposiciones,0.632,0,12,0,2,alto
+21,5,1,0,A,Madera,0.105,0,12,1,1,bajo
+9,0,0,1,B,Floresta,0.667,0,12,0,1,alto
+14,6,1,0,A,La Estrella,1.0,0,6,0,0,bajo
+13,5,1,0,A,Acevedo,0.158,1,10,0,0,alto
+12,3,0,0,B,San Antonio,0.0,1,9,0,0,alto
+5,3,0,0,A,Exposiciones,0.632,0,12,0,2,bajo
+8,3,0,1,B,Santa Lucia,0.833,0,4,0,2,alto
+8,5,1,1,A,Aguacatala,0.789,0,5,0,0,alto
+8,4,0,1,K,Acevedo,0.0,1,3,0,2,alto
+20,4,0,0,A,Exposiciones,0.632,0,12,0,1,alto
+20,2,0,0,A,Bello,0.053,0,7,0,1,alto
+18,6,1,1,K,Arvi,1.0,0,1,0,1,bajo
+20,4,0,0,B,Trinidad,1.0,0,8,0,2,alto
+22,6,1,0,B,Floresta,0.667,0,12,0,0,bajo
+7,3,0,1,A,Industriales,0.684,0,3,0,0,alto
+8,0,0,1,A,Poblado,0.737,0,7,0,0,alto
+9,5,1,1,B,Estadio,0.5,0,9,0,0,alto
+21,2,0,0,A,Prado,0.421,0,10,0,1,alto
+14,4,0,0,A,Tricentenario,0.211,0,11,0,1,alto
+20,3,0,0,B,Suramericana,0.333,0,4,0,2,alto
+10,4,0,0,K,Andalucia,0.25,0,12,0,0,medio
+5,2,0,0,B,San Antonio,0.0,1,12,0,0,bajo
+19,2,0,1,A,Envigado,0.895,0,2,0,1,alto
+12,2,0,0,K,Arvi,1.0,0,11,0,2,medio
+18,4,0,1,A,Parque Berrio,0.474,0,12,0,0,alto
+11,0,0,0,B,Floresta,0.667,0,10,0,0,bajo
+10,2,0,0,A,Prado,0.421,0,10,0,0,alto
+13,6,1,0,B,Suramericana,0.333,0,12,0,1,bajo
+10,0,0,0,B,Cisneros,0.167,0,4,0,0,alto
+5,2,0,0,A,Aguacatala,0.789,0,2,0,0,bajo
+20,2,0,0,B,Estadio,0.5,0,5,0,1,alto
+20,2,0,0,B,Santa Lucia,0.833,0,5,0,0,alto
+11,1,0,0,B,San Antonio,0.0,1,11,0,0,alto
+13,5,1,0,B,Estadio,0.5,0,2,0,2,medio
+10,0,0,0,K,Popular,0.5,0,6,0,0,medio
+22,1,0,0,A,La Estrella,1.0,0,7,0,0,bajo
+11,3,0,0,K,Acevedo,0.0,1,6,0,0,medio
+21,0,0,0,A,Prado,0.421,0,10,0,0,medio
+17,0,0,1,A,Aguacatala,0.789,0,12,0,0,alto
+19,3,0,1,A,Aguacatala,0.789,0,3,0,1,alto
+8,0,0,1,K,Arvi,1.0,0,6,0,1,medio
+7,3,0,1,A,Tricentenario,0.211,0,2,0,0,alto
+15,0,0,0,K,Acevedo,0.0,1,9,0,2,alto
+15,5,1,0,A,San Antonio,0.526,1,3,0,1,alto
+5,5,1,0,A,Ayura,0.842,0,7,0,1,bajo
+13,0,0,0,B,Cisneros,0.167,0,3,0,0,medio
+21,3,0,0,B,Cisneros,0.167,0,3,0,1,medio
+16,0,0,0,A,Envigado,0.895,0,6,0,1,alto
+19,0,0,1,K,Acevedo,0.0,1,2,0,0,alto
+10,6,1,0,K,Acevedo,0.0,1,1,0,1,medio
+12,2,0,0,B,San Antonio,0.0,1,11,0,2,alto
+14,0,0,0,K,Andalucia,0.25,0,7,0,0,bajo
+15,3,0,0,A,Tricentenario,0.211,0,4,0,0,alto
+19,2,0,1,A,Prado,0.421,0,2,0,0,alto
+21,3,0,0,A,Alpujarra,0.579,0,11,0,1,alto
+22,4,0,0,B,Cisneros,0.167,0,4,0,0,medio
+11,2,0,0,K,Popular,0.5,0,12,0,1,medio
+11,2,0,0,B,Trinidad,1.0,0,4,0,0,bajo
+10,3,0,0,A,Ayura,0.842,0,3,0,1,alto
+15,5,1,0,B,San Antonio,0.0,1,2,0,0,medio
+18,3,0,1,A,Caribe,0.263,0,6,0,1,alto
+19,4,0,1,A,Caribe,0.263,0,3,0,0,alto
+18,5,1,1,B,Estadio,0.5,0,7,0,1,medio
+17,2,0,1,A,Aguacatala,0.789,0,1,0,1,alto
+18,3,0,1,B,San Antonio,0.0,1,5,0,0,alto
+21,1,0,0,A,La Estrella,1.0,0,10,0,0,medio
+6,0,0,0,K,Popular,0.5,0,5,0,1,alto
+5,5,1,0,A,Poblado,0.737,0,3,0,2,bajo
+7,1,0,1,A,Parque Berrio,0.474,0,4,0,0,alto
+16,0,0,0,K,Arvi,1.0,0,8,0,0,medio
+17,5,1,1,B,Floresta,0.667,0,4,0,1,alto
+9,2,0,1,A,Exposiciones,0.632,0,3,0,1,alto
+17,4,0,1,A,Industriales,0.684,0,2,0,0,alto
+10,6,1,0,A,La Estrella,1.0,0,4,0,0,bajo
+5,4,0,0,B,Trinidad,1.0,0,10,0,0,bajo
+6,1,0,0,B,Cisneros,0.167,0,5,0,0,alto
+10,3,0,0,B,Santa Lucia,0.833,0,3,0,0,medio
+10,1,0,0,A,Industriales,0.684,0,7,0,0,medio
+7,2,0,1,A,Poblado,0.737,0,11,0,0,alto
+15,1,0,0,A,Caribe,0.263,0,10,0,0,medio
+20,5,1,0,B,San Antonio,0.0,1,11,0,0,alto
+19,4,0,1,K,Acevedo,0.0,1,6,0,0,alto
+16,0,0,0,A,Envigado,0.895,0,3,0,0,medio
+15,5,1,0,A,Niquia,0.0,0,10,0,0,medio
+19,3,0,1,B,Santa Lucia,0.833,0,1,0,0,alto
+16,2,0,0,A,Bello,0.053,0,7,0,1,alto
+13,1,0,0,A,Envigado,0.895,0,5,0,0,medio
+8,2,0,1,A,La Estrella,1.0,0,12,0,0,alto
+10,0,0,0,B,Cisneros,0.167,0,9,0,0,alto
+19,5,1,1,A,Alpujarra,0.579,0,10,0,2,alto
+19,0,0,1,K,Arvi,1.0,0,2,0,0,alto
+17,4,0,1,K,Acevedo,0.0,1,12,0,0,alto
+18,3,0,1,K,Popular,0.5,0,1,1,2,medio
+8,6,1,1,A,Industriales,0.684,0,4,0,0,alto
+21,4,0,0,A,La Estrella,1.0,0,4,0,1,medio
+10,2,0,0,B,Suramericana,0.333,0,9,0,0,alto
+14,2,0,0,B,Cisneros,0.167,0,1,0,0,medio
+19,4,0,1,A,Prado,0.421,0,11,0,0,alto
+15,1,0,0,A,Niquia,0.0,0,2,0,0,medio
+15,4,0,0,B,Estadio,0.5,0,7,0,2,medio
+15,2,0,0,A,San Antonio,0.526,1,6,0,0,alto
+10,5,1,0,A,Envigado,0.895,0,7,0,0,medio
+7,5,1,1,K,Arvi,1.0,0,8,1,2,alto
+14,2,0,0,B,Suramericana,0.333,0,6,0,1,medio
+10,4,0,0,A,Tricentenario,0.211,0,6,0,0,alto
+20,1,0,0,A,Envigado,0.895,0,7,0,0,alto
+8,0,0,1,B,Trinidad,1.0,0,7,0,0,alto
+22,3,0,0,A,Exposiciones,0.632,0,6,0,0,medio
+15,6,1,0,B,Suramericana,0.333,0,6,0,0,bajo
+21,4,0,0,K,Popular,0.5,0,9,0,0,bajo
+19,2,0,1,B,Estadio,0.5,0,8,0,2,alto
+15,6,1,0,B,Trinidad,1.0,0,8,0,0,bajo
+18,3,0,1,A,Exposiciones,0.632,0,7,0,1,alto
+7,4,0,1,B,Floresta,0.667,0,10,0,0,alto
+12,1,0,0,A,San Antonio,0.526,1,10,0,0,alto
+17,4,0,1,K,Arvi,1.0,0,9,0,0,alto
+16,5,1,0,A,Poblado,0.737,0,4,0,0,medio
+7,0,0,1,A,Parque Berrio,0.474,0,4,0,0,alto
+19,1,0,1,A,La Estrella,1.0,0,3,0,0,alto
+12,3,0,0,A,Caribe,0.263,0,12,0,0,alto
+21,3,0,0,A,Industriales,0.684,0,7,0,1,alto
+22,5,1,0,B,San Antonio,0.0,1,1,0,0,bajo
+14,6,1,0,K,Acevedo,0.0,1,7,0,1,bajo
+19,3,0,1,K,Arvi,1.0,0,2,0,0,medio
+8,5,1,1,A,Itagui,0.947,0,3,0,0,medio
+13,0,0,0,B,Cisneros,0.167,0,6,0,1,alto
+20,6,1,0,B,Santa Lucia,0.833,0,4,0,0,bajo
+13,4,0,0,B,Santa Lucia,0.833,0,5,0,0,alto
+21,2,0,0,A,Tricentenario,0.211,0,1,0,2,medio
+14,3,0,0,A,Caribe,0.263,0,12,0,1,medio
+9,4,0,1,A,Tricentenario,0.211,0,5,0,0,alto
+14,1,0,0,A,Itagui,0.947,0,10,0,0,medio
+21,3,0,0,K,Arvi,1.0,0,8,0,2,medio
+21,2,0,0,B,Trinidad,1.0,0,9,0,0,bajo
+10,6,1,0,B,Santa Lucia,0.833,0,9,0,0,bajo
+12,2,0,0,A,San Antonio,0.526,1,4,0,0,alto
+8,5,1,1,B,Trinidad,1.0,0,4,0,0,medio
+12,5,1,0,A,Ayura,0.842,0,4,0,1,bajo
+8,2,0,1,B,Santa Lucia,0.833,0,9,0,0,alto
+7,6,1,1,B,Trinidad,1.0,0,1,0,1,medio
+13,6,1,0,A,Hospital,0.368,0,12,0,1,bajo
+10,0,0,0,K,Santo Domingo,0.75,0,10,0,1,medio
+7,1,0,1,A,Universidad,0.316,0,9,0,0,alto
+19,0,0,1,B,Estadio,0.5,0,9,0,0,alto
+11,3,0,0,K,Acevedo,0.0,1,2,0,0,alto
+20,2,0,0,A,La Estrella,1.0,0,10,0,1,alto
+11,4,0,0,A,Poblado,0.737,0,11,0,1,alto
+13,3,0,0,B,Floresta,0.667,0,11,0,0,medio
+14,5,1,0,B,Floresta,0.667,0,5,0,2,medio
+14,5,1,0,B,Floresta,0.667,0,8,0,2,medio
+5,2,0,0,A,Aguacatala,0.789,0,9,0,0,bajo
+8,6,1,1,K,Popular,0.5,0,8,0,1,alto
+10,1,0,0,B,Trinidad,1.0,0,2,0,0,medio
+8,5,1,1,B,Estadio,0.5,0,5,0,0,alto
+15,1,0,0,K,Andalucia,0.25,0,4,0,0,medio
+15,4,0,0,K,Andalucia,0.25,0,8,0,1,medio
+13,1,0,0,B,Trinidad,1.0,0,5,0,2,medio
+16,6,1,0,A,San Antonio,0.526,1,12,0,0,medio
+17,6,1,1,B,Floresta,0.667,0,7,0,1,bajo
+19,6,1,1,A,Tricentenario,0.211,0,5,1,1,alto
+13,2,0,0,A,Universidad,0.316,0,6,0,0,medio
+11,6,1,0,B,Santa Lucia,0.833,0,4,0,0,bajo
+7,1,0,1,A,Acevedo,0.158,1,3,0,1,alto
+20,1,0,0,A,Exposiciones,0.632,0,5,0,1,alto
+6,5,1,0,A,Acevedo,0.158,1,6,0,0,medio
+7,2,0,1,B,Cisneros,0.167,0,12,0,1,alto
+14,4,0,0,A,Itagui,0.947,0,4,1,0,bajo
+22,4,0,0,K,Popular,0.5,0,5,0,0,medio
+16,6,1,0,A,San Antonio,0.526,1,8,0,2,alto
+15,1,0,0,B,Suramericana,0.333,0,11,0,0,alto
+5,1,0,0,B,Santa Lucia,0.833,0,2,0,0,bajo
+6,4,0,0,A,Ayura,0.842,0,6,0,1,alto
+15,6,1,0,A,Ayura,0.842,0,9,0,0,bajo
+7,4,0,1,A,Itagui,0.947,0,2,0,0,alto
+7,4,0,1,B,Trinidad,1.0,0,8,0,1,alto
+13,3,0,0,K,Santo Domingo,0.75,0,8,0,0,medio
+10,5,1,0,A,Madera,0.105,0,10,0,0,medio
+17,4,0,1,B,San Antonio,0.0,1,5,1,1,medio
+5,1,0,0,B,San Antonio,0.0,1,6,0,0,bajo
+19,5,1,1,A,Envigado,0.895,0,11,0,1,medio
+9,1,0,1,B,Suramericana,0.333,0,3,0,0,alto
+22,2,0,0,A,Tricentenario,0.211,0,2,0,2,alto
+11,2,0,0,A,Universidad,0.316,0,3,0,2,alto
+9,3,0,1,A,Niquia,0.0,0,2,0,2,alto
+11,3,0,0,A,Poblado,0.737,0,1,0,0,alto
+8,0,0,1,B,Trinidad,1.0,0,3,0,2,alto
+8,1,0,1,K,Arvi,1.0,0,4,0,2,alto
+11,1,0,0,A,Industriales,0.684,0,2,0,0,medio
+21,0,0,0,B,Suramericana,0.333,0,8,0,0,medio
+16,2,0,0,A,Alpujarra,0.579,0,2,0,2,alto
+12,5,1,0,K,Popular,0.5,0,2,0,1,bajo
+6,1,0,0,A,San Antonio,0.526,1,4,0,1,alto
+9,1,0,1,A,Ayura,0.842,0,12,0,1,alto
+16,4,0,0,K,Popular,0.5,0,7,0,0,alto
+21,1,0,0,A,Caribe,0.263,0,12,0,1,medio
+5,3,0,0,A,Caribe,0.263,0,4,0,0,medio
+15,0,0,0,A,Prado,0.421,0,1,0,0,medio
+6,4,0,0,A,Industriales,0.684,0,7,0,1,alto
+10,0,0,0,B,Cisneros,0.167,0,1,0,2,alto
+19,3,0,1,A,Aguacatala,0.789,0,9,0,0,alto
+5,2,0,0,B,Trinidad,1.0,0,8,0,2,bajo
+8,3,0,1,B,Suramericana,0.333,0,8,0,1,alto
+9,1,0,1,B,Cisneros,0.167,0,9,0,1,alto
+17,2,0,1,K,Acevedo,0.0,1,10,0,0,alto
+14,2,0,0,A,Caribe,0.263,0,12,0,1,medio
+15,3,0,0,A,Tricentenario,0.211,0,6,0,0,medio
+17,5,1,1,K,Acevedo,0.0,1,1,0,0,alto
+10,3,0,0,A,Hospital,0.368,0,6,0,1,alto
+16,1,0,0,B,Trinidad,1.0,0,11,0,1,medio
+13,4,0,0,A,Poblado,0.737,0,8,0,1,alto
+15,2,0,0,K,Arvi,1.0,0,3,0,0,medio
+8,5,1,1,B,Santa Lucia,0.833,0,6,0,0,bajo
+18,5,1,1,A,Alpujarra,0.579,0,1,0,0,alto
+22,5,1,0,A,Acevedo,0.158,1,5,0,2,alto
+18,4,0,1,A,Poblado,0.737,0,2,0,2,alto
+9,6,1,1,B,Cisneros,0.167,0,11,0,1,alto
+21,4,0,0,A,Alpujarra,0.579,0,3,0,2,medio
+12,5,1,0,A,Envigado,0.895,0,9,0,0,bajo
+12,6,1,0,A,Caribe,0.263,0,12,0,0,bajo
+6,3,0,0,A,Prado,0.421,0,5,0,2,alto
+19,2,0,1,B,Estadio,0.5,0,3,1,2,alto
+14,1,0,0,B,Santa Lucia,0.833,0,12,0,1,medio
+18,1,0,1,A,Bello,0.053,0,3,0,1,alto
+10,5,1,0,A,Exposiciones,0.632,0,7,0,1,bajo
+7,1,0,1,A,Alpujarra,0.579,0,5,0,2,alto
+11,3,0,0,K,Andalucia,0.25,0,3,0,0,medio
+8,4,0,1,A,Niquia,0.0,0,5,0,0,alto
+14,6,1,0,K,Santo Domingo,0.75,0,2,0,1,bajo
+7,6,1,1,B,Cisneros,0.167,0,12,0,2,medio
+19,3,0,1,A,Acevedo,0.158,1,10,0,2,alto
+14,1,0,0,K,Santo Domingo,0.75,0,9,0,0,medio
+20,6,1,0,A,Hospital,0.368,0,12,0,0,bajo
+13,6,1,0,K,Acevedo,0.0,1,12,0,0,bajo
+13,2,0,0,B,Santa Lucia,0.833,0,2,0,0,alto
+20,1,0,0,B,Cisneros,0.167,0,10,0,1,alto
+22,4,0,0,K,Santo Domingo,0.75,0,10,1,1,bajo
+6,4,0,0,K,Santo Domingo,0.75,0,2,0,1,medio
+12,2,0,0,A,Acevedo,0.158,1,10,0,1,alto
+17,5,1,1,B,Estadio,0.5,0,12,0,0,alto
+21,0,0,0,B,Trinidad,1.0,0,7,0,1,bajo
+5,1,0,0,K,Santo Domingo,0.75,0,10,0,0,bajo
+5,5,1,0,B,Trinidad,1.0,0,8,0,2,bajo
+16,1,0,0,A,Alpujarra,0.579,0,5,0,1,alto
+10,1,0,0,K,Popular,0.5,0,9,0,2,alto
+17,6,1,1,K,Popular,0.5,0,6,0,1,medio
+22,5,1,0,A,Alpujarra,0.579,0,4,0,1,bajo
+17,2,0,1,A,Madera,0.105,0,10,0,1,alto
+16,2,0,0,K,Santo Domingo,0.75,0,8,0,1,medio
+5,0,0,0,A,San Antonio,0.526,1,4,0,0,medio
+22,1,0,0,A,Envigado,0.895,0,7,1,1,bajo
+7,5,1,1,A,Madera,0.105,0,10,0,0,alto
+17,1,0,1,B,Suramericana,0.333,0,7,0,1,alto
+7,2,0,1,K,Popular,0.5,0,4,0,1,alto
+20,1,0,0,A,Niquia,0.0,0,12,1,0,bajo
+11,1,0,0,A,Poblado,0.737,0,1,0,0,alto
+22,4,0,0,B,Estadio,0.5,0,10,0,0,medio
+17,5,1,1,B,Floresta,0.667,0,10,1,1,medio
+16,2,0,0,A,Industriales,0.684,0,4,0,0,medio
+15,6,1,0,A,Tricentenario,0.211,0,12,1,1,bajo
+20,4,0,0,B,Santa Lucia,0.833,0,6,0,1,medio
+16,5,1,0,B,Cisneros,0.167,0,12,0,2,medio
+6,3,0,0,A,Itagui,0.947,0,10,0,0,alto
+10,0,0,0,B,San Antonio,0.0,1,9,0,1,alto
+7,5,1,1,K,Andalucia,0.25,0,6,0,2,medio
+13,5,1,0,A,Itagui,0.947,0,1,0,1,bajo
+11,5,1,0,A,Exposiciones,0.632,0,8,0,0,medio
+15,1,0,0,K,Popular,0.5,0,10,0,2,alto
+15,6,1,0,B,Santa Lucia,0.833,0,1,0,0,bajo
+8,6,1,1,A,Itagui,0.947,0,2,0,0,medio
+10,6,1,0,A,Hospital,0.368,0,3,0,1,medio
+8,2,0,1,B,Santa Lucia,0.833,0,2,0,2,alto
+18,3,0,1,B,Trinidad,1.0,0,12,0,0,medio
+8,2,0,1,A,Caribe,0.263,0,6,0,1,alto
+17,1,0,1,A,Prado,0.421,0,4,0,2,alto
+15,3,0,0,K,Acevedo,0.0,1,2,0,0,alto
+16,0,0,0,B,San Antonio,0.0,1,3,0,2,alto
+5,2,0,0,B,San Antonio,0.0,1,7,0,0,bajo
+11,5,1,0,A,Caribe,0.263,0,10,0,0,bajo
+8,6,1,1,A,Alpujarra,0.579,0,11,0,1,medio
+21,1,0,0,K,Andalucia,0.25,0,8,0,1,bajo
+8,6,1,1,B,Trinidad,1.0,0,5,0,0,bajo
+20,1,0,0,A,Acevedo,0.158,1,10,0,2,alto
+22,6,1,0,A,Poblado,0.737,0,7,0,0,bajo
+16,1,0,0,A,Hospital,0.368,0,4,0,0,alto
+16,0,0,0,B,San Antonio,0.0,1,8,0,1,alto
+21,0,0,0,B,San Antonio,0.0,1,11,0,0,medio
+22,4,0,0,B,Floresta,0.667,0,7,0,0,bajo
+11,2,0,0,B,Trinidad,1.0,0,11,0,0,medio
+20,0,0,0,B,San Antonio,0.0,1,8,0,0,alto
+14,6,1,0,B,Trinidad,1.0,0,11,0,0,bajo
+7,2,0,1,A,Universidad,0.316,0,10,0,2,alto
+22,0,0,0,K,Acevedo,0.0,1,1,0,0,medio
+6,6,1,0,A,Envigado,0.895,0,11,0,0,bajo
+6,1,0,0,B,Suramericana,0.333,0,2,0,2,alto
+7,5,1,1,A,San Antonio,0.526,1,4,0,0,alto
+8,2,0,1,B,Cisneros,0.167,0,1,0,1,alto
+17,6,1,1,A,Caribe,0.263,0,4,0,2,alto
+13,3,0,0,B,Cisneros,0.167,0,11,0,1,medio
+11,5,1,0,K,Popular,0.5,0,12,0,0,medio
+11,6,1,0,B,Suramericana,0.333,0,8,0,1,bajo
+6,5,1,0,K,Santo Domingo,0.75,0,8,0,1,medio
+20,0,0,0,A,Caribe,0.263,0,3,0,0,alto
+17,2,0,1,K,Popular,0.5,0,9,0,0,alto
+11,0,0,0,A,Exposiciones,0.632,0,9,0,0,alto
+6,3,0,0,A,Ayura,0.842,0,8,0,0,alto
+12,3,0,0,A,Madera,0.105,0,10,0,0,alto
+6,5,1,0,A,Poblado,0.737,0,9,0,2,alto
+5,1,0,0,A,Itagui,0.947,0,6,0,2,bajo
+19,1,0,1,A,Alpujarra,0.579,0,11,0,0,alto
+10,5,1,0,A,Hospital,0.368,0,4,0,1,alto
+19,0,0,1,B,San Antonio,0.0,1,4,0,0,alto
+8,5,1,1,A,Bello,0.053,0,2,0,0,alto
+10,5,1,0,A,La Estrella,1.0,0,6,0,0,medio
+5,4,0,0,A,Exposiciones,0.632,0,1,0,0,bajo
+12,6,1,0,B,San Antonio,0.0,1,11,0,1,medio
+17,2,0,1,B,Floresta,0.667,0,11,0,0,alto
+20,4,0,0,K,Andalucia,0.25,0,5,0,2,medio
+22,2,0,0,A,Poblado,0.737,0,4,0,0,medio
+17,2,0,1,K,Andalucia,0.25,0,3,0,1,alto
+18,5,1,1,A,Poblado,0.737,0,9,0,0,alto
+16,1,0,0,B,Cisneros,0.167,0,7,0,2,medio
+16,2,0,0,B,Estadio,0.5,0,6,0,0,alto
+11,1,0,0,K,Arvi,1.0,0,4,0,0,medio
+16,3,0,0,K,Arvi,1.0,0,9,0,1,alto
+14,1,0,0,B,Suramericana,0.333,0,7,0,0,bajo
+6,1,0,0,B,Estadio,0.5,0,4,0,1,alto
+21,3,0,0,A,Exposiciones,0.632,0,3,0,0,medio
+9,5,1,1,A,Prado,0.421,0,7,0,1,alto
+18,2,0,1,A,Tricentenario,0.211,0,8,0,2,alto
+21,5,1,0,A,La Estrella,1.0,0,11,0,1,medio
+5,0,0,0,A,Madera,0.105,0,1,0,2,bajo
+11,2,0,0,A,Tricentenario,0.211,0,2,0,1,alto
+19,3,0,1,A,Itagui,0.947,0,6,1,0,bajo
+10,3,0,0,A,Tricentenario,0.211,0,2,0,2,alto
+22,4,0,0,B,Cisneros,0.167,0,11,0,1,medio
+9,3,0,1,A,Acevedo,0.158,1,2,0,0,alto
+17,3,0,1,B,Estadio,0.5,0,3,0,0,alto
+10,3,0,0,B,Floresta,0.667,0,1,0,2,medio
+15,0,0,0,B,Suramericana,0.333,0,6,0,0,bajo
+11,5,1,0,A,Acevedo,0.158,1,6,0,1,medio
+20,0,0,0,A,Alpujarra,0.579,0,10,0,0,alto
+13,4,0,0,A,Ayura,0.842,0,1,0,0,alto
+12,5,1,0,A,Bello,0.053,0,5,0,0,bajo
+7,2,0,1,K,Santo Domingo,0.75,0,9,0,0,alto
+5,2,0,0,B,San Antonio,0.0,1,7,0,2,bajo
+17,2,0,1,K,Popular,0.5,0,6,0,0,alto
+15,1,0,0,B,Estadio,0.5,0,6,0,0,medio
+7,6,1,1,A,Poblado,0.737,0,11,0,2,alto
+9,6,1,1,A,Niquia,0.0,0,2,0,0,medio
+7,0,0,1,A,Madera,0.105,0,12,0,1,alto
+7,1,0,1,A,La Estrella,1.0,0,10,0,2,alto
+8,0,0,1,A,Acevedo,0.158,1,12,0,0,alto
+10,0,0,0,K,Acevedo,0.0,1,12,0,0,alto
+17,2,0,1,A,Madera,0.105,0,11,1,0,medio
+10,3,0,0,A,Aguacatala,0.789,0,5,0,1,alto
+5,0,0,0,A,Ayura,0.842,0,3,0,0,bajo
+11,5,1,0,B,Floresta,0.667,0,2,0,1,medio
+17,5,1,1,A,Caribe,0.263,0,10,0,1,alto
+14,1,0,0,B,Santa Lucia,0.833,0,7,0,1,medio
+14,6,1,0,K,Popular,0.5,0,3,0,0,bajo
+6,4,0,0,B,Suramericana,0.333,0,7,0,1,alto
+15,4,0,0,K,Acevedo,0.0,1,6,1,1,bajo
+13,5,1,0,K,Acevedo,0.0,1,6,0,0,bajo
+15,4,0,0,A,Aguacatala,0.789,0,12,0,0,medio
+16,3,0,0,A,Bello,0.053,0,8,0,0,alto
+19,3,0,1,B,Estadio,0.5,0,3,0,1,alto
+5,6,1,0,B,Estadio,0.5,0,3,0,0,bajo
+5,3,0,0,B,Suramericana,0.333,0,11,0,0,bajo
+8,0,0,1,A,Universidad,0.316,0,7,0,0,alto
+14,6,1,0,B,Cisneros,0.167,0,9,0,0,bajo
+20,3,0,0,B,Floresta,0.667,0,7,0,0,alto
+15,5,1,0,A,Madera,0.105,0,8,0,0,bajo
+20,6,1,0,A,Ayura,0.842,0,4,0,0,medio
+18,4,0,1,A,Parque Berrio,0.474,0,2,0,0,alto
+16,6,1,0,A,San Antonio,0.526,1,12,0,0,medio
+16,3,0,0,A,Poblado,0.737,0,4,0,2,alto
+15,5,1,0,K,Andalucia,0.25,0,8,0,0,bajo
+9,2,0,1,K,Andalucia,0.25,0,11,0,2,alto
+12,6,1,0,A,Itagui,0.947,0,4,0,1,bajo
+9,4,0,1,A,Exposiciones,0.632,0,6,0,0,alto
+13,0,0,0,B,Floresta,0.667,0,8,0,1,medio
+6,3,0,0,A,Alpujarra,0.579,0,4,0,1,alto
+20,4,0,0,A,Alpujarra,0.579,0,3,0,0,alto
+11,6,1,0,B,Floresta,0.667,0,11,0,2,medio
+8,2,0,1,B,Floresta,0.667,0,12,0,1,alto
+17,3,0,1,A,Hospital,0.368,0,12,0,2,alto
+11,1,0,0,A,Prado,0.421,0,5,1,0,bajo
+9,3,0,1,A,Poblado,0.737,0,11,0,1,alto
+15,0,0,0,B,Estadio,0.5,0,5,0,0,medio
+9,2,0,1,A,Itagui,0.947,0,1,0,0,alto
+20,2,0,0,A,Envigado,0.895,0,3,0,1,alto
+15,3,0,0,B,Santa Lucia,0.833,0,3,0,1,medio
+15,4,0,0,A,Parque Berrio,0.474,0,10,0,2,alto
+7,0,0,1,A,Aguacatala,0.789,0,3,0,0,alto
+7,6,1,1,A,Hospital,0.368,0,6,0,0,medio
+22,0,0,0,B,Estadio,0.5,0,9,0,1,medio
+9,4,0,1,B,Santa Lucia,0.833,0,2,0,0,alto
+12,0,0,0,A,Hospital,0.368,0,11,0,1,alto
+20,0,0,0,A,Hospital,0.368,0,1,0,1,alto
+15,2,0,0,A,Ayura,0.842,0,7,0,1,medio
+21,6,1,0,B,San Antonio,0.0,1,5,0,0,bajo
+11,4,0,0,A,Bello,0.053,0,1,0,0,medio
+16,5,1,0,B,San Antonio,0.0,1,2,0,2,medio
+9,4,0,1,B,Cisneros,0.167,0,1,0,1,alto
+22,2,0,0,A,Prado,0.421,0,9,0,0,alto
+15,2,0,0,A,Universidad,0.316,0,7,0,1,alto
+19,4,0,1,B,San Antonio,0.0,1,11,0,0,alto
+8,5,1,1,A,Exposiciones,0.632,0,4,0,1,alto
+11,4,0,0,K,Popular,0.5,0,5,0,0,medio
+21,0,0,0,A,Universidad,0.316,0,5,1,0,bajo
+11,3,0,0,A,San Antonio,0.526,1,12,0,1,alto
+20,4,0,0,A,Aguacatala,0.789,0,10,0,1,alto
+7,4,0,1,K,Andalucia,0.25,0,2,0,2,alto
+14,3,0,0,A,Niquia,0.0,0,7,0,1,bajo
+6,2,0,0,A,Acevedo,0.158,1,4,0,0,alto
+18,5,1,1,A,Prado,0.421,0,1,0,1,alto
+9,2,0,1,A,Parque Berrio,0.474,0,8,0,2,alto
+20,1,0,0,K,Acevedo,0.0,1,1,0,0,alto
+22,2,0,0,A,Poblado,0.737,0,5,1,1,bajo
+7,3,0,1,A,Universidad,0.316,0,11,0,0,alto
+19,3,0,1,B,Estadio,0.5,0,3,0,1,alto
+20,1,0,0,A,Parque Berrio,0.474,0,5,1,1,medio
+19,6,1,1,A,Hospital,0.368,0,1,0,0,medio
+20,6,1,0,B,Santa Lucia,0.833,0,4,0,1,bajo
+16,0,0,0,A,Parque Berrio,0.474,0,10,0,0,alto
+22,4,0,0,K,Popular,0.5,0,3,0,1,medio
+10,4,0,0,A,Industriales,0.684,0,7,0,0,alto
+22,3,0,0,K,Santo Domingo,0.75,0,6,0,0,bajo
+15,2,0,0,A,Tricentenario,0.211,0,11,0,0,medio
+21,6,1,0,A,San Antonio,0.526,1,11,0,1,medio
+10,6,1,0,B,Santa Lucia,0.833,0,10,0,2,medio
+18,0,0,1,B,San Antonio,0.0,1,9,0,0,alto
+5,2,0,0,A,Itagui,0.947,0,9,0,2,bajo
+8,2,0,1,A,Aguacatala,0.789,0,12,0,1,alto
+21,5,1,0,B,Estadio,0.5,0,7,0,1,bajo
+19,1,0,1,A,Hospital,0.368,0,12,1,0,bajo
+8,3,0,1,A,Ayura,0.842,0,3,0,1,alto
+22,5,1,0,A,Universidad,0.316,0,2,0,0,medio
+14,0,0,0,A,Niquia,0.0,0,4,0,1,medio
+18,2,0,1,B,San Antonio,0.0,1,11,0,0,alto
+15,3,0,0,B,Suramericana,0.333,0,6,0,0,bajo
+6,5,1,0,K,Arvi,1.0,0,8,0,0,bajo
+13,5,1,0,A,Niquia,0.0,0,8,0,1,medio
+16,5,1,0,B,Santa Lucia,0.833,0,8,0,0,bajo
+7,3,0,1,B,Trinidad,1.0,0,5,0,0,alto
+19,3,0,1,K,Acevedo,0.0,1,12,0,0,alto
+15,2,0,0,B,San Antonio,0.0,1,9,0,1,medio
+9,4,0,1,A,Niquia,0.0,0,11,0,0,alto
+7,4,0,1,B,Estadio,0.5,0,3,0,0,alto
+6,2,0,0,B,Santa Lucia,0.833,0,10,0,1,medio
+19,2,0,1,B,Cisneros,0.167,0,3,0,0,alto
+11,3,0,0,A,Madera,0.105,0,8,0,0,alto
+17,0,0,1,K,Andalucia,0.25,0,5,0,0,alto
+19,6,1,1,B,Cisneros,0.167,0,12,0,0,bajo
+5,3,0,0,A,Tricentenario,0.211,0,8,0,1,bajo
+22,0,0,0,K,Popular,0.5,0,7,0,0,medio
+18,0,0,1,B,Floresta,0.667,0,2,0,0,alto
+12,1,0,0,B,Floresta,0.667,0,2,0,0,medio
+11,3,0,0,B,Cisneros,0.167,0,11,0,0,medio
+18,0,0,1,K,Andalucia,0.25,0,9,0,0,alto
+9,5,1,1,A,Parque Berrio,0.474,0,12,0,0,alto
+13,4,0,0,A,Ayura,0.842,0,9,0,0,alto
+12,6,1,0,A,San Antonio,0.526,1,8,0,0,medio
+10,3,0,0,A,Acevedo,0.158,1,9,0,1,alto
+9,6,1,1,A,Tricentenario,0.211,0,9,0,2,alto
+10,1,0,0,A,Itagui,0.947,0,11,0,0,alto
+12,6,1,0,K,Popular,0.5,0,5,0,0,bajo
+11,5,1,0,B,San Antonio,0.0,1,12,0,0,medio
+12,5,1,0,B,Trinidad,1.0,0,3,0,1,bajo
+12,4,0,0,K,Andalucia,0.25,0,9,0,0,bajo
+5,3,0,0,A,Industriales,0.684,0,2,0,0,bajo
+16,2,0,0,K,Acevedo,0.0,1,7,0,0,alto
+22,4,0,0,A,Parque Berrio,0.474,0,6,0,2,medio
+22,5,1,0,K,Arvi,1.0,0,10,0,1,bajo
+20,2,0,0,B,Cisneros,0.167,0,2,0,0,medio
+13,5,1,0,K,Acevedo,0.0,1,5,0,2,medio
+12,2,0,0,B,Floresta,0.667,0,6,0,1,medio
+18,2,0,1,A,Ayura,0.842,0,5,0,0,alto
+9,6,1,1,K,Andalucia,0.25,0,12,0,0,bajo
+11,6,1,0,B,Suramericana,0.333,0,8,0,0,bajo
+12,1,0,0,A,Parque Berrio,0.474,0,10,0,1,alto
+12,3,0,0,B,Suramericana,0.333,0,8,0,0,alto
+22,2,0,0,B,Estadio,0.5,0,3,0,1,medio
+5,0,0,0,B,Estadio,0.5,0,4,0,2,alto
+22,4,0,0,B,Estadio,0.5,0,5,0,1,medio
+20,4,0,0,B,Santa Lucia,0.833,0,2,0,0,alto
+9,1,0,1,A,Acevedo,0.158,1,2,0,1,alto
+8,4,0,1,A,Prado,0.421,0,9,0,0,alto
+11,0,0,0,A,Industriales,0.684,0,11,0,0,alto
+14,3,0,0,K,Popular,0.5,0,4,0,0,alto
+13,4,0,0,B,Floresta,0.667,0,6,0,0,medio
+17,1,0,1,A,Caribe,0.263,0,9,0,0,alto
+13,6,1,0,A,Madera,0.105,0,8,0,0,bajo
+10,1,0,0,B,Floresta,0.667,0,4,0,0,medio
+18,4,0,1,A,Parque Berrio,0.474,0,10,0,0,alto
+19,3,0,1,A,Industriales,0.684,0,3,1,2,alto
+17,0,0,1,B,Trinidad,1.0,0,9,0,0,alto
+15,0,0,0,B,Suramericana,0.333,0,8,0,1,medio
+11,2,0,0,B,Floresta,0.667,0,3,0,0,alto
+11,1,0,0,A,Exposiciones,0.632,0,6,0,0,medio
+12,3,0,0,A,Parque Berrio,0.474,0,10,0,2,alto
+19,5,1,1,K,Acevedo,0.0,1,1,0,1,medio
+5,3,0,0,A,Exposiciones,0.632,0,7,0,0,bajo
+13,2,0,0,A,Hospital,0.368,0,5,0,0,alto
+21,4,0,0,A,Itagui,0.947,0,9,0,0,medio
+7,5,1,1,A,Hospital,0.368,0,3,0,1,alto
+13,0,0,0,B,San Antonio,0.0,1,9,0,0,alto
+12,3,0,0,A,Caribe,0.263,0,5,0,0,alto
+6,4,0,0,A,Madera,0.105,0,11,0,1,alto
+22,3,0,0,A,Parque Berrio,0.474,0,7,0,0,medio
+7,0,0,1,A,La Estrella,1.0,0,2,0,1,alto
+16,5,1,0,B,Floresta,0.667,0,3,0,0,medio
+5,2,0,0,A,Hospital,0.368,0,3,0,0,bajo
+9,1,0,1,A,Exposiciones,0.632,0,1,0,0,alto
+16,4,0,0,A,Hospital,0.368,0,5,0,0,alto
+6,0,0,0,A,Caribe,0.263,0,7,0,0,alto
+20,5,1,0,B,Floresta,0.667,0,7,0,0,bajo
+16,6,1,0,K,Arvi,1.0,0,10,0,1,bajo
+13,4,0,0,K,Santo Domingo,0.75,0,7,0,0,bajo
+16,6,1,0,A,Madera,0.105,0,5,0,1,medio
+17,2,0,1,B,Estadio,0.5,0,6,0,0,alto
+9,3,0,1,B,Trinidad,1.0,0,10,0,1,alto
+17,1,0,1,A,Parque Berrio,0.474,0,3,0,2,alto
+19,2,0,1,B,Estadio,0.5,0,4,0,0,alto
+9,5,1,1,A,Hospital,0.368,0,2,0,0,medio
+7,4,0,1,K,Santo Domingo,0.75,0,5,0,1,alto
+6,6,1,0,B,Estadio,0.5,0,8,0,0,medio
+8,1,0,1,A,Niquia,0.0,0,12,0,1,alto
+21,1,0,0,A,Niquia,0.0,0,11,1,0,bajo
+16,4,0,0,B,Estadio,0.5,0,6,0,0,alto
+8,3,0,1,B,Floresta,0.667,0,8,0,1,alto
+21,0,0,0,K,Arvi,1.0,0,3,0,0,bajo
+13,1,0,0,K,Santo Domingo,0.75,0,3,0,2,alto
+6,0,0,0,B,Cisneros,0.167,0,5,1,2,medio
+11,3,0,0,A,Industriales,0.684,0,3,0,0,alto
+10,6,1,0,A,Madera,0.105,0,1,0,1,alto
+19,1,0,1,A,Hospital,0.368,0,11,0,0,alto
+16,6,1,0,A,La Estrella,1.0,0,8,0,1,bajo
+15,5,1,0,B,Trinidad,1.0,0,11,0,0,bajo
+13,6,1,0,B,Floresta,0.667,0,10,0,2,bajo
+18,3,0,1,A,Niquia,0.0,0,5,0,2,alto
+14,6,1,0,B,San Antonio,0.0,1,5,0,1,alto
+12,1,0,0,B,Cisneros,0.167,0,8,0,2,medio
+17,3,0,1,B,Santa Lucia,0.833,0,10,0,0,alto
+20,5,1,0,A,Caribe,0.263,0,2,0,0,alto
+18,3,0,1,B,Cisneros,0.167,0,1,0,2,alto
+12,3,0,0,A,Parque Berrio,0.474,0,8,0,1,medio
+10,2,0,0,A,Hospital,0.368,0,3,0,0,alto
+7,0,0,1,B,Trinidad,1.0,0,2,0,1,alto
+9,0,0,1,B,San Antonio,0.0,1,1,0,0,alto
+16,5,1,0,A,Parque Berrio,0.474,0,11,0,1,medio
+15,0,0,0,A,Parque Berrio,0.474,0,1,0,0,alto
+5,6,1,0,A,La Estrella,1.0,0,4,0,0,bajo
+14,4,0,0,A,Prado,0.421,0,9,0,1,alto
+7,3,0,1,A,Tricentenario,0.211,0,10,0,0,alto
+12,5,1,0,A,Aguacatala,0.789,0,5,0,0,bajo
+20,6,1,0,A,Caribe,0.263,0,8,0,2,medio
+12,6,1,0,B,Estadio,0.5,0,5,0,0,medio
+9,5,1,1,A,Poblado,0.737,0,3,0,0,alto
+9,1,0,1,A,Poblado,0.737,0,12,0,0,alto
+12,5,1,0,A,San Antonio,0.526,1,8,0,0,alto
+14,5,1,0,K,Arvi,1.0,0,4,0,1,bajo
+17,1,0,1,A,Caribe,0.263,0,6,0,0,alto
+20,3,0,0,B,Cisneros,0.167,0,11,0,1,medio
+9,6,1,1,A,Poblado,0.737,0,6,0,2,medio
+10,0,0,0,B,Trinidad,1.0,0,3,0,0,alto
+9,0,0,1,B,Suramericana,0.333,0,3,0,0,alto
+18,0,0,1,A,Caribe,0.263,0,1,0,0,alto
+16,2,0,0,A,La Estrella,1.0,0,1,0,0,alto
+15,5,1,0,A,Tricentenario,0.211,0,11,0,1,bajo
+21,3,0,0,B,Suramericana,0.333,0,9,0,1,medio
+19,5,1,1,K,Acevedo,0.0,1,10,0,0,alto
+14,2,0,0,B,San Antonio,0.0,1,1,0,1,alto
+12,2,0,0,B,Estadio,0.5,0,10,0,0,medio
+12,5,1,0,A,Bello,0.053,0,10,0,0,medio
+12,3,0,0,A,Poblado,0.737,0,1,0,0,alto
+22,6,1,0,A,Prado,0.421,0,9,0,0,bajo
+6,3,0,0,K,Popular,0.5,0,10,0,0,medio
+8,6,1,1,B,Suramericana,0.333,0,4,0,1,medio
+18,0,0,1,A,Niquia,0.0,0,6,0,0,alto
+8,1,0,1,B,San Antonio,0.0,1,12,0,0,alto
+18,1,0,1,B,Cisneros,0.167,0,12,0,0,medio
+22,5,1,0,A,Parque Berrio,0.474,0,9,0,0,medio
+7,6,1,1,A,Hospital,0.368,0,5,0,0,medio
+8,4,0,1,B,Suramericana,0.333,0,9,0,0,alto
+7,2,0,1,A,Alpujarra,0.579,0,3,0,1,alto
+5,4,0,0,B,Suramericana,0.333,0,2,0,0,bajo
+11,3,0,0,K,Arvi,1.0,0,11,0,0,medio
+18,0,0,1,B,Trinidad,1.0,0,9,0,1,alto
+7,5,1,1,K,Santo Domingo,0.75,0,4,0,1,alto
+19,3,0,1,B,Floresta,0.667,0,6,0,0,alto
+16,0,0,0,A,Niquia,0.0,0,11,0,1,alto
+5,2,0,0,B,Santa Lucia,0.833,0,8,0,0,bajo
+9,3,0,1,A,Itagui,0.947,0,8,1,2,alto
+8,4,0,1,K,Popular,0.5,0,1,0,1,alto
+6,6,1,0,B,Suramericana,0.333,0,2,0,2,medio
+13,6,1,0,K,Andalucia,0.25,0,7,0,0,bajo
+7,3,0,1,B,Suramericana,0.333,0,5,0,0,medio
+14,2,0,0,A,Niquia,0.0,0,3,0,0,alto
+8,2,0,1,B,Trinidad,1.0,0,2,0,2,alto
+8,1,0,1,A,San Antonio,0.526,1,10,0,1,alto
+22,6,1,0,A,Envigado,0.895,0,2,0,1,bajo
+22,2,0,0,B,Trinidad,1.0,0,9,0,0,medio
+18,0,0,1,A,Parque Berrio,0.474,0,11,0,0,alto
+7,0,0,1,A,Tricentenario,0.211,0,10,0,0,alto
+22,0,0,0,A,Exposiciones,0.632,0,5,0,1,alto
+12,0,0,0,B,Trinidad,1.0,0,6,0,0,medio
+20,1,0,0,A,Niquia,0.0,0,12,0,0,medio
+12,3,0,0,K,Arvi,1.0,0,1,0,0,bajo
+22,1,0,0,A,Aguacatala,0.789,0,1,0,0,alto
+11,6,1,0,K,Santo Domingo,0.75,0,9,0,0,bajo
+13,1,0,0,B,Suramericana,0.333,0,10,0,2,alto
+13,5,1,0,K,Santo Domingo,0.75,0,10,0,0,bajo
+9,4,0,1,K,Popular,0.5,0,3,0,1,alto
+9,5,1,1,A,Hospital,0.368,0,1,0,2,alto
+9,1,0,1,K,Santo Domingo,0.75,0,5,0,1,alto
+8,6,1,1,K,Andalucia,0.25,0,12,0,0,bajo
+16,2,0,0,A,Acevedo,0.158,1,7,0,1,alto
+19,5,1,1,K,Popular,0.5,0,4,0,1,alto
+20,3,0,0,K,Andalucia,0.25,0,5,0,0,alto
+19,1,0,1,A,Industriales,0.684,0,1,0,2,alto
+18,0,0,1,A,Universidad,0.316,0,5,0,0,alto
+5,3,0,0,A,Industriales,0.684,0,9,0,1,bajo
+13,6,1,0,B,Cisneros,0.167,0,8,0,0,bajo
+19,1,0,1,B,Cisneros,0.167,0,1,0,0,alto
+9,0,0,1,B,Floresta,0.667,0,5,0,0,alto
+13,6,1,0,A,Acevedo,0.158,1,11,1,1,medio
+12,2,0,0,B,San Antonio,0.0,1,5,0,0,alto
+21,1,0,0,K,Arvi,1.0,0,11,0,2,alto
+18,4,0,1,A,Envigado,0.895,0,6,0,0,alto
+14,5,1,0,A,Acevedo,0.158,1,7,0,1,medio
+16,0,0,0,B,Santa Lucia,0.833,0,7,0,1,alto
+6,6,1,0,A,San Antonio,0.526,1,6,0,0,alto
+22,0,0,0,A,Industriales,0.684,0,12,0,0,medio
+18,6,1,1,A,Hospital,0.368,0,1,0,0,medio
+19,5,1,1,A,Envigado,0.895,0,3,0,1,alto
+8,0,0,1,A,Alpujarra,0.579,0,5,1,2,medio
+19,1,0,1,K,Arvi,1.0,0,2,0,2,alto
+7,6,1,1,B,San Antonio,0.0,1,5,0,1,alto
+20,5,1,0,A,Bello,0.053,0,5,0,0,bajo
+20,6,1,0,K,Acevedo,0.0,1,4,0,0,medio
+13,0,0,0,B,Cisneros,0.167,0,7,0,0,medio
+22,5,1,0,A,Poblado,0.737,0,3,0,1,medio
+11,1,0,0,K,Popular,0.5,0,3,0,1,medio
+11,6,1,0,K,Andalucia,0.25,0,4,0,0,bajo
+9,0,0,1,A,La Estrella,1.0,0,2,0,2,alto
+14,6,1,0,A,Alpujarra,0.579,0,11,0,0,medio
+5,1,0,0,B,Estadio,0.5,0,6,1,0,bajo
+8,0,0,1,K,Santo Domingo,0.75,0,3,0,0,alto
+13,5,1,0,K,Andalucia,0.25,0,9,0,1,bajo
+15,3,0,0,K,Arvi,1.0,0,3,0,2,bajo
+10,4,0,0,B,Estadio,0.5,0,8,0,0,alto
+5,1,0,0,B,Cisneros,0.167,0,7,0,0,bajo
+9,0,0,1,B,San Antonio,0.0,1,4,0,1,alto
+20,3,0,0,A,Envigado,0.895,0,11,0,1,alto
+12,6,1,0,A,Envigado,0.895,0,3,0,2,bajo
+22,0,0,0,B,Trinidad,1.0,0,4,1,1,bajo
+15,4,0,0,A,Prado,0.421,0,3,0,0,alto
+11,1,0,0,B,Estadio,0.5,0,4,0,1,medio
+22,0,0,0,A,Industriales,0.684,0,12,1,0,bajo
+15,0,0,0,A,Prado,0.421,0,1,0,0,alto
+7,2,0,1,A,Niquia,0.0,0,3,0,1,alto
+7,0,0,1,K,Arvi,1.0,0,12,0,0,alto
+16,0,0,0,B,Santa Lucia,0.833,0,11,0,2,medio
+16,2,0,0,A,Tricentenario,0.211,0,7,0,0,alto
+10,0,0,0,A,Prado,0.421,0,9,0,0,alto
+22,3,0,0,K,Arvi,1.0,0,5,0,0,bajo
+6,2,0,0,A,Ayura,0.842,0,7,0,0,medio
+5,0,0,0,B,Estadio,0.5,0,10,0,0,bajo
+7,2,0,1,A,San Antonio,0.526,1,12,0,0,alto
+17,4,0,1,A,Exposiciones,0.632,0,2,0,0,alto
+6,2,0,0,A,Alpujarra,0.579,0,5,0,0,alto
+6,4,0,0,B,Estadio,0.5,0,12,0,1,alto
+22,3,0,0,B,Floresta,0.667,0,10,0,1,medio
+21,1,0,0,A,La Estrella,1.0,0,3,0,0,medio
+21,0,0,0,B,Suramericana,0.333,0,9,0,1,bajo
+10,4,0,0,A,Prado,0.421,0,8,0,2,alto
+21,5,1,0,K,Andalucia,0.25,0,2,0,0,bajo
+9,5,1,1,A,Madera,0.105,0,7,1,1,medio
+18,2,0,1,K,Popular,0.5,0,3,0,0,alto
+9,2,0,1,B,Trinidad,1.0,0,12,0,1,alto
+19,6,1,1,A,Madera,0.105,0,1,0,0,medio
+10,2,0,0,K,Santo Domingo,0.75,0,6,0,0,medio
+15,4,0,0,A,Alpujarra,0.579,0,11,0,0,alto
+7,3,0,1,K,Acevedo,0.0,1,7,0,0,alto
+21,4,0,0,B,Trinidad,1.0,0,1,0,0,medio
+12,4,0,0,A,Alpujarra,0.579,0,12,0,0,alto
+19,4,0,1,K,Andalucia,0.25,0,12,0,1,alto
+14,5,1,0,A,Bello,0.053,0,11,0,2,medio
+16,1,0,0,A,Universidad,0.316,0,9,0,1,alto
+17,5,1,1,K,Acevedo,0.0,1,4,0,0,alto
+21,3,0,0,B,Estadio,0.5,0,12,0,0,medio
+11,1,0,0,A,La Estrella,1.0,0,10,0,1,alto
+15,1,0,0,B,Santa Lucia,0.833,0,1,0,2,alto
+7,6,1,1,K,Acevedo,0.0,1,10,0,0,medio
+19,4,0,1,B,San Antonio,0.0,1,7,0,1,alto
+5,1,0,0,B,San Antonio,0.0,1,4,0,0,medio
+8,4,0,1,A,Industriales,0.684,0,3,0,1,alto
+17,2,0,1,A,Hospital,0.368,0,8,0,1,alto
+18,0,0,1,B,San Antonio,0.0,1,10,0,0,alto
+16,1,0,0,A,La Estrella,1.0,0,1,0,0,alto
+14,0,0,0,B,Santa Lucia,0.833,0,9,0,0,medio
+20,2,0,0,B,Floresta,0.667,0,1,0,0,alto
+11,4,0,0,K,Andalucia,0.25,0,10,0,0,medio
+13,2,0,0,A,Poblado,0.737,0,6,0,0,medio
+9,4,0,1,K,Popular,0.5,0,9,0,2,alto
+5,6,1,0,A,Alpujarra,0.579,0,6,0,0,bajo
+21,5,1,0,K,Acevedo,0.0,1,2,0,1,medio
+5,0,0,0,B,Trinidad,1.0,0,4,0,2,bajo
+7,6,1,1,B,Estadio,0.5,0,1,0,0,medio
+15,5,1,0,B,San Antonio,0.0,1,4,0,2,medio
+6,6,1,0,A,Alpujarra,0.579,0,7,0,1,bajo
+8,3,0,1,B,Floresta,0.667,0,11,0,0,alto
+11,4,0,0,A,La Estrella,1.0,0,5,0,1,medio
+12,2,0,0,A,Acevedo,0.158,1,9,0,1,alto
+12,3,0,0,A,Parque Berrio,0.474,0,11,0,1,alto
+18,0,0,1,B,Cisneros,0.167,0,4,0,1,alto
+19,5,1,1,A,Alpujarra,0.579,0,12,0,1,alto
+16,4,0,0,A,Ayura,0.842,0,10,0,0,alto
+13,4,0,0,A,Poblado,0.737,0,3,0,1,alto
+18,6,1,1,K,Arvi,1.0,0,10,0,1,medio
+19,0,0,1,B,Santa Lucia,0.833,0,9,0,0,alto
+17,5,1,1,A,Itagui,0.947,0,10,0,0,medio
+11,1,0,0,B,Suramericana,0.333,0,4,0,0,medio
+9,6,1,1,A,Parque Berrio,0.474,0,7,0,1,alto
+5,4,0,0,B,Santa Lucia,0.833,0,8,0,0,bajo
+18,0,0,1,A,Poblado,0.737,0,11,0,0,alto
+21,4,0,0,K,Andalucia,0.25,0,4,0,1,medio
+12,4,0,0,B,Suramericana,0.333,0,3,0,2,alto
+16,3,0,0,A,Niquia,0.0,0,11,0,2,medio
+18,2,0,1,K,Arvi,1.0,0,1,0,1,alto
+9,3,0,1,A,Envigado,0.895,0,11,0,0,alto
+17,2,0,1,B,Estadio,0.5,0,7,0,0,alto
+18,0,0,1,B,Trinidad,1.0,0,11,0,1,alto
+21,2,0,0,A,Universidad,0.316,0,10,0,2,alto
+17,4,0,1,A,Prado,0.421,0,3,0,1,alto
+13,5,1,0,A,Ayura,0.842,0,1,0,0,medio
+5,5,1,0,A,Niquia,0.0,0,9,0,1,bajo
+6,0,0,0,B,San Antonio,0.0,1,7,0,0,alto
+5,0,0,0,B,Suramericana,0.333,0,2,0,0,bajo
+13,0,0,0,B,Santa Lucia,0.833,0,5,0,1,medio
+10,6,1,0,B,Estadio,0.5,0,11,1,0,bajo
+18,5,1,1,B,Estadio,0.5,0,3,0,1,alto
+19,3,0,1,A,Aguacatala,0.789,0,10,0,0,alto
+9,5,1,1,A,Poblado,0.737,0,7,0,2,alto
+22,6,1,0,A,Niquia,0.0,0,2,0,2,bajo
+17,0,0,1,K,Santo Domingo,0.75,0,3,0,1,alto
+17,4,0,1,A,Niquia,0.0,0,11,0,0,alto
+11,3,0,0,A,Universidad,0.316,0,4,0,2,alto
+11,2,0,0,K,Andalucia,0.25,0,7,0,0,bajo
+5,1,0,0,A,Poblado,0.737,0,3,0,0,bajo
+18,1,0,1,A,Hospital,0.368,0,9,0,0,alto
+22,4,0,0,B,Estadio,0.5,0,6,0,0,medio
+14,2,0,0,K,Arvi,1.0,0,5,0,0,medio
+15,0,0,0,A,Itagui,0.947,0,3,0,0,bajo
+13,2,0,0,A,Industriales,0.684,0,1,0,0,alto
+8,3,0,1,K,Popular,0.5,0,8,1,0,medio
+21,1,0,0,B,Santa Lucia,0.833,0,3,0,0,medio
+20,6,1,0,A,Madera,0.105,0,10,0,1,medio
+10,4,0,0,B,Estadio,0.5,0,9,0,1,alto
+19,1,0,1,B,Trinidad,1.0,0,7,0,1,alto
+10,4,0,0,A,Ayura,0.842,0,11,0,0,alto
+19,5,1,1,A,Hospital,0.368,0,1,0,1,alto
+8,3,0,1,B,Estadio,0.5,0,8,0,0,alto
+17,4,0,1,B,Cisneros,0.167,0,3,0,1,alto
+7,5,1,1,B,Cisneros,0.167,0,3,0,0,medio
+10,0,0,0,A,San Antonio,0.526,1,7,0,2,alto
+8,5,1,1,B,Estadio,0.5,0,5,0,1,alto
+21,5,1,0,K,Acevedo,0.0,1,3,0,2,medio
+6,4,0,0,B,Trinidad,1.0,0,10,0,1,alto
+18,4,0,1,A,Hospital,0.368,0,10,0,0,alto
+6,6,1,0,A,Tricentenario,0.211,0,6,0,0,bajo
+12,5,1,0,B,Santa Lucia,0.833,0,9,0,2,bajo
+9,2,0,1,B,Suramericana,0.333,0,10,0,1,alto
+22,5,1,0,B,Floresta,0.667,0,2,0,0,bajo
+6,5,1,0,B,Estadio,0.5,0,11,0,0,medio
+22,3,0,0,A,Hospital,0.368,0,8,0,0,bajo
+19,2,0,1,A,Niquia,0.0,0,7,0,0,alto
+19,3,0,1,B,San Antonio,0.0,1,10,0,0,alto
+21,3,0,0,B,Estadio,0.5,0,12,0,0,bajo
+21,4,0,0,A,San Antonio,0.526,1,4,0,2,alto
+5,3,0,0,A,Ayura,0.842,0,11,0,1,bajo
+6,5,1,0,A,Alpujarra,0.579,0,5,1,1,alto
+15,5,1,0,B,Estadio,0.5,0,8,0,0,bajo
+10,2,0,0,K,Acevedo,0.0,1,9,0,1,alto
+21,3,0,0,A,Caribe,0.263,0,8,0,0,alto
+14,1,0,0,A,Alpujarra,0.579,0,11,0,1,alto
+13,6,1,0,B,Trinidad,1.0,0,7,0,2,bajo
+8,2,0,1,A,Envigado,0.895,0,7,0,0,alto
+15,5,1,0,A,Envigado,0.895,0,8,0,2,bajo
+10,4,0,0,A,Exposiciones,0.632,0,3,0,2,alto
+16,0,0,0,A,Ayura,0.842,0,4,0,2,alto
+22,5,1,0,B,San Antonio,0.0,1,7,0,0,bajo
+22,2,0,0,A,Exposiciones,0.632,0,1,0,0,medio
+14,6,1,0,B,Trinidad,1.0,0,5,0,0,bajo
+7,6,1,1,K,Arvi,1.0,0,2,0,1,medio
+11,4,0,0,A,Bello,0.053,0,12,0,1,medio
+17,2,0,1,A,Universidad,0.316,0,2,0,0,alto
+15,1,0,0,A,San Antonio,0.526,1,2,0,1,alto
+21,0,0,0,B,Estadio,0.5,0,4,0,0,alto
+5,4,0,0,A,Bello,0.053,0,5,0,0,bajo
+6,6,1,0,A,Madera,0.105,0,6,0,0,bajo
+8,5,1,1,B,Floresta,0.667,0,10,0,0,alto
+5,2,0,0,A,Aguacatala,0.789,0,6,0,0,bajo
+22,6,1,0,B,Floresta,0.667,0,6,0,0,bajo
+6,2,0,0,B,Estadio,0.5,0,10,0,0,alto
+19,2,0,1,B,Floresta,0.667,0,5,0,0,alto
+22,5,1,0,A,Prado,0.421,0,6,0,1,bajo
+14,1,0,0,A,San Antonio,0.526,1,9,0,0,alto
+15,0,0,0,A,Industriales,0.684,0,3,0,0,alto
+9,6,1,1,A,Bello,0.053,0,5,0,1,medio
+9,5,1,1,A,Hospital,0.368,0,2,0,0,alto
+11,0,0,0,A,Madera,0.105,0,6,0,0,bajo
+10,5,1,0,B,Floresta,0.667,0,2,0,0,medio
+17,3,0,1,B,Floresta,0.667,0,10,0,2,alto
+18,3,0,1,K,Andalucia,0.25,0,11,0,0,alto
+9,5,1,1,A,Industriales,0.684,0,1,0,0,medio
+14,1,0,0,A,Alpujarra,0.579,0,2,0,0,alto
+8,5,1,1,A,Envigado,0.895,0,3,0,1,alto
+14,4,0,0,K,Acevedo,0.0,1,2,0,0,alto
+21,1,0,0,A,Madera,0.105,0,7,0,0,medio
+22,1,0,0,A,Niquia,0.0,0,8,0,0,medio
+10,6,1,0,A,Poblado,0.737,0,3,0,0,bajo
+13,3,0,0,A,Envigado,0.895,0,3,0,0,alto
+15,1,0,0,B,San Antonio,0.0,1,10,0,0,alto
+22,1,0,0,B,Estadio,0.5,0,12,0,0,bajo
+10,5,1,0,B,Trinidad,1.0,0,8,0,1,medio
+19,6,1,1,A,Universidad,0.316,0,12,0,0,alto
+10,6,1,0,B,Santa Lucia,0.833,0,1,0,0,medio
+18,1,0,1,B,Cisneros,0.167,0,2,0,0,alto
+7,5,1,1,A,Itagui,0.947,0,5,0,1,alto
+12,6,1,0,A,Alpujarra,0.579,0,10,0,2,alto
+22,2,0,0,A,San Antonio,0.526,1,5,0,0,alto
+12,1,0,0,K,Santo Domingo,0.75,0,7,0,0,bajo
+15,2,0,0,A,Itagui,0.947,0,5,0,1,alto
+10,3,0,0,K,Acevedo,0.0,1,10,0,1,alto
+5,1,0,0,B,Estadio,0.5,0,10,0,0,bajo
+19,6,1,1,K,Arvi,1.0,0,9,0,1,medio
+15,1,0,0,A,Aguacatala,0.789,0,10,0,2,alto
+9,6,1,1,A,Acevedo,0.158,1,6,0,1,alto
+22,1,0,0,K,Acevedo,0.0,1,3,0,2,medio
+19,4,0,1,B,Trinidad,1.0,0,9,0,2,alto
+11,5,1,0,B,Suramericana,0.333,0,12,0,1,bajo
+22,3,0,0,A,Hospital,0.368,0,1,0,1,alto
+5,2,0,0,A,Universidad,0.316,0,5,0,2,bajo
+8,3,0,1,B,Suramericana,0.333,0,2,0,1,alto
+7,0,0,1,A,Universidad,0.316,0,3,0,1,alto
+16,5,1,0,B,Santa Lucia,0.833,0,1,0,0,bajo
+21,1,0,0,B,Suramericana,0.333,0,1,0,1,medio
+11,5,1,0,B,San Antonio,0.0,1,10,0,0,medio
+17,0,0,1,A,Tricentenario,0.211,0,11,0,1,alto
+18,3,0,1,K,Santo Domingo,0.75,0,11,0,0,alto
+7,0,0,1,B,Trinidad,1.0,0,2,0,0,alto
+6,3,0,0,A,La Estrella,1.0,0,3,1,0,medio
+19,1,0,1,K,Arvi,1.0,0,4,0,1,alto
+17,2,0,1,A,Industriales,0.684,0,4,1,0,alto
+14,6,1,0,A,Poblado,0.737,0,9,0,0,bajo
+5,6,1,0,A,Parque Berrio,0.474,0,9,0,0,bajo
+15,6,1,0,B,Cisneros,0.167,0,1,0,1,bajo
+9,0,0,1,A,Exposiciones,0.632,0,10,0,1,alto
+17,6,1,1,A,Alpujarra,0.579,0,2,0,1,medio
+16,1,0,0,A,Itagui,0.947,0,12,0,0,medio
+12,3,0,0,A,Acevedo,0.158,1,2,0,0,alto
+16,3,0,0,A,Envigado,0.895,0,5,0,2,alto
+13,0,0,0,A,Niquia,0.0,0,12,1,0,bajo
+8,2,0,1,A,Industriales,0.684,0,10,0,0,alto
+13,0,0,0,B,Estadio,0.5,0,3,0,1,medio
+18,6,1,1,A,Industriales,0.684,0,10,0,0,alto
+14,4,0,0,A,Tricentenario,0.211,0,11,0,0,alto
+12,5,1,0,K,Acevedo,0.0,1,12,0,0,medio
+8,0,0,1,A,Bello,0.053,0,10,0,2,alto
+16,3,0,0,K,Santo Domingo,0.75,0,5,0,0,alto
+16,2,0,0,B,Floresta,0.667,0,5,0,1,alto
+13,3,0,0,A,Tricentenario,0.211,0,7,0,0,medio
+8,6,1,1,B,San Antonio,0.0,1,9,0,0,alto
+12,0,0,0,B,Floresta,0.667,0,8,0,0,medio
+10,3,0,0,A,Aguacatala,0.789,0,9,0,0,medio
+19,0,0,1,K,Popular,0.5,0,3,0,0,alto
+15,5,1,0,K,Acevedo,0.0,1,1,0,0,bajo
+6,3,0,0,A,Hospital,0.368,0,12,1,0,bajo
+16,4,0,0,A,Parque Berrio,0.474,0,5,0,0,alto
+5,0,0,0,K,Andalucia,0.25,0,10,0,0,bajo
+21,5,1,0,B,Trinidad,1.0,0,6,0,0,bajo
+8,4,0,1,A,Universidad,0.316,0,1,0,0,alto
+17,1,0,1,K,Andalucia,0.25,0,8,0,1,alto
+16,4,0,0,A,Madera,0.105,0,2,0,0,alto
+5,0,0,0,A,Aguacatala,0.789,0,1,0,0,bajo
+5,6,1,0,A,Itagui,0.947,0,2,0,0,bajo
+20,5,1,0,B,Floresta,0.667,0,8,0,2,alto
+12,4,0,0,A,Itagui,0.947,0,9,0,1,alto
+13,4,0,0,B,Trinidad,1.0,0,1,0,0,medio
+13,4,0,0,A,Bello,0.053,0,10,0,0,medio
+20,3,0,0,B,Suramericana,0.333,0,10,0,2,alto
+19,5,1,1,A,Poblado,0.737,0,2,0,0,medio
+14,0,0,0,B,Floresta,0.667,0,7,0,2,alto
+20,4,0,0,A,Aguacatala,0.789,0,5,0,0,alto
+18,1,0,1,A,San Antonio,0.526,1,4,0,1,alto
+8,4,0,1,A,Itagui,0.947,0,8,0,0,alto
+10,3,0,0,K,Popular,0.5,0,11,0,0,medio
+10,0,0,0,B,Trinidad,1.0,0,2,0,0,medio
+13,0,0,0,A,Niquia,0.0,0,9,0,0,medio
+21,4,0,0,B,Floresta,0.667,0,9,0,1,medio
+7,3,0,1,A,Acevedo,0.158,1,1,0,1,alto
+5,6,1,0,A,Ayura,0.842,0,2,0,2,bajo
+22,1,0,0,A,Parque Berrio,0.474,0,3,0,0,alto
+12,4,0,0,B,Floresta,0.667,0,8,0,0,medio
+10,0,0,0,A,Envigado,0.895,0,1,0,0,alto
+10,6,1,0,K,Acevedo,0.0,1,4,0,1,medio
+17,0,0,1,A,La Estrella,1.0,0,11,0,0,alto
+13,6,1,0,K,Arvi,1.0,0,3,0,1,bajo
+9,3,0,1,B,Floresta,0.667,0,12,1,0,medio
+6,2,0,0,B,Santa Lucia,0.833,0,1,0,0,medio
+13,6,1,0,K,Acevedo,0.0,1,2,0,1,medio
+12,1,0,0,B,Floresta,0.667,0,8,0,1,alto
+22,1,0,0,K,Arvi,1.0,0,6,0,0,medio
+17,1,0,1,B,Trinidad,1.0,0,5,0,0,alto
+14,6,1,0,B,Estadio,0.5,0,10,1,0,bajo
+5,2,0,0,B,Estadio,0.5,0,8,0,0,bajo
+5,1,0,0,A,Poblado,0.737,0,9,0,0,medio
+12,6,1,0,A,Itagui,0.947,0,11,0,0,medio
+5,4,0,0,B,Cisneros,0.167,0,10,0,1,bajo
+12,4,0,0,K,Arvi,1.0,0,1,0,0,medio
+20,1,0,0,A,Exposiciones,0.632,0,9,0,1,alto
+14,0,0,0,A,Madera,0.105,0,4,0,0,alto
+16,5,1,0,K,Andalucia,0.25,0,10,0,1,medio
+8,1,0,1,K,Santo Domingo,0.75,0,4,0,1,alto
+10,1,0,0,A,San Antonio,0.526,1,1,0,0,alto
+10,2,0,0,K,Acevedo,0.0,1,5,0,0,alto
+8,4,0,1,A,Prado,0.421,0,2,0,0,alto
+5,6,1,0,A,Prado,0.421,0,10,0,0,bajo
+20,5,1,0,A,Aguacatala,0.789,0,2,0,0,medio
+22,5,1,0,B,Trinidad,1.0,0,1,0,0,bajo
+17,3,0,1,K,Acevedo,0.0,1,9,0,0,alto
+8,6,1,1,B,Trinidad,1.0,0,4,0,0,medio
+17,2,0,1,A,Exposiciones,0.632,0,9,0,1,alto
+17,5,1,1,A,Itagui,0.947,0,10,0,0,medio
+14,5,1,0,B,Estadio,0.5,0,2,0,0,bajo
+8,0,0,1,K,Acevedo,0.0,1,10,0,1,alto
+6,6,1,0,K,Andalucia,0.25,0,11,0,0,bajo
+6,2,0,0,B,Santa Lucia,0.833,0,2,0,0,alto
+6,1,0,0,B,Santa Lucia,0.833,0,10,0,1,medio
+12,3,0,0,B,Suramericana,0.333,0,12,0,0,medio
+13,2,0,0,B,Floresta,0.667,0,6,0,0,medio
+14,6,1,0,B,Santa Lucia,0.833,0,3,0,0,bajo
+10,0,0,0,B,Suramericana,0.333,0,5,0,2,alto
+18,3,0,1,K,Arvi,1.0,0,8,0,0,alto
+10,0,0,0,B,Suramericana,0.333,0,5,0,0,medio
+5,4,0,0,A,Envigado,0.895,0,8,0,2,medio
+11,6,1,0,A,Hospital,0.368,0,9,0,1,bajo
+17,3,0,1,A,Prado,0.421,0,3,0,1,alto
+14,0,0,0,B,Suramericana,0.333,0,2,0,1,medio
+18,1,0,1,A,Niquia,0.0,0,3,0,0,alto
+19,3,0,1,A,Caribe,0.263,0,8,0,1,alto
+7,3,0,1,A,La Estrella,1.0,0,1,0,0,alto
+7,2,0,1,A,Acevedo,0.158,1,9,0,2,alto
+5,6,1,0,B,San Antonio,0.0,1,9,0,0,bajo
+17,3,0,1,B,Floresta,0.667,0,12,0,2,alto
+16,3,0,0,A,Itagui,0.947,0,1,0,0,alto
+13,6,1,0,A,Industriales,0.684,0,3,0,1,medio
+11,4,0,0,A,Bello,0.053,0,5,0,1,alto
+12,3,0,0,B,Suramericana,0.333,0,6,1,1,bajo
+22,2,0,0,A,Poblado,0.737,0,11,0,0,alto
+10,2,0,0,A,Ayura,0.842,0,3,0,1,alto
+16,6,1,0,A,Prado,0.421,0,5,0,0,medio
+14,5,1,0,B,Suramericana,0.333,0,6,0,1,bajo
+8,1,0,1,A,Madera,0.105,0,4,0,2,alto
+22,4,0,0,B,Suramericana,0.333,0,12,0,2,bajo
+19,6,1,1,A,Poblado,0.737,0,7,0,0,bajo
+10,3,0,0,K,Popular,0.5,0,3,0,0,alto
+7,3,0,1,K,Andalucia,0.25,0,6,1,0,bajo
+7,4,0,1,B,San Antonio,0.0,1,7,0,1,alto
+17,4,0,1,A,Bello,0.053,0,4,0,1,alto
+9,2,0,1,B,Trinidad,1.0,0,10,0,0,alto
+21,0,0,0,A,Acevedo,0.158,1,12,0,0,alto
+14,4,0,0,B,Floresta,0.667,0,2,0,0,alto
+13,2,0,0,A,Alpujarra,0.579,0,7,0,1,alto
+16,5,1,0,A,Envigado,0.895,0,2,0,1,medio
+5,5,1,0,B,San Antonio,0.0,1,11,0,1,bajo
+12,5,1,0,K,Popular,0.5,0,10,0,0,bajo
+22,5,1,0,K,Popular,0.5,0,7,0,1,bajo
+21,4,0,0,B,Estadio,0.5,0,3,0,1,alto
+9,6,1,1,A,Aguacatala,0.789,0,8,0,0,alto
+9,2,0,1,B,Santa Lucia,0.833,0,7,0,0,alto
+17,5,1,1,B,Floresta,0.667,0,5,0,0,alto
+12,4,0,0,A,Envigado,0.895,0,8,0,0,alto
+22,3,0,0,A,Acevedo,0.158,1,1,0,2,alto
+11,1,0,0,A,Itagui,0.947,0,9,0,0,alto
+9,0,0,1,A,Caribe,0.263,0,1,0,0,alto
+10,0,0,0,A,Hospital,0.368,0,1,0,1,alto
+5,4,0,0,A,Bello,0.053,0,11,0,1,bajo
+20,5,1,0,B,Trinidad,1.0,0,7,0,0,bajo
+7,2,0,1,A,Exposiciones,0.632,0,1,0,0,alto
+15,5,1,0,B,Suramericana,0.333,0,4,0,2,bajo
+18,6,1,1,B,Suramericana,0.333,0,9,0,0,medio
+18,6,1,1,A,Parque Berrio,0.474,0,10,0,1,alto
+19,6,1,1,A,Niquia,0.0,0,7,0,0,medio
+17,3,0,1,A,San Antonio,0.526,1,2,0,0,alto
+18,2,0,1,K,Santo Domingo,0.75,0,2,0,0,alto
+16,2,0,0,K,Santo Domingo,0.75,0,2,0,0,alto
+5,6,1,0,A,Parque Berrio,0.474,0,8,1,0,bajo
+13,6,1,0,B,Floresta,0.667,0,10,0,0,bajo
+11,3,0,0,B,Trinidad,1.0,0,7,0,0,bajo
+17,4,0,1,B,Cisneros,0.167,0,12,0,1,alto
+5,4,0,0,B,Trinidad,1.0,0,4,1,0,bajo
+8,3,0,1,B,Floresta,0.667,0,9,0,1,alto
+16,6,1,0,A,Niquia,0.0,0,10,0,0,bajo
+7,4,0,1,B,Trinidad,1.0,0,8,0,0,alto
+18,5,1,1,A,Tricentenario,0.211,0,6,0,1,medio
+22,6,1,0,K,Arvi,1.0,0,3,0,0,bajo
+16,1,0,0,A,Itagui,0.947,0,2,0,0,alto
+15,0,0,0,A,Ayura,0.842,0,8,0,0,medio
+14,3,0,0,A,Aguacatala,0.789,0,10,0,1,medio
+22,1,0,0,A,Envigado,0.895,0,5,0,1,bajo
+10,1,0,0,B,Suramericana,0.333,0,3,0,2,alto
+7,3,0,1,A,Ayura,0.842,0,1,0,1,alto
+13,1,0,0,K,Popular,0.5,0,2,0,1,medio
+16,3,0,0,K,Popular,0.5,0,1,0,0,alto
+9,6,1,1,B,Cisneros,0.167,0,6,0,1,medio
+5,5,1,0,K,Arvi,1.0,0,1,0,1,bajo
+13,0,0,0,A,Industriales,0.684,0,8,0,0,alto
+20,1,0,0,A,Prado,0.421,0,9,0,2,alto
+6,0,0,0,A,Niquia,0.0,0,8,0,1,medio
+10,5,1,0,B,Cisneros,0.167,0,5,0,0,alto
+22,6,1,0,A,Exposiciones,0.632,0,6,0,0,bajo
+22,5,1,0,A,Alpujarra,0.579,0,12,1,2,medio
+10,6,1,0,A,La Estrella,1.0,0,8,0,0,medio
+15,1,0,0,K,Acevedo,0.0,1,7,0,1,alto
+9,1,0,1,B,San Antonio,0.0,1,1,0,0,alto
+15,5,1,0,B,Floresta,0.667,0,1,1,2,medio
+21,4,0,0,K,Acevedo,0.0,1,5,0,1,alto
+12,6,1,0,K,Popular,0.5,0,11,0,1,bajo
+11,6,1,0,B,Floresta,0.667,0,7,0,0,bajo
+20,6,1,0,A,Prado,0.421,0,2,0,1,alto
+9,3,0,1,K,Arvi,1.0,0,4,0,0,alto
+11,6,1,0,B,San Antonio,0.0,1,12,1,0,bajo
+17,1,0,1,A,Envigado,0.895,0,11,0,0,alto
+16,3,0,0,A,Universidad,0.316,0,5,0,1,alto
+21,0,0,0,A,Industriales,0.684,0,7,0,0,bajo
+6,5,1,0,B,Estadio,0.5,0,7,0,0,bajo
+22,4,0,0,A,Parque Berrio,0.474,0,4,1,0,bajo
+12,3,0,0,A,San Antonio,0.526,1,11,0,0,alto
+6,3,0,0,A,San Antonio,0.526,1,8,0,1,alto
+19,4,0,1,B,Suramericana,0.333,0,6,0,0,alto
+5,4,0,0,B,Cisneros,0.167,0,1,0,2,bajo
+6,3,0,0,A,Acevedo,0.158,1,11,0,0,alto
+8,0,0,1,A,Hospital,0.368,0,2,0,1,alto
+5,1,0,0,B,San Antonio,0.0,1,6,0,0,medio
+10,5,1,0,A,Caribe,0.263,0,1,0,1,medio
+15,6,1,0,A,Hospital,0.368,0,5,0,2,bajo
+10,3,0,0,A,Tricentenario,0.211,0,6,0,1,bajo
+6,0,0,0,B,Suramericana,0.333,0,3,0,0,alto
+8,2,0,1,A,San Antonio,0.526,1,4,0,1,alto
+13,3,0,0,A,Alpujarra,0.579,0,11,0,0,alto
+19,5,1,1,B,San Antonio,0.0,1,4,0,0,alto
+6,2,0,0,B,Floresta,0.667,0,12,0,1,medio
+6,0,0,0,A,Madera,0.105,0,7,0,2,alto
+14,6,1,0,B,Cisneros,0.167,0,12,0,0,bajo
+9,0,0,1,A,Alpujarra,0.579,0,4,0,0,alto
+14,0,0,0,B,Santa Lucia,0.833,0,2,0,0,medio
+10,4,0,0,A,San Antonio,0.526,1,6,0,1,alto
+15,1,0,0,A,Alpujarra,0.579,0,1,0,0,alto
+5,5,1,0,B,Floresta,0.667,0,1,0,1,bajo
+7,4,0,1,B,San Antonio,0.0,1,7,0,0,alto
+21,2,0,0,A,Aguacatala,0.789,0,12,0,0,medio
+14,2,0,0,A,Universidad,0.316,0,10,0,2,alto
+20,3,0,0,A,Exposiciones,0.632,0,7,0,1,alto
+15,0,0,0,A,San Antonio,0.526,1,4,0,1,alto
+15,2,0,0,A,Exposiciones,0.632,0,3,0,0,alto
+22,2,0,0,A,Poblado,0.737,0,3,0,0,alto
+12,6,1,0,K,Andalucia,0.25,0,4,0,0,bajo
+5,5,1,0,A,Madera,0.105,0,1,0,0,bajo
+16,1,0,0,K,Acevedo,0.0,1,1,0,1,alto
+18,4,0,1,B,Floresta,0.667,0,5,0,0,alto
+19,1,0,1,B,Estadio,0.5,0,3,0,2,alto
+19,2,0,1,A,San Antonio,0.526,1,10,0,1,alto
+10,0,0,0,B,Trinidad,1.0,0,3,0,1,medio
+10,3,0,0,B,Suramericana,0.333,0,1,0,2,alto
+9,3,0,1,A,Niquia,0.0,0,6,0,0,alto
+19,3,0,1,A,Prado,0.421,0,1,0,1,alto
+10,1,0,0,A,Alpujarra,0.579,0,12,1,1,medio
+18,5,1,1,A,Universidad,0.316,0,3,0,1,alto
+21,6,1,0,A,Alpujarra,0.579,0,2,0,1,bajo
+5,5,1,0,B,Santa Lucia,0.833,0,6,0,0,bajo
+22,2,0,0,B,Cisneros,0.167,0,6,0,1,bajo
+15,4,0,0,K,Arvi,1.0,0,12,0,1,bajo
+22,4,0,0,A,Exposiciones,0.632,0,1,0,0,medio
+20,4,0,0,A,Hospital,0.368,0,12,0,2,alto
+21,4,0,0,B,Cisneros,0.167,0,8,0,1,medio
+14,6,1,0,A,San Antonio,0.526,1,1,0,0,medio
+5,0,0,0,B,Cisneros,0.167,0,3,0,0,bajo
+9,5,1,1,A,Envigado,0.895,0,4,0,1,alto
+20,2,0,0,A,Prado,0.421,0,11,0,1,alto
+8,0,0,1,K,Arvi,1.0,0,7,0,1,medio
+5,1,0,0,K,Andalucia,0.25,0,1,0,0,bajo
+9,1,0,1,A,Prado,0.421,0,3,0,1,alto
+12,2,0,0,A,Acevedo,0.158,1,12,0,0,alto
+7,3,0,1,A,Ayura,0.842,0,6,1,0,medio
+12,6,1,0,A,Alpujarra,0.579,0,8,0,0,bajo
+8,4,0,1,B,Floresta,0.667,0,9,0,0,alto
+7,3,0,1,A,La Estrella,1.0,0,11,0,1,alto
+20,2,0,0,K,Acevedo,0.0,1,7,0,1,alto
+11,0,0,0,K,Arvi,1.0,0,1,0,0,bajo
+13,0,0,0,K,Arvi,1.0,0,10,1,0,bajo
+18,3,0,1,A,Acevedo,0.158,1,1,0,0,alto
+16,6,1,0,B,Floresta,0.667,0,7,0,2,bajo
+12,5,1,0,A,Exposiciones,0.632,0,7,0,0,medio
+17,2,0,1,B,Trinidad,1.0,0,6,1,0,bajo
+6,3,0,0,A,Parque Berrio,0.474,0,7,0,2,alto
+11,5,1,0,K,Popular,0.5,0,4,0,0,medio
+19,1,0,1,B,Cisneros,0.167,0,3,0,0,alto
+8,0,0,1,A,Industriales,0.684,0,5,0,0,alto
+22,5,1,0,K,Popular,0.5,0,6,0,1,bajo
+21,5,1,0,A,Ayura,0.842,0,1,0,1,medio
+8,5,1,1,K,Arvi,1.0,0,10,0,0,medio
+7,5,1,1,A,Parque Berrio,0.474,0,10,0,1,alto
+9,5,1,1,A,Hospital,0.368,0,5,0,2,alto
+6,2,0,0,A,Alpujarra,0.579,0,9,0,0,alto
+7,0,0,1,A,Hospital,0.368,0,12,0,0,alto
+20,3,0,0,K,Arvi,1.0,0,1,0,2,medio
+13,3,0,0,K,Santo Domingo,0.75,0,6,0,0,medio
+13,5,1,0,B,Santa Lucia,0.833,0,11,0,2,bajo
+20,6,1,0,A,Itagui,0.947,0,5,0,0,medio
+21,3,0,0,K,Arvi,1.0,0,2,0,0,bajo
+16,0,0,0,A,Parque Berrio,0.474,0,9,0,2,alto
+14,4,0,0,B,Suramericana,0.333,0,2,0,0,medio
+17,3,0,1,A,Alpujarra,0.579,0,5,0,0,alto
+5,3,0,0,A,Hospital,0.368,0,5,0,0,bajo
+10,3,0,0,A,Prado,0.421,0,2,0,0,alto
+22,4,0,0,K,Popular,0.5,0,4,0,1,medio
+15,2,0,0,A,Parque Berrio,0.474,0,4,0,1,alto
+18,1,0,1,B,Floresta,0.667,0,11,0,0,alto
+22,5,1,0,A,Niquia,0.0,0,11,0,0,bajo
+16,1,0,0,B,Trinidad,1.0,0,3,0,0,medio
+15,1,0,0,B,Suramericana,0.333,0,4,0,1,medio
+10,3,0,0,K,Popular,0.5,0,9,0,0,alto
+6,0,0,0,K,Santo Domingo,0.75,0,8,1,1,medio
+21,3,0,0,A,Niquia,0.0,0,6,0,1,medio
+18,3,0,1,B,Cisneros,0.167,0,11,0,0,alto
+5,0,0,0,A,Poblado,0.737,0,5,0,1,medio
+9,6,1,1,K,Popular,0.5,0,8,1,0,medio
+21,5,1,0,A,San Antonio,0.526,1,1,0,0,alto
+7,2,0,1,A,Tricentenario,0.211,0,3,0,0,alto
+18,0,0,1,A,Acevedo,0.158,1,10,0,0,alto
+21,6,1,0,A,Exposiciones,0.632,0,11,0,0,bajo
+11,0,0,0,A,Bello,0.053,0,4,0,1,medio
+5,4,0,0,B,Cisneros,0.167,0,11,0,1,bajo
+12,2,0,0,K,Santo Domingo,0.75,0,3,1,0,bajo
+12,1,0,0,K,Andalucia,0.25,0,3,0,1,bajo
+11,4,0,0,B,Cisneros,0.167,0,10,0,0,medio
+16,1,0,0,K,Andalucia,0.25,0,3,0,0,alto
+16,0,0,0,A,Ayura,0.842,0,8,0,0,alto
+10,3,0,0,A,Ayura,0.842,0,10,0,1,alto
+10,6,1,0,A,Ayura,0.842,0,4,0,0,medio
+16,5,1,0,B,San Antonio,0.0,1,9,0,2,alto
+22,5,1,0,B,Santa Lucia,0.833,0,3,0,0,bajo
+13,4,0,0,K,Santo Domingo,0.75,0,5,0,0,bajo
+19,6,1,1,A,San Antonio,0.526,1,5,0,0,alto
+9,1,0,1,K,Andalucia,0.25,0,12,0,0,alto
+14,2,0,0,A,La Estrella,1.0,0,3,0,1,medio
+10,5,1,0,A,Caribe,0.263,0,6,0,0,bajo
+15,1,0,0,A,La Estrella,1.0,0,6,0,0,bajo
+12,0,0,0,K,Santo Domingo,0.75,0,11,0,0,medio
+20,2,0,0,A,Exposiciones,0.632,0,2,0,0,alto
+8,5,1,1,B,Suramericana,0.333,0,9,0,0,alto
+12,6,1,0,K,Acevedo,0.0,1,7,0,0,bajo
+12,4,0,0,K,Santo Domingo,0.75,0,12,0,1,medio
+15,5,1,0,B,San Antonio,0.0,1,5,0,0,medio
+7,2,0,1,A,Caribe,0.263,0,2,0,2,alto
+7,4,0,1,A,Madera,0.105,0,11,0,0,alto
+17,4,0,1,K,Acevedo,0.0,1,4,0,0,alto
+16,6,1,0,B,Estadio,0.5,0,3,0,0,medio
+18,1,0,1,A,Caribe,0.263,0,11,0,0,alto
+8,1,0,1,K,Santo Domingo,0.75,0,12,0,0,medio
+18,4,0,1,B,Cisneros,0.167,0,7,0,0,alto
+17,0,0,1,K,Santo Domingo,0.75,0,10,0,0,alto
+7,6,1,1,B,Cisneros,0.167,0,10,0,0,medio
+17,5,1,1,B,Santa Lucia,0.833,0,1,0,2,medio
+20,5,1,0,B,Floresta,0.667,0,9,0,0,bajo
+14,1,0,0,K,Andalucia,0.25,0,2,0,0,medio
+21,5,1,0,A,Niquia,0.0,0,12,0,1,bajo
+12,0,0,0,A,Caribe,0.263,0,3,0,0,medio
+20,6,1,0,A,Alpujarra,0.579,0,7,0,2,medio
+19,6,1,1,B,Santa Lucia,0.833,0,5,0,0,medio
+17,2,0,1,B,Estadio,0.5,0,5,0,1,alto
+17,2,0,1,B,Estadio,0.5,0,10,0,1,alto
+11,3,0,0,A,Industriales,0.684,0,6,0,1,medio
+15,0,0,0,A,Prado,0.421,0,1,0,0,alto
+17,2,0,1,A,Bello,0.053,0,10,0,1,alto
+7,0,0,1,B,Estadio,0.5,0,11,0,1,alto
+11,0,0,0,A,San Antonio,0.526,1,12,0,1,alto
+10,2,0,0,K,Acevedo,0.0,1,6,0,0,alto
+14,1,0,0,A,Industriales,0.684,0,2,0,0,alto
+22,6,1,0,A,Ayura,0.842,0,10,0,0,bajo
+18,1,0,1,B,Santa Lucia,0.833,0,5,0,1,alto
+14,5,1,0,A,Hospital,0.368,0,5,0,0,medio
+12,6,1,0,B,Floresta,0.667,0,10,0,1,bajo
+19,2,0,1,A,Prado,0.421,0,4,0,2,alto
+22,1,0,0,B,Trinidad,1.0,0,3,0,0,bajo
+18,1,0,1,A,Ayura,0.842,0,10,0,0,alto
+21,4,0,0,K,Arvi,1.0,0,5,0,0,bajo
+19,1,0,1,A,Niquia,0.0,0,1,0,0,alto
+14,6,1,0,B,Suramericana,0.333,0,9,0,0,bajo
+16,2,0,0,K,Santo Domingo,0.75,0,8,0,1,alto
+6,2,0,0,A,Niquia,0.0,0,5,0,0,alto
+7,1,0,1,A,Exposiciones,0.632,0,12,0,0,alto
+8,1,0,1,K,Popular,0.5,0,2,0,1,alto
+17,6,1,1,B,Suramericana,0.333,0,6,0,1,bajo
+5,4,0,0,A,Aguacatala,0.789,0,7,0,0,bajo
+11,0,0,0,B,Floresta,0.667,0,5,0,0,medio
+17,1,0,1,A,Exposiciones,0.632,0,2,0,0,alto
+16,0,0,0,B,Floresta,0.667,0,4,0,2,alto
+6,6,1,0,K,Andalucia,0.25,0,4,0,0,bajo
+13,3,0,0,A,Caribe,0.263,0,4,0,0,medio
+18,4,0,1,K,Arvi,1.0,0,12,0,1,alto
+22,6,1,0,K,Santo Domingo,0.75,0,1,0,1,bajo
+13,3,0,0,A,Tricentenario,0.211,0,10,0,0,medio
+20,3,0,0,K,Acevedo,0.0,1,5,0,0,alto
+6,1,0,0,A,San Antonio,0.526,1,4,1,1,alto
+10,1,0,0,A,Bello,0.053,0,9,0,2,alto
+15,5,1,0,B,Trinidad,1.0,0,3,0,0,bajo
+12,0,0,0,B,Cisneros,0.167,0,3,0,0,bajo
+5,1,0,0,A,Universidad,0.316,0,1,0,0,medio
+19,0,0,1,B,Estadio,0.5,0,12,0,0,alto
+19,6,1,1,A,Niquia,0.0,0,7,0,1,bajo
+16,6,1,0,B,Floresta,0.667,0,6,0,2,medio
+6,0,0,0,A,Universidad,0.316,0,3,0,1,alto
+13,6,1,0,B,Trinidad,1.0,0,8,0,0,bajo
+9,4,0,1,A,Bello,0.053,0,5,0,0,alto
+5,0,0,0,B,Trinidad,1.0,0,8,0,0,bajo
+16,0,0,0,A,Bello,0.053,0,8,0,2,alto
+13,5,1,0,B,Trinidad,1.0,0,9,0,1,medio
+20,2,0,0,B,Santa Lucia,0.833,0,5,0,0,medio
+10,2,0,0,B,Trinidad,1.0,0,1,0,0,medio
+20,5,1,0,B,Cisneros,0.167,0,3,0,0,bajo
+9,2,0,1,A,Caribe,0.263,0,10,0,1,alto
+22,2,0,0,B,Estadio,0.5,0,12,0,2,medio
+12,3,0,0,K,Andalucia,0.25,0,4,0,0,bajo
+9,0,0,1,A,Acevedo,0.158,1,2,0,0,alto
+6,1,0,0,B,Floresta,0.667,0,12,0,2,medio
+6,5,1,0,K,Arvi,1.0,0,2,0,2,bajo
+6,6,1,0,B,Suramericana,0.333,0,11,0,1,bajo
+13,5,1,0,B,Floresta,0.667,0,6,0,1,bajo
+20,0,0,0,K,Acevedo,0.0,1,3,0,0,alto
+12,4,0,0,A,Hospital,0.368,0,8,0,0,alto
+9,1,0,1,A,Parque Berrio,0.474,0,2,0,0,alto
+17,6,1,1,A,Itagui,0.947,0,4,0,1,medio
+11,1,0,0,A,Envigado,0.895,0,5,0,0,alto
+21,3,0,0,A,Ayura,0.842,0,9,0,1,medio
+13,3,0,0,A,Niquia,0.0,0,1,0,0,alto
+21,5,1,0,B,Trinidad,1.0,0,6,0,1,bajo
+19,3,0,1,A,Universidad,0.316,0,5,0,1,alto
+10,4,0,0,K,Andalucia,0.25,0,12,0,0,medio
+19,3,0,1,A,Caribe,0.263,0,8,0,1,alto
+18,0,0,1,A,Niquia,0.0,0,7,0,0,alto
+9,0,0,1,A,La Estrella,1.0,0,11,0,1,alto
+7,2,0,1,A,Acevedo,0.158,1,7,0,0,alto
+15,6,1,0,B,Suramericana,0.333,0,11,0,1,bajo
+18,1,0,1,K,Andalucia,0.25,0,10,0,0,alto
+18,3,0,1,A,Bello,0.053,0,2,0,1,alto
+15,0,0,0,K,Arvi,1.0,0,4,0,1,medio
+6,0,0,0,A,Envigado,0.895,0,5,0,0,alto
+7,1,0,1,A,Madera,0.105,0,3,0,2,alto

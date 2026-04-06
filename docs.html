@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Inteligente de Rutas - Metro de Medellin</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-left: 4px solid #4f8ef7;
+      padding-left: 1.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #f0f4ff;
+    }
+
+    header p {
+      color: #94a3b8;
+      margin-top: 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #4f8ef7;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+    }
+
+    section {
+      background: #1a1d27;
+      border: 1px solid #2d3148;
+      border-radius: 10px;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Ejecucion */
+    .cmd-block {
+      background: #0d0f18;
+      border: 1px solid #2d3148;
+      border-radius: 6px;
+      padding: 0.9rem 1.2rem;
+      margin: 0.5rem 0 1rem;
+      font-family: 'Cascadia Code', 'Fira Code', monospace;
+      font-size: 0.88rem;
+      color: #a8d8a8;
+      overflow-x: auto;
+    }
+
+    .cmd-block span.comment {
+      color: #4a5580;
+    }
+
+    .cmd-label {
+      font-size: 0.8rem;
+      color: #64748b;
+      margin-bottom: 0.2rem;
+    }
+
+    /* Flujo */
+    .flow {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .flow-step {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .flow-connector {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 28px;
+    }
+
+    .flow-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #4f8ef7;
+      flex-shrink: 0;
+      margin-top: 5px;
+    }
+
+    .flow-line {
+      width: 2px;
+      flex: 1;
+      background: #2d3148;
+      min-height: 24px;
+      margin: 2px 0;
+    }
+
+    .flow-step:last-child .flow-line {
+      display: none;
+    }
+
+    .flow-content {
+      padding-bottom: 1.2rem;
+    }
+
+    .flow-content strong {
+      color: #f0f4ff;
+      font-size: 0.95rem;
+    }
+
+    .flow-content p {
+      color: #94a3b8;
+      font-size: 0.875rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Archivos */
+    .files-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+      .files-grid { grid-template-columns: 1fr; }
+    }
+
+    .file-card {
+      background: #0d0f18;
+      border: 1px solid #2d3148;
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+    }
+
+    .file-card .filename {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #4f8ef7;
+      margin-bottom: 0.3rem;
+    }
+
+    .file-card p {
+      font-size: 0.83rem;
+      color: #94a3b8;
+    }
+
+    /* Librerias */
+    .lib-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .lib-item {
+      display: flex;
+      align-items: baseline;
+      gap: 0.8rem;
+    }
+
+    .lib-name {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #e2b96f;
+      min-width: 120px;
+    }
+
+    .lib-desc {
+      font-size: 0.87rem;
+      color: #94a3b8;
+    }
+
+    /* Reglas */
+    .rules-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .rule-row {
+      display: flex;
+      gap: 0.8rem;
+      align-items: flex-start;
+      font-size: 0.87rem;
+    }
+
+    .rule-id {
+      background: #1e2a4a;
+      color: #4f8ef7;
+      font-family: monospace;
+      font-weight: 700;
+      padding: 0.1rem 0.5rem;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .rule-desc {
+      color: #94a3b8;
+    }
+
+    /* Badge */
+    .badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      background: #1a2d1a;
+      color: #6abf6a;
+      border: 1px solid #2d4a2d;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    /* Separador de actividades */
+    .activity-divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 2.5rem 0 2rem;
+    }
+    .activity-divider span {
+      white-space: nowrap;
+      font-size: 0.78rem;
+      color: #4a5580;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .activity-divider::before,
+    .activity-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #2d3148;
+    }
+
+    /* Imagenes de resultados */
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 640px) {
+      .results-grid { grid-template-columns: 1fr; }
+    }
+    .result-card {
+      background: #0d0f18;
+      border: 1px solid #2d3148;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .result-card.full-width {
+      grid-column: 1 / -1;
+    }
+    .result-card img {
+      width: 100%;
+      display: block;
+    }
+    .result-card .img-caption {
+      font-size: 0.8rem;
+      color: #64748b;
+      padding: 0.5rem 0.8rem;
+      border-top: 1px solid #2d3148;
+    }
+
+    /* Metricas */
+    .metrics-row {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .metric-box {
+      flex: 1;
+      background: #0d0f18;
+      border: 1px solid #2d3148;
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+      text-align: center;
+    }
+    .metric-box .metric-val {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #4f8ef7;
+      line-height: 1.1;
+    }
+    .metric-box .metric-label {
+      font-size: 0.78rem;
+      color: #64748b;
+      margin-top: 0.2rem;
+    }
+
+    /* Features table */
+    .feat-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    .feat-table th {
+      text-align: left;
+      color: #64748b;
+      font-weight: 600;
+      padding: 0.4rem 0.6rem;
+      border-bottom: 1px solid #2d3148;
+    }
+    .feat-table td {
+      padding: 0.4rem 0.6rem;
+      color: #94a3b8;
+      border-bottom: 1px solid #1a1d27;
+    }
+    .feat-table td:first-child {
+      font-family: monospace;
+      color: #e2b96f;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Sistema Inteligente de Rutas</h1>
+    <p>Transporte Masivo &mdash; Metro de Medellin &nbsp;&bull;&nbsp; Inteligencia Artificial Avanzada</p>
+  </header>
+
+  <!-- EJECUCION -->
+  <section>
+    <h2>Como ejecutar</h2>
+
+    <p class="cmd-label">Modo completo (demo + interactivo):</p>
+    <div class="cmd-block">python main.py</div>
+
+    <p class="cmd-label">Solo casos de prueba predefinidos:</p>
+    <div class="cmd-block">python main.py --demo</div>
+
+    <p class="cmd-label">Solo modo interactivo (ingresar origen y destino):</p>
+    <div class="cmd-block">python main.py --interactive</div>
+
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:0.5rem;">
+      Requiere <strong style="color:#e2b96f;">Python 3.10+</strong>. No necesita instalar dependencias externas; usa unicamente la biblioteca estandar.
+    </p>
+  </section>
+
+  <!-- USO INTERACTIVO -->
+  <section>
+    <h2>Uso en modo interactivo</h2>
+    <div class="cmd-block">
+Estacion de origen  : Poblado<br>
+Estacion de destino : Arvi<br>
+<span class="comment"><br>
+<span style="color:#6abf6a;"># El sistema calcula y muestra:</span><br>
+# - Ruta optima estacion por estacion<br>
+# - Linea de cada tramo y puntos de transbordo<br>
+# - Tiempo estimado en minutos<br>
+# - Numero de estaciones y transbordos<br></span>
+    </div>
+    <p style="font-size:0.875rem; color:#94a3b8;">
+      Escriba <code style="color:#e2b96f;">lista</code> para ver todas las estaciones disponibles.
+      Escriba <code style="color:#e2b96f;">salir</code> para terminar.
+    </p>
+  </section>
+
+  <!-- FLUJO DE ALTO NIVEL -->
+  <section>
+    <h2>Flujo de alto nivel</h2>
+    <div class="flow">
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>1. Base de conocimiento <code style="font-size:0.8rem; color:#94a3b8;">knowledge_base.py</code></strong>
+          <p>Define los hechos del mundo: estaciones con coordenadas cartesianas (x, y), conexiones unidireccionales con tiempo en minutos, y 4 reglas logicas (R1&ndash;R4).</p>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>2. Motor de inferencia <code style="font-size:0.8rem; color:#94a3b8;">inference_engine.py</code></strong>
+          <p>Aplica encadenamiento hacia adelante (forward chaining): ejecuta R1 para hacer el grafo bidireccional, R2 para detectar estaciones de transbordo y R3 para fijar la penalizacion por cambio de linea. Devuelve el grafo listo para la busqueda.</p>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>3. Busqueda A* <code style="font-size:0.8rem; color:#94a3b8;">search.py</code></strong>
+          <p>Recibe origen y destino. Usa una cola de prioridad (min-heap) con f(n) = g(n) + h(n), donde g es el tiempo acumulado real (incluye penalizacion R3) y h es la distancia euclidiana a destino (heuristica admisible). Devuelve el <code style="color:#e2b96f;">RouteResult</code> optimo.</p>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-connector"><div class="flow-dot"></div><div class="flow-line"></div></div>
+        <div class="flow-content">
+          <strong>4. Interfaz <code style="font-size:0.8rem; color:#94a3b8;">main.py</code></strong>
+          <p>Orquesta todo: inicializa el motor, imprime reglas y estaciones, ejecuta casos de prueba y/o arranca el modo interactivo segun los argumentos de linea de comandos.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- REGLAS LOGICAS -->
+  <section>
+    <h2>Reglas logicas</h2>
+    <div class="rules-list">
+      <div class="rule-row">
+        <span class="rule-id">R1</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Conexion bidireccional</strong> &mdash; Si existe conexion(A, B) entonces existe conexion(B, A). El tren circula en ambas direcciones.</span>
+      </div>
+      <div class="rule-row">
+        <span class="rule-id">R2</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Estacion de transferencia</strong> &mdash; Si una estacion pertenece a dos o mas lineas, es punto de transbordo.</span>
+      </div>
+      <div class="rule-row">
+        <span class="rule-id">R3</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Penalizacion por transbordo</strong> &mdash; Cambiar de linea agrega 3 minutos al costo acumulado.</span>
+      </div>
+      <div class="rule-row">
+        <span class="rule-id">R4</span>
+        <span class="rule-desc"><strong style="color:#e2e8f0;">Validacion de ruta</strong> &mdash; Toda estacion en el resultado debe existir en la base de conocimiento (validado en tiempo de busqueda).</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARCHIVOS -->
+  <section>
+    <h2>Estructura de archivos</h2>
+    <div class="files-grid">
+      <div class="file-card">
+        <div class="filename">knowledge_base.py</div>
+        <p>Hechos (estaciones, conexiones) y reglas logicas R1&ndash;R4.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">inference_engine.py</div>
+        <p>Motor de inferencia por encadenamiento hacia adelante. Construye el grafo de navegacion.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">search.py</div>
+        <p>Algoritmo A*. Encuentra la ruta de menor costo con heuristica euclidiana admisible.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">main.py</div>
+        <p>Punto de entrada. Modo demo y modo interactivo via argumentos CLI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBRERIAS -->
+  <section>
+    <h2>Librerias utilizadas</h2>
+    <div class="lib-list">
+      <div class="lib-item">
+        <span class="lib-name">heapq</span>
+        <span class="lib-desc">Cola de prioridad (min-heap) para la frontera de A*. <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">math</span>
+        <span class="lib-desc">Calculo de distancia euclidiana (<code>math.hypot</code>) para la heuristica h(n). <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">dataclasses</span>
+        <span class="lib-desc">Definicion de <code>Rule</code>, <code>RouteResult</code> y el nodo interno <code>_Node</code> de A*. <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">typing</span>
+        <span class="lib-desc">Anotaciones de tipos (<code>Optional</code>, <code>Callable</code>) para mayor claridad en las firmas. <span class="badge">stdlib</span></span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">sys</span>
+        <span class="lib-desc">Lectura de argumentos de linea de comandos (<code>sys.argv</code>). <span class="badge">stdlib</span></span>
+      </div>
+    </div>
+    <p style="font-size:0.82rem; color:#4a5580; margin-top:1rem;">Todas las librerias son de la biblioteca estandar de Python. No se requiere instalar nada adicional.</p>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- ACTIVIDAD 4 - APRENDIZAJE SUPERVISADO                            -->
+  <!-- ================================================================ -->
+
+  <div class="activity-divider"><span>Actividad 4 &mdash; Aprendizaje Supervisado</span></div>
+
+  <header style="margin-bottom:2rem;">
+    <h1 style="font-size:1.4rem;">Modelos de Aprendizaje Supervisado</h1>
+    <p>Prediccion del nivel de congestion en estaciones &nbsp;&bull;&nbsp; Arbol de Decision + Bosque Aleatorio</p>
+  </header>
+
+  <!-- EJECUCION ML -->
+  <section>
+    <h2>Como ejecutar</h2>
+
+    <p class="cmd-label">Paso 1 &mdash; Instalar dependencias:</p>
+    <div class="cmd-block">pip install pandas scikit-learn matplotlib seaborn</div>
+
+    <p class="cmd-label">Paso 2 &mdash; Generar el dataset sintetico:</p>
+    <div class="cmd-block">python generar_dataset.py</div>
+
+    <p class="cmd-label">Paso 3 &mdash; Entrenar y evaluar los modelos:</p>
+    <div class="cmd-block">python modelo_supervisado.py</div>
+
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:0.5rem;">
+      Los graficos y matrices de confusion se guardan automaticamente en la carpeta <code style="color:#e2b96f;">resultados/</code>.
+    </p>
+  </section>
+
+  <!-- DATASET -->
+  <section>
+    <h2>Dataset &mdash; datos_transporte.csv</h2>
+    <div class="metrics-row">
+      <div class="metric-box">
+        <div class="metric-val">3 000</div>
+        <div class="metric-label">Registros</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">10</div>
+        <div class="metric-label">Features</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">3</div>
+        <div class="metric-label">Clases</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">0</div>
+        <div class="metric-label">Valores nulos</div>
+      </div>
+    </div>
+
+    <table class="feat-table">
+      <thead>
+        <tr><th>Feature</th><th>Tipo</th><th>Descripcion</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>hora</td><td>int (0&ndash;23)</td><td>Hora del dia</td></tr>
+        <tr><td>dia_semana</td><td>int (0&ndash;6)</td><td>0 = lunes &hellip; 6 = domingo</td></tr>
+        <tr><td>es_fin_semana</td><td>bool</td><td>1 si sabado o domingo</td></tr>
+        <tr><td>es_hora_pico</td><td>bool</td><td>1 si hora pico (7&ndash;9h o 17&ndash;19h)</td></tr>
+        <tr><td>linea_enc</td><td>int (0&ndash;2)</td><td>Linea codificada: A=0, B=1, K=2</td></tr>
+        <tr><td>posicion_en_linea</td><td>float (0&ndash;1)</td><td>Posicion relativa de la estacion en su linea</td></tr>
+        <tr><td>es_transferencia</td><td>bool</td><td>1 si es estacion de transbordo</td></tr>
+        <tr><td>mes</td><td>int (1&ndash;12)</td><td>Mes del ano</td></tr>
+        <tr><td>es_festivo</td><td>bool</td><td>1 si es dia festivo en Colombia</td></tr>
+        <tr><td>clima</td><td>int (0&ndash;2)</td><td>0=soleado, 1=nublado, 2=lluvia</td></tr>
+        <tr><td><strong style="color:#6abf6a;">nivel_congestion</strong></td><td>str</td><td><strong style="color:#6abf6a;">TARGET: bajo / medio / alto</strong></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- RESULTADOS: EXPLORACION -->
+  <section>
+    <h2>Exploracion de datos</h2>
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="resultados/1_exploracion.png" alt="Distribucion de clases y congestion por hora" />
+        <div class="img-caption">Distribucion del nivel de congestion (izq.) &nbsp;&bull;&nbsp; Proporcion de niveles por hora del dia (der.)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS: ARBOL DE DECISION -->
+  <section>
+    <h2>Arbol de Decision</h2>
+    <div class="metrics-row" style="margin-bottom:1.2rem;">
+      <div class="metric-box">
+        <div class="metric-val">74.33%</div>
+        <div class="metric-label">Accuracy en prueba</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">73.25%</div>
+        <div class="metric-label">Accuracy CV (5-fold)</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val" style="font-size:1rem;">entropy</div>
+        <div class="metric-label">Criterio optimo</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">20</div>
+        <div class="metric-label">Min. muestras por hoja</div>
+      </div>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="resultados/arbol_decision.png" alt="Visualizacion del arbol de decision" />
+        <div class="img-caption">Estructura del Arbol de Decision (4 primeros niveles) &mdash; cada nodo muestra el criterio de division, la clase mayoritaria y el numero de muestras</div>
+      </div>
+      <div class="result-card">
+        <img src="resultados/confusion_arbol_de_decision.png" alt="Matriz de confusion - Arbol de Decision" />
+        <div class="img-caption">Matriz de confusion &mdash; Arbol de Decision</div>
+      </div>
+      <div class="result-card">
+        <img src="resultados/importancia_arbol_de_decision.png" alt="Importancia de variables - Arbol de Decision" />
+        <div class="img-caption">Importancia de variables (Gini) &mdash; Arbol de Decision</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS: BOSQUE ALEATORIO -->
+  <section>
+    <h2>Bosque Aleatorio (comparacion)</h2>
+    <div class="metrics-row" style="margin-bottom:1.2rem;">
+      <div class="metric-box">
+        <div class="metric-val">76.17%</div>
+        <div class="metric-label">Accuracy en prueba</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">200</div>
+        <div class="metric-label">Arboles</div>
+      </div>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card">
+        <img src="resultados/confusion_bosque_aleatorio.png" alt="Matriz de confusion - Bosque Aleatorio" />
+        <div class="img-caption">Matriz de confusion &mdash; Bosque Aleatorio</div>
+      </div>
+      <div class="result-card">
+        <img src="resultados/importancia_bosque_aleatorio.png" alt="Importancia de variables - Bosque Aleatorio" />
+        <div class="img-caption">Importancia de variables (Gini) &mdash; Bosque Aleatorio</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARACION FINAL -->
+  <section>
+    <h2>Comparacion de modelos</h2>
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="resultados/comparacion_modelos.png" alt="Comparacion de accuracy entre modelos" />
+        <div class="img-caption">Accuracy en conjunto de prueba (80/20 split) &nbsp;&bull;&nbsp; Linea roja = baseline aleatorio (33%)</div>
+      </div>
+    </div>
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:1rem;">
+      El Bosque Aleatorio supera al Arbol de Decision en 1.84 puntos porcentuales.
+      La variable mas importante en ambos modelos es <code style="color:#e2b96f;">hora</code>,
+      seguida de indicadores temporales como <code style="color:#e2b96f;">es_hora_pico</code> y
+      <code style="color:#e2b96f;">es_fin_semana</code>, lo que es coherente con el comportamiento
+      real del transporte masivo urbano.
+    </p>
+  </section>
+
+  <!-- ARCHIVOS ML -->
+  <section>
+    <h2>Archivos del modulo supervisado</h2>
+    <div class="files-grid">
+      <div class="file-card">
+        <div class="filename">generar_dataset.py</div>
+        <p>Genera <code>datos_transporte.csv</code> con 3 000 registros sinteticos basados en reglas del dominio de transporte.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">datos_transporte.csv</div>
+        <p>Dataset con 10 features y variable objetivo <code>nivel_congestion</code> (bajo / medio / alto).</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">modelo_supervisado.py</div>
+        <p>Entrena Arbol de Decision (con GridSearchCV) y Bosque Aleatorio. Genera graficos en <code>resultados/</code>.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">resultados/</div>
+        <p>Carpeta con 7 graficos PNG: exploracion, arbol, matrices de confusion, importancia de variables y comparacion.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBRERIAS ML -->
+  <section>
+    <h2>Librerias adicionales &mdash; modulo supervisado</h2>
+    <div class="lib-list">
+      <div class="lib-item">
+        <span class="lib-name">pandas</span>
+        <span class="lib-desc">Carga, exploracion y preprocesamiento del dataset CSV.</span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">scikit-learn</span>
+        <span class="lib-desc"><code>DecisionTreeClassifier</code>, <code>RandomForestClassifier</code>, <code>GridSearchCV</code>, metricas de evaluacion.</span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">matplotlib</span>
+        <span class="lib-desc">Visualizacion del arbol de decision, matrices de confusion y graficos de barras.</span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">seaborn</span>
+        <span class="lib-desc">Estilos visuales complementarios para los graficos estadisticos.</span>
+      </div>
+    </div>
+    <p style="font-size:0.82rem; color:#4a5580; margin-top:1rem;">Instalar con: <code style="color:#a8d8a8;">pip install pandas scikit-learn matplotlib seaborn</code></p>
+  </section>
+
+</div>
+</body>
+</html>

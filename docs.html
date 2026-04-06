@@ -567,7 +567,7 @@ Estacion de destino : Arvi<br>
     <h2>Exploracion de datos</h2>
     <div class="results-grid">
       <div class="result-card full-width">
-        <img src="resultados/1_exploracion.png" alt="Distribucion de clases y congestion por hora" />
+        <img src="actividad-4/resultados/1_exploracion.png" alt="Distribucion de clases y congestion por hora" />
         <div class="img-caption">Distribucion del nivel de congestion (izq.) &nbsp;&bull;&nbsp; Proporcion de niveles por hora del dia (der.)</div>
       </div>
     </div>
@@ -597,15 +597,15 @@ Estacion de destino : Arvi<br>
 
     <div class="results-grid">
       <div class="result-card full-width">
-        <img src="resultados/arbol_decision.png" alt="Visualizacion del arbol de decision" />
+        <img src="actividad-4/resultados/arbol_decision.png" alt="Visualizacion del arbol de decision" />
         <div class="img-caption">Estructura del Arbol de Decision (4 primeros niveles) &mdash; cada nodo muestra el criterio de division, la clase mayoritaria y el numero de muestras</div>
       </div>
       <div class="result-card">
-        <img src="resultados/confusion_arbol_de_decision.png" alt="Matriz de confusion - Arbol de Decision" />
+        <img src="actividad-4/resultados/confusion_arbol_de_decision.png" alt="Matriz de confusion - Arbol de Decision" />
         <div class="img-caption">Matriz de confusion &mdash; Arbol de Decision</div>
       </div>
       <div class="result-card">
-        <img src="resultados/importancia_arbol_de_decision.png" alt="Importancia de variables - Arbol de Decision" />
+        <img src="actividad-4/resultados/importancia_arbol_de_decision.png" alt="Importancia de variables - Arbol de Decision" />
         <div class="img-caption">Importancia de variables (Gini) &mdash; Arbol de Decision</div>
       </div>
     </div>
@@ -627,11 +627,11 @@ Estacion de destino : Arvi<br>
 
     <div class="results-grid">
       <div class="result-card">
-        <img src="resultados/confusion_bosque_aleatorio.png" alt="Matriz de confusion - Bosque Aleatorio" />
+        <img src="actividad-4/resultados/confusion_bosque_aleatorio.png" alt="Matriz de confusion - Bosque Aleatorio" />
         <div class="img-caption">Matriz de confusion &mdash; Bosque Aleatorio</div>
       </div>
       <div class="result-card">
-        <img src="resultados/importancia_bosque_aleatorio.png" alt="Importancia de variables - Bosque Aleatorio" />
+        <img src="actividad-4/resultados/importancia_bosque_aleatorio.png" alt="Importancia de variables - Bosque Aleatorio" />
         <div class="img-caption">Importancia de variables (Gini) &mdash; Bosque Aleatorio</div>
       </div>
     </div>
@@ -642,7 +642,7 @@ Estacion de destino : Arvi<br>
     <h2>Comparacion de modelos</h2>
     <div class="results-grid">
       <div class="result-card full-width">
-        <img src="resultados/comparacion_modelos.png" alt="Comparacion de accuracy entre modelos" />
+        <img src="actividad-4/resultados/comparacion_modelos.png" alt="Comparacion de accuracy entre modelos" />
         <div class="img-caption">Accuracy en conjunto de prueba (80/20 split) &nbsp;&bull;&nbsp; Linea roja = baseline aleatorio (33%)</div>
       </div>
     </div>
@@ -700,6 +700,250 @@ Estacion de destino : Arvi<br>
       </div>
     </div>
     <p style="font-size:0.82rem; color:#4a5580; margin-top:1rem;">Instalar con: <code style="color:#a8d8a8;">pip install pandas scikit-learn matplotlib seaborn</code></p>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- ACTIVIDAD 5 - APRENDIZAJE NO SUPERVISADO                        -->
+  <!-- ================================================================ -->
+
+  <div class="activity-divider"><span>Actividad 5 &mdash; Aprendizaje No Supervisado</span></div>
+
+  <header style="margin-bottom:2rem;">
+    <h1 style="font-size:1.4rem;">Modelos de Aprendizaje No Supervisado</h1>
+    <p>Descubrimiento de patrones de viaje &nbsp;&bull;&nbsp; K-Means &middot; Clustering Jerarquico &middot; DBSCAN</p>
+  </header>
+
+  <!-- EJECUCION NS -->
+  <section>
+    <h2>Como ejecutar</h2>
+
+    <p class="cmd-label">Paso 1 &mdash; Instalar dependencias (adicional a las anteriores):</p>
+    <div class="cmd-block">pip install pandas scikit-learn matplotlib seaborn scipy</div>
+
+    <p class="cmd-label">Paso 2 &mdash; Generar el dataset de viajes:</p>
+    <div class="cmd-block">python generar_datos_ns.py</div>
+
+    <p class="cmd-label">Paso 3 &mdash; Ejecutar el modelo no supervisado:</p>
+    <div class="cmd-block">python modelo_no_supervisado.py</div>
+
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:0.5rem;">
+      Los graficos se guardan en <code style="color:#e2b96f;">resultados_ns/</code>.
+    </p>
+  </section>
+
+  <!-- DATASET NS -->
+  <section>
+    <h2>Dataset &mdash; viajes.csv</h2>
+    <div class="metrics-row">
+      <div class="metric-box">
+        <div class="metric-val">2 500</div>
+        <div class="metric-label">Viajes registrados</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">10</div>
+        <div class="metric-label">Variables</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">0</div>
+        <div class="metric-label">Etiquetas (no supervisado)</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">0</div>
+        <div class="metric-label">Valores nulos</div>
+      </div>
+    </div>
+
+    <table class="feat-table">
+      <thead>
+        <tr><th>Variable</th><th>Tipo</th><th>Descripcion</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>hora</td><td>int (6&ndash;19)</td><td>Hora de inicio del viaje</td></tr>
+        <tr><td>dia_semana</td><td>int (0&ndash;6)</td><td>0 = lunes &hellip; 6 = domingo</td></tr>
+        <tr><td>es_fin_semana</td><td>bool</td><td>1 si sabado o domingo</td></tr>
+        <tr><td>es_hora_pico</td><td>bool</td><td>1 si hora pico (7&ndash;9h o 17&ndash;19h)</td></tr>
+        <tr><td>zona_origen</td><td>int (0&ndash;4)</td><td>0=Norte 1=Centro 2=Sur 3=Oriente 4=Cable</td></tr>
+        <tr><td>zona_destino</td><td>int (0&ndash;4)</td><td>Zona de destino del viaje</td></tr>
+        <tr><td>num_estaciones</td><td>int</td><td>Numero de estaciones recorridas</td></tr>
+        <tr><td>num_transbordos</td><td>int (0&ndash;2)</td><td>Cambios de linea realizados</td></tr>
+        <tr><td>duracion_min</td><td>float</td><td>Duracion total del viaje en minutos</td></tr>
+        <tr><td>ocupacion_tren</td><td>float (0&ndash;100)</td><td>Porcentaje de ocupacion del tren</td></tr>
+        <tr><td>clima</td><td>int (0&ndash;2)</td><td>0=soleado 1=nublado 2=lluvia</td></tr>
+      </tbody>
+    </table>
+
+    <p style="font-size:0.84rem; color:#94a3b8; margin-top:1rem;">
+      El dataset no tiene variable objetivo. Cada registro es un viaje anonimizado con
+      caracteristicas observables. Los algoritmos de clustering descubren la estructura interna.
+    </p>
+  </section>
+
+  <!-- EXPLORACION NS -->
+  <section>
+    <h2>Exploracion de datos</h2>
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="actividad-5/resultados_ns/1_exploracion.png" alt="Distribucion de variables del dataset de viajes" />
+        <div class="img-caption">Distribucion de las principales variables: hora, duracion, ocupacion, estaciones, zona de origen y transbordos</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CODO Y SILHOUETTE -->
+  <section>
+    <h2>Seleccion del numero optimo de clusters</h2>
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="actividad-5/resultados_ns/2_codo_silhouette.png" alt="Metodo del codo y coeficiente de silhouette" />
+        <div class="img-caption">
+          Izquierda: Metodo del codo &mdash; la inertia decrece al aumentar k, el punto de inflexion sugiere el k optimo.<br>
+          Derecha: Coeficiente de Silhouette &mdash; mide la cohesion interna de cada cluster. El maximo indica k = 2.
+        </div>
+      </div>
+    </div>
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:1rem;">
+      El coeficiente de Silhouette indica <strong style="color:#4f8ef7;">k = 2</strong> como optimo (score = 0.2726),
+      lo que revela dos patrones dominantes en los viajes: desplazamientos laborales de hora pico
+      y viajes recreativos o de fin de semana.
+    </p>
+  </section>
+
+  <!-- K-MEANS -->
+  <section>
+    <h2>K-Means (k = 2)</h2>
+    <div class="metrics-row" style="margin-bottom:1.2rem;">
+      <div class="metric-box">
+        <div class="metric-val">2</div>
+        <div class="metric-label">Clusters</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">0.2726</div>
+        <div class="metric-label">Silhouette Score</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">36.8%</div>
+        <div class="metric-label">Cluster 0</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">63.2%</div>
+        <div class="metric-label">Cluster 1</div>
+      </div>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="actividad-5/resultados_ns/3_kmeans_pca.png" alt="K-Means proyectado en PCA 2D" />
+        <div class="img-caption">Clusters K-Means proyectados en 2 componentes principales (PCA). Cada punto es un viaje; el color indica el cluster asignado.</div>
+      </div>
+    </div>
+
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:1rem;">
+      <strong style="color:#4f8ef7;">Cluster 0</strong> (Recreativo / Cable): viajes en fin de semana (82%), sin hora pico, duracion ~18 min, ocupacion baja (~41%).<br>
+      <strong style="color:#f7834f;">Cluster 1</strong> (Laboral / Hora pico): dias laborales (99%), hora pico alta (74%), recorridos cortos (~10 min), ocupacion alta (~72%).
+    </p>
+  </section>
+
+  <!-- PERFIL -->
+  <section>
+    <h2>Perfil de clusters</h2>
+    <div class="results-grid">
+      <div class="result-card">
+        <img src="actividad-5/resultados_ns/4_perfil_clusters.png" alt="Heatmap de perfiles por cluster" />
+        <div class="img-caption">Heatmap de medias normalizadas por variable y cluster</div>
+      </div>
+      <div class="result-card">
+        <img src="actividad-5/resultados_ns/5_radar_clusters.png" alt="Radar de perfiles" />
+        <div class="img-caption">Grafico radar: contraste de las dimensiones de cada cluster</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JERARQUICO -->
+  <section>
+    <h2>Clustering Jerarquico (Dendrograma)</h2>
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="actividad-5/resultados_ns/6_dendrograma.png" alt="Dendrograma clustering jerarquico" />
+        <div class="img-caption">Dendrograma Ward sobre una muestra de 300 viajes. Las ramas que se unen a menor altura representan viajes mas similares entre si. La linea roja indica el umbral de corte sugerido.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DBSCAN -->
+  <section>
+    <h2>DBSCAN (agrupamiento por densidad)</h2>
+    <div class="metrics-row" style="margin-bottom:1.2rem;">
+      <div class="metric-box">
+        <div class="metric-val">22</div>
+        <div class="metric-label">Clusters hallados</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">65.6%</div>
+        <div class="metric-label">Puntos ruido</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-val">0.3840</div>
+        <div class="metric-label">Silhouette (sin ruido)</div>
+      </div>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card full-width">
+        <img src="actividad-5/resultados_ns/7_dbscan.png" alt="DBSCAN proyectado en PCA 2D" />
+        <div class="img-caption">DBSCAN (eps=0.8, min_samples=15) proyectado en PCA 2D. Los puntos grises son ruido (no asignados a ningun cluster).</div>
+      </div>
+    </div>
+
+    <p style="font-size:0.875rem; color:#94a3b8; margin-top:1rem;">
+      DBSCAN encuentra micropatrones de alta densidad pero clasifica el 65.6% como ruido,
+      lo que indica que los datos de viajes no tienen una estructura de densidad uniforme.
+      K-Means resulta mas adecuado para este dominio al capturar los dos grandes grupos de comportamiento.
+    </p>
+  </section>
+
+  <!-- ARCHIVOS NS -->
+  <section>
+    <h2>Archivos del modulo no supervisado</h2>
+    <div class="files-grid">
+      <div class="file-card">
+        <div class="filename">generar_datos_ns.py</div>
+        <p>Genera <code>viajes.csv</code> con 2 500 registros de viajes sin etiquetas para clustering.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">viajes.csv</div>
+        <p>Dataset con 10 variables observables por viaje. Sin variable objetivo (aprendizaje no supervisado).</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">modelo_no_supervisado.py</div>
+        <p>Aplica K-Means (codo + silhouette), clustering jerarquico y DBSCAN. Genera 7 graficos en <code>resultados_ns/</code>.</p>
+      </div>
+      <div class="file-card">
+        <div class="filename">resultados_ns/</div>
+        <p>7 graficos PNG: exploracion, codo/silhouette, K-Means PCA, heatmap, radar, dendrograma y DBSCAN.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBRERIAS NS -->
+  <section>
+    <h2>Librerias adicionales &mdash; modulo no supervisado</h2>
+    <div class="lib-list">
+      <div class="lib-item">
+        <span class="lib-name">scikit-learn</span>
+        <span class="lib-desc"><code>KMeans</code>, <code>DBSCAN</code>, <code>PCA</code>, <code>StandardScaler</code>, <code>silhouette_score</code>.</span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">scipy</span>
+        <span class="lib-desc"><code>linkage</code> y <code>dendrogram</code> para clustering jerarquico con metodo Ward.</span>
+      </div>
+      <div class="lib-item">
+        <span class="lib-name">matplotlib / seaborn</span>
+        <span class="lib-desc">Graficos de dispersion PCA, heatmap de perfiles, radar chart y dendrograma.</span>
+      </div>
+    </div>
+    <p style="font-size:0.82rem; color:#4a5580; margin-top:1rem;">
+      Instalar con: <code style="color:#a8d8a8;">pip install pandas scikit-learn matplotlib seaborn scipy</code>
+    </p>
   </section>
 
 </div>
